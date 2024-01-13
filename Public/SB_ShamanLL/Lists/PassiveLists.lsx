@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="206"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList"> Sacred Focus
+                    <attribute id="Passives" type="LSString" value="SB_ShamanLL_FocusBody,SB_ShamanLL_FocusHeart,SB_ShamanLL_FocusMind,SB_ShamanLL_FocusSoul"/> 
+                    <attribute id="UUID" type="guid" value="53791456-5c68-4ef7-acbd-ef2a36f0b635"/> 
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

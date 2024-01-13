@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h18e38c09g1b5bg44f4g8c45g0e9d5f224084" version="1">Shaman</content>
+		<content contentuid="h8fd328bagd60eg4ec5ga69dg9d08e253e7db" version="1">Before the gods took notice of mortals and bestowed power on Clerics and Paladins, Shamans served as protectors and guides. Using ancient techniques, Shamans were able to bind spirits to Totems, small objects of spiritual significance, and channel that power for good of their people. </content>
+		<content contentuid="h5510b3efgf77dg4201g9d61ga2d53610c7b7" version="1">Shaman's bind and deal with the primal spirits of nature to fuel their magics and pursue their own ends.</content>
+	<content contentuid="hba5aa2a9gb3c0g4d87g97f2gcc45a0a47028" version="1">Sacred Focus</content>
+		<content contentuid="h64019770g015bg4ac5gab03ge1b2da00f184" version="1">In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves. You must choose to channel your power through your Body, Heart, Mind, or Soul.</content>
+		<content contentuid="h1a47883dg5018g4e74gacb1gaf30b1a2a954" version="1">Sacred Focus: Body</content>
+			<content contentuid="h6e794e02g5f26g4e3eg8e24g56102dbfee06" version="1">You channel spiritual power through your body, bending the spirits to your will with physical might. When you choose this Sacred Focus your hit point maximum increases by 1, and it increases by 1 again each time you gain a level in this class.</content>
+		<content contentuid="ha1eca09agfe87g47a1ga70bg0c363d7fe8aa" version="1">Sacred Focus: Heart</content>
+			<content contentuid="hf3eeee19g29d8g41dega97ege29cf6e3edcf" version="1">You channel spiritual power into your heart and overwhelm spirits with powerful emotions. You have advantage against being Fightened or Charmed.</content>
+		<content contentuid="h78e5b33ege4eag435ega895g90db163b2442" version="1">Sacred Focus: Mind</content>
+			<content contentuid="h77be164dgaea5g4334gae14ge395b618d340" version="1">You channel spiritual power through your mind, manipulating the spirits with your wit. Whenever you would make an ability check or a saving throw that uses your Intelligence score, you can choose to use your Wisdom score instead.</content>
+		<content contentuid="h16f590baga061g4a01g8611gaf787cd51ecc" version="1">Sacred Focus: Soul</content>
+			<content contentuid="h881a2358g49ffg44d0gb9d8g2dfe28e43fad" version="1">You channel spiritual power through your soul, your serenity soothes spirits and wards you from harm. While not wearing armor or wielding a shield, your Armor Class is equal to 10 + your Dexterity modifier + your Wisdom modifier.</content>
+	<content contentuid="h5d2acb17g0bb2g43d8g84f2g99f9329700e9" version="1">Totemic Assault</content>
+		<content contentuid="hea56aaf4gc5e5g4b80gafd3gc1a8ad65dce9" version="1">You can temporarily unleash the primal spirits bound within your Totems to assault your foes. You can use your action to force one creature you can see to make a Charisma saving throw. On a failed save, it takes [1]. This damage scales with your cantrips.</content>
+	<content contentuid="h6bb17decg7fb1g49c4gbea9gc17cd76998fa" version="1">Primal Magic Spell Slots</content>
+		<content contentuid="h49f493cag90afg417bgb7eeg319b7756ca0e" version="1">Used to cast Shaman spells. Regain Shaman Spell Slots by taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h09e4a89cgfe29g4a31gba02g90ea208b07d4" version="1">Otherworldly Grasp</content>
+		<content contentuid="he7b4b1f7gc99ag4945g9a3bg4ea70d99cbbc" version="1">You channel necrotic spiritual power to your hand, changing it into a withered specter of itself. Make a melee spell attack against a creature within your reach. On hit, the creature takes [1] necrotic damage, and you gain [2] temporary hit points which last for the duration of your concentration.</content>
+	<content contentuid="h620c3109g751fg419fg8f26ga078df0f26d1" version="1">Ghastly Flight</content>
+		<content contentuid="h2b608d1fg04d4g4b00ga928g2d74f2359143" version="1">You release a malevolent spirit that flies out from you in a direction of your choice. Each creature within the line must make a Constitution saving throw. On a failed save, creatures take [1] and cannot regain hit points until the start of your next turn. On a success, creatures take half as much damage and can regain hit points as normal.</content>
+	<content contentuid="h8be68ccdg2d67g466dgb1d1gfb38cbc58f47" version="1">Shaman Spell Slots</content>
+		<content contentuid="h0c455adcg1019g40b0g80f1g2eb8b9d087ad" version="1">You now have [1] Level [2] Shaman Spell Slots which refresh on a Short or Long Rest.</content>
+		<content contentuid="h4c964b55g604cg4086g95c7ge883e60c1ceb" version="1">Used to cast Shaman spells.</content>
+	<content contentuid="h14e4b791g37c8g47c5g95dfg6cee01e8454b" version="1">Totemic Cowl</content>
+		<content contentuid="h0c15a94ag4957g4314g8e64g37f619425682" version="1">You touch a willing creature. Until the spell ends, it is cloaked in a ghostly cowl, and any damage it takes is reduced by [1].</content>
+		<content contentuid="h3d6d62aeg9078g4115gae2fg5b7a50debb29" version="1">For each spell slot level used above the 2nd reduce damage by an additional 1.</content>
+	<content contentuid="h34be756eg6951g4a76g9f62ga53cbaabdf61" version="1">Dire Wail</content>
+		<content contentuid="h510c9553g0388g45c2g8021g12a53db6b8af" version="1">You let forth a wail filled with otherworldly power. Enemies must succeed on a Constitution saving throw or take [1] and start Bleeding for 2 turns.</content>
+	<content contentuid="h6e84ad2cgc013g4df8g85c2g893b1ebc9c0f" version="1">Spiritual Sundering</content>
+		<content contentuid="hafd2f0ebg7c19g453dgb10fg334c61b70adc" version="1">Cast out a ball of spiritual energy. Enemies in the area must make a Charisma save or take [1] and become afflicted by Spiritual Torment, recieving -1d6 to all Intelligence, Wisdom, and Charisma saves they make for 10 turns or until they save. </content>
+	<content contentuid="he62aa0e7g7899g4fefg8265g14e3ca94bdba" version="1">Dawn</content>
+		<content contentuid="hbb65e32dg966dg401agb307g790af2f8f0db" version="1">The light of dawn shines down on a location and damages any creature that enters the beam or starts its turn in the light. This counts as Sunlight and you can use a bonus action to move the beam [1].</content>
+	<content contentuid="hf286f0d4g6afdg40c1gbddbg3a0e51edac6d" version="1">Spirit Warrior</content>
+		<content contentuid="h27c21a27g1024g4d12g8227g5493cab6b8a1" version="1">Serving as the guardians of sacred groves and places of great spiritual power, Spirit Warriors draw on the power of ancient spirits to enhance their physical form. When they allow these incorporeal beings to walk the world through their physical bodies, they gain increased physical and martial abilities.</content>
+	<content contentuid="h53e677abgeb47g45b1ga66ag16c953505049" version="1">Ancestral Knowledge</content>
+		<content contentuid="h22a97e39gf3b4g4b13g8e85g873bb12354b2" version="1">Spirits of ancient warriors grant you their lifetimes' worth of combat experience. You gain proficiency with medium armor and all martial weapons.</content>
+	<content contentuid="h0aa4fdc4gf5c5g4fc1gb16dge188c61d925e" version="1">Totemic Weapon</content>
+		<content contentuid="h05d6d33ag23cfg482cg8b10g3901d7ac87c7" version="1"> You can bind powerful spirits to your weapons for use in battle. At the end of a short rest, you can perform a ritual to bind one of your spirits to a melee weapon you're wielding. The weapon becomes magical and you use your Wisdom for it's Attack and Damage Rolls. The benefits last until the end of your next long rest.</content>
+	<content contentuid="h7fc3bc14g532bg41d6gbc32gce72c9fa2832" version="1">Spirit of Challenge</content>
+		<content contentuid="hf1798397gea42g4733gbe93gd621f55e98db" version="1"> This spirit compels your foes to stand and fight against you. The weapon becomes magical and you use your Wisdom for it's Attack and Damage Rolls. When you hit a creature with an attack with this weapon, it has disadvantage on any attacks it makes against creatures other than you until the beginning of your next turn.</content>
+		<content contentuid="hc8e4f0b9g9b1eg4c6cgaed4g9601c114dd6f" version="1"> This creature is compelled by one of your spirits to fight you. It has disadvantage when attacking other targets.</content>
+	<content contentuid="hd64cbe1eged79g483bg9f9dgb13b3d90be9c" version="1">Spirit of Draining</content>
+		<content contentuid="h9b035a6cg833fg40cdg9cdbg425a0391b3cd" version="1"> This spirit siphons the life force of other creatures to restore you. The weapon becomes magical and you use your Wisdom for it's Attack and Damage Rolls. You also gain a special attack that can be used once per turn which deals Necrotic Damage and gives you Temporary HP equal to your Wisdom Modifier. The cooldown of this attack is refreshed if it misses.</content>		
+		<content contentuid="h40f548c2ge916g4cacgbdcag02693042418f" version="1">Draining Strike</content>
+			<content contentuid="h95ca28bag71efg4934g912ag2ba0935bc772" version="1"> Let one of your Spirits flow through your swing. This attack deals Necrotic Damage and gives you Temporary HP equal to your Wisdom Modifier. The cooldown of this attack is refreshed if it misses.</content>
+	<content contentuid="hcee741b1gae69g4634g9c75g6bfc4e59b3ae" version="1">Spirit of Might</content>
+		<content contentuid="he7165934g03e7g4e7fg93f8g29720c41dea2" version="1"> This spirit draws out the full potential of your body. While wielding this weapon you gain a bonus to Strength checks and saving throws equal to your Wisdom modifier. The weapon becomes magical and you use your Wisdom for it's Attack and Damage Rolls. Moreover, you have advantage on attack rolls with this weapon against any creature that is grappled by you. </content>
+	<content contentuid="h66c2a5d8g44dbg46e0g8c32gab30270fbb24" version="1">Warrior of the Grave</content>
+	<content contentuid="h66c2a5d8g44dbg46e0g8c32gab30270fbb24" version="1">You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast a Shaman cantrip you know, or use Totemic Assault in place of one of your attacks.</content>
+		<content contentuid="h845c90d5g741fg4ee4gb5abg7b5944e4023a" version="1">You can offer your very life force to the spirit realm to resist the grasp of death. Once per Short Rest, when you are reduced to 0 hit points but not killed outright you regain 1 Hit Point. </content>
+	<content contentuid="h3722f63bg8e1fg44dbg9f74g17bdf0dee545" version="1">Spiritual Champion</content>
+		<content contentuid="hd5e42593gbbeeg4927gb385g2dacb1267681" version="1"> You can offer the spirits full control of your body, granting you temporary mystical power. As a bonus action, you can enter a possessed state, gaining the following benefits for 1 minute: You gain the effects of Blade Ward, you may Dash as a Bonus Action, and once per turn when you hit an enemy with a melee weapon attack you may inflict an additional [1]. You can do this Once per Short Rest for free and can be used again by expending a Primal Magic Spell Slot.</content>
+		<content contentuid="h145fe01eg7c23g4228ga9c2gbfd05f6540c8" version="1">Spiritual Detonation</content>
+			<content contentuid="h134608e4gab39g4e33ga3c5g13977c9bd3ae" version="1"> Once per turn when you hit an enemy with a melee attack you may deal an additional [1].</content>
+		<content contentuid="h2b2e664dg3d5ag4384gb167gd20a5cd7974a" version="1">Spiritual Acceleration</content>	
+	<content contentuid="h46f46f3aga920g4b39g8c4fg252674fa5e66" version="1">Curse Binder</content>
+		<content contentuid="h57b136f0gae1dg45afg8ebcg7ea9da226435" version="1">While most Shamans use the power of spirits to work magics and heal the sick, some twist this connection, binding sinister spirits to their foes. Known as Curse Binders, these Shamans wield the sinister spiritual power present in the world. Often apprentices of hags or entities from the Shadowfell, they use ancient techniques to afflict their foes with hexes and curses.</content>
+	<content contentuid="he698d680g8131g4f95ga1aag0165ebaf94ae" version="1">Evil Eye</content>
+		<content contentuid="h8f6a7114ge10fg47e5g903ag12836c93ab62" version="1">You can curse with a glance. As a reaction, when an enemy succeeds on an attack roll, or saving throw, you can impose disadvantage on its roll. You can use this reaction a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest.</content>
+	<content contentuid="h10fc7a17gc636g45a4g9cc8g8afaa9c7285e" version="1">Evil Eye Charges</content>
+		<content contentuid="haceabbfdg58c0g40d1ga0bcgbd22e5554e20" version="1">You can use your Evil Eye a number of times per long rest equal to your Wisdom Modifier</content>
+	<content contentuid="hee485c58g4681g4b1ag9a8eg2ca1beca65fa" version="1">Totemic Curse: Bane</content>
+		<content contentuid="h0cd40c00gc8cbg4385gb16ega7bbc9db92bf" version="1"> You bind spirits of pain, suffering, and despair to your will, using them to inflict curses upon your enemies. When a creature fails its saving throw against Totemic Assault afflict it with: Whenever it makes an ability check or an attack roll, it must subtract your Wisdom modifier from the result of its roll.</content>
+		<content contentuid="h20a0675fg7506g4687ga1c4g27422fbd5215" version="1"> This creature recieves a [1] penalty to Attack Rolls and Skill Checks</content>
+	<content contentuid="h5856ae9bg21afg418bg99ccg017381cffe30" version="1">Totemic Curse: Hex</content>
+		<content contentuid="hd176deeag0490g4326g8f26gd555624c3f18" version="1"> You bind spirits of pain, suffering, and despair to your will, using them to inflict curses upon your enemies. When a creature fails its saving throw against Totemic Assault afflict it with: It cannot regain hit points, and when it takes damage it takes an additional [1].</content>
+		<content contentuid="h544da829g86f0g456aga538g6fe4b84f181e" version="1"> This creature cannot heal and whenever it is damage by a Spell or Attack it takes [1]</content>
+	<content contentuid="hfd0e1099g3f98g45dfgb65ag8c42aa8c0e1e" version="1">Totemic Curse: Slow</content>
+		<content contentuid="h594c2c8ag73e2g4ab6ga8b5g176f188147a0" version="1"> You bind spirits of pain, suffering, and despair to your will, using them to inflict curses upon your enemies. When a creature fails its saving throw against Totemic Assault afflict it with: Its speed is reduced by a total number of feet equal to 5 times your Wisdom modifier.</content>
+		<content contentuid="he3231ce1g5219g4de6g9097gc77a98f1a98c" version="1"> This creatures Movement Speed is reduced by [1]</content>
+	<content contentuid="h4c363829gf6fag4f70g980cg422a24d2e659" version="1">Shamanistic Ward</content>
+		<content contentuid="h23a69a98gd7b4g4ff3gb549g9aeb709444bb" version="1">Sinister spirits ward you against elemental assaults. Once per long rest, choose either acid, cold, fire, lightning, necrotic, poison, psychic, radiant, or thunder. Until the end of your next long rest, you are resistant to that damage.</content>
+		<content contentuid="h611f083cga5e2g4649g9988g739a16c29710" version="1">Shamanistic Ward: Acid</content>
+		<content contentuid="h1fd09182g16fcg4a61gb675gfcabe3d2ba22" version="1">Shamanistic Ward: Cold</content>
+		<content contentuid="h46c72db7gdbbcg4443ga0bfgb59300909780" version="1">Shamanistic Ward: Fire</content>
+		<content contentuid="h4e71d7bcgbb3cg404fgbffag5ac516d83a56" version="1">Shamanistic Ward: Lightning</content>
+		<content contentuid="h5b9a98afg4671g424fg8862gc48eeef1e0c0" version="1">Shamanistic Ward: Necrotic</content>
+		<content contentuid="hf87d3ef8g328ag41ceg8054g3d01fe65010e" version="1">Shamanistic Ward: Poison</content>
+		<content contentuid="hcb393eafgec54g4d5fga1eag914fc98fe4f6" version="1">Shamanistic Ward: Psychic</content>
+		<content contentuid="hcdc7071cg7081g4cd9gb4f3g9060e7be6bb4" version="1">Shamanistic Ward: Radiant</content>
+		<content contentuid="ha8945be5ge1cag4a54g910dgdfc648e5772f" version="1">Shamanistic Ward: Thunder</content>
+			<content contentuid="hd0b019cag0d32g4450g8492g67a6643f99fe" version="1">Make yourself Resistant to [1] Damage until your next Long Rest</content>
+			<content contentuid="ha66463d8g65a1g4d30g9e60g04e1fd63d44f" version="1">Your spirits shield you and make you Resistant to [1] Damage until your next Long Rest</content>
+	<content contentuid="haa20ab4ag190fg4edagb936gb72b1d601820" version="1">Shamanistic Rebuke</content>
+		<content contentuid="h39fc39f8g3a95g4e46g9300g3fbc2cfb795a" version="1">Your sinister spirits yearn to lash out. When you take Damage of a type that you resist, you can use Totemic Assault as a reaction, targeting your attacker.</content>
+	<content contentuid="h07b492d7g768dg4dd4gb26ag9a9d28274406" version="1">Foul Conjuration</content>
+		<content contentuid="h04d96422g0d6ag44c7gb157g40e9de64fb6a" version="1"> You have reached the apex of sinister shamanism, the ability to create corporeal bodies for the spirits you conjure. Once per Long Rest, you may cast create undead at 6th-level, without expending a spell slot.</content>
+	<content contentuid="h3990df33g8b05g4242g9fa7g04d366229210" version="1">Witch Doctor</content>
+		<content contentuid="h1542a79ag7fd3g4226gb21fg1a67db4773a4" version="1">Long before the gods took notice of mortals, Witch Doctors wandered the land, providing spiritual healing and medicine. Working in tandem with spirits of life, Witch Doctors heal the wounded and grant their allies mystical abilities. These sages are peaceful in nature and can often be found traveling the wilds tending to the spiritual needs of those they meet.</content>
+	<content contentuid="h9f13eecagb724g4248gb57fgba7ba97fc80d" version="1">Life Bearer</content>
+		<content contentuid="hdd55d41fg03c2g4617gb280gd31d6e60fa94" version="1"> You can channel spirits of abundance and life to heal others. As an action, you can touch a creature and cause it to regain hit points equal to 1d8 + your Wisdom modifier. This feature has no effect on undead creatures or constructs.</content>
+	<content contentuid="hdab0c206gad30g454eg9291gb208e10a0840" version="1">Life Bearer Charges</content>
+		<content contentuid="h51df80e5g6c22g4576g8605ged18a6c25b26" version="1">You can use your Life Bearer ability a number of times equal to your Shaman Level and regain all uses on a Long Rest.</content>
+	<content contentuid="hcf3f581agc980g4b49g875fgc69df962982e" version="1">Totemic Blessing</content>
+		<content contentuid="h7db1fb16g0d2ag4b09g866dgcb4a9f5b0f8a" version="1"> You bind only willing spirits to the Totems you wield. Your Totemic Assault now deals radiant damage on a failed save.</content>
+	<content contentuid="h402c4a5dg8fbdg40f7ga211gcd3930f4342a" version="1">Mystical Focus</content>
+		<content contentuid="hff892a28g44c4g4f8dg92a9g5107d2068200" version="1">You work in tandem with the spirits bound to you, drawing out more of their power. When you use your action to cast one of your Witch Doctor Spells, or to use your Life Bearer ability, you can use Totemic Assault as a bonus action on that turn.</content>
+	<content contentuid="h45f837fbgec81g4de8ga1cdgb8693efba04c" version="1">Primal Magic Spell Slot Gained</content>
+		<content contentuid="hcd0e3626g9a79g4c53g83d6g10a53d7728a5" version="1">You gain a &lt;LSTag Tooltip="SB_ShamanSpellSlot"&gt;Primal Magic Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="ha2943191g3aa1g42ebg9924ga77d332f0dfb" version="1">Primal Magic Spell Slots</content>
+		<content contentuid="hd7399243g91a1g4cb3g82d9g3013c130481c" version="1">You gain a &lt;LSTag Tooltip="SB_ShamanSpellSlot"&gt;Primal Magic Spell Slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h2ce438f8gc47fg4577g9a67g505838861879" version="1">Improved Shaman Spells</content>
+		<content contentuid="h7da429bbgc7b0g4705g9655gaed04c90918a" version="1">Most of your Shaman spells have become stronger.</content>
+	<content contentuid="h5aa14410g589eg4273gaa3fg4e86fb2d8520" version="1">Sacred Focus</content>
+		<content contentuid="h2cdefc0fg6ecfg46fdga837gfc4b69421c16" version="1">In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves.</content>
+
+</contentList>

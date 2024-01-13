@@ -1,0 +1,11 @@
+function SB_Shamanistic_Check(damageType, entity)
+    local entity = entity or context.Target
+        return IsResistantToDamageType(damageType, entity)
+end
+
+
+function SB_SpiritWarrior_CantripCheckCheck()
+        return SpellId('SB_ShamanLL_TotemicAssault')
+        | SpellId('SB_Target_TotemicAssaultRadiant')
+        | IsCantrip()
+end

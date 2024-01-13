@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="5" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+				<node id="SpellList"> Shaman
+                    <attribute id="Comment" type="LSString" value="Shaman Cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Bladeward;Target_ChillTouch;Target_ControlFlames;Target_CreateBonfire;Target_Frostbite;Target_Guidance;Target_Gust;Target_MagicStone;Target_MoldEarth;SB_Target_OtherworldlyGrasp;Projectile_PoisonSpray;Target_Prestidigitation;Target_PrimalSavagery;Shout_ProduceFlame;Target_ShapeWater;Shout_Shillelagh;Target_SpareTheDying;Shout_Thaumaturgy;Target_ThornWhip;Shout_Thunderclap;Target_TollTheDead"/> 
+                    <attribute id="UUID" type="guid" value="9f5cbaa1-2a87-4cfa-8407-4549d7efe350"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="ShamanSpellsLevel2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_AnimalFriendship;Shout_ArmorOfAgathys;Target_Bane;Target_BeastBond;Target_Bless;Target_CauseFear;Zone_TashasCausticBrew;Target_Ceremony;Target_Command;Target_CureWounds;Shout_DetectEvilAndGood;Target_DissonantWhispers;Target_Entangle;Shout_ExpeditiousRetreat;Shout_FalseLife;Target_FindFamiliar;Target_FogCloud;SB_Zone_GhastlyFlight;Target_Heroism;Target_Hex;Target_InflictWounds;Target_Longstrider;Target_ProtectionfromEvilandGood;Target_Sanctuary;Target_ShieldOfFaith;Target_Sleep;Projectile_WitchBolt"/> 
+                    <attribute id="UUID" type="guid" value="a607f829-4d42-4aa5-a82b-053ad8f64c67"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="ShamanSpellsLevel3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Aid;Shout_AlterSelf;Target_Barkskin;Shout_Blur;Target_ContinualFlame;Target_darkness;Target_DustDevil;Target_EnhanceAbility;Shout_FlameBlade;Zone_GustOfWind;Target_HeatMetal;Target_MistyStep;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;SB_Target_TotemicCowl;Shout_WardingWind;Shout_AbsorbElements;Target_AnimalFriendship;Shout_ArmorOfAgathys;Target_Bane;Target_BeastBond;Target_Bless;Target_CauseFear;Zone_TashasCausticBrew;Target_Ceremony;Target_Command;Target_CureWounds;Shout_DetectEvilAndGood;Target_DissonantWhispers;Target_Entangle;Shout_ExpeditiousRetreat;Shout_FalseLife;Target_FindFamiliar;Target_FogCloud;SB_Zone_GhastlyFlight;Target_Heroism;Target_Hex;Target_InflictWounds;Target_Longstrider;Target_ProtectionfromEvilandGood;Target_Sanctuary;Target_ShieldOfFaith;Target_Sleep;Projectile_WitchBolt"/> 
+                    <attribute id="UUID" type="guid" value="9156a315-4775-43f5-9164-8c214cf02d47"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="ShamanSpellsLevel5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Daylight_Container;SB_Shout_DireWail;Target_ElementalWeapon;Target_FeignDeath;Target_GaseousForm;Target_Haste;Target_LifeTransference;Target_Nondetection;Target_PlantGrowth;Target_ProtectionfromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Shout_SpiritGuardians;Target_StinkingCloud;Teleportation_ThunderStep;Shout_Aid;Shout_AlterSelf;Target_Barkskin;Shout_Blur;Target_ContinualFlame;target_darkness;Target_DustDevil;Target_EnhanceAbility;Shout_FlameBlade;Zone_GustOfWind;Target_HeatMetal;Target_MistyStep;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;SB_Target_TotemicCowl;Shout_WardingWind;Shout_AbsorbElements;Target_AnimalFriendship;Shout_ArmorOfAgathys;Target_Bane;Target_BeastBond;Target_Bless;Target_CauseFear;Zone_TashasCausticBrew;Target_Ceremony;Target_Command;Target_CureWounds;Shout_DetectEvilAndGood;Target_DissonantWhispers;Target_Entangle;Shout_ExpeditiousRetreat;Shout_FalseLife;Target_FindFamiliar;Target_FogCloud;SB_Zone_GhastlyFlight;Target_Heroism;Target_Hex;Target_InflictWounds;Target_Longstrider;Target_ProtectionfromEvilandGood;Target_Sanctuary;Target_ShieldOfFaith;Target_Sleep;Projectile_WitchBolt"/> 
+                    <attribute id="UUID" type="guid" value="1816d4f4-3f05-468f-b7ba-5ebefb0094f7"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="ShamanSpellsLevel7"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Shout_FireShield;Target_FreedomofMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_IceStorm;Target_Stoneskin;Target_Daylight;SB_Shout_DireWail;Target_ElementalWeapon;Target_FeignDeath;Target_GaseousForm;Target_Haste;Target_LifeTransference;Target_Nondetection;Target_PlantGrowth;Target_ProtectionfromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Shout_SpiritGuardians;Target_StinkingCloud;Teleportation_ThunderStep;Shout_Aid;Shout_AlterSelf;Target_Barkskin;Shout_Blur;Target_ContinualFlame;target_darkness;Target_DustDevil;Target_EnhanceAbility;Shout_FlameBlade;Zone_GustOfWind;Target_HeatMetal;Target_MistyStep;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;SB_Target_TotemicCowl;Shout_WardingWind;Shout_AbsorbElements;Target_AnimalFriendship;Shout_ArmorOfAgathys;Target_Bane;Target_BeastBond;Target_Bless;Target_CauseFear;Zone_TashasCausticBrew;Target_Ceremony;Target_Command;Target_CureWounds;Shout_DetectEvilAndGood;Target_DissonantWhispers;Target_Entangle;Shout_ExpeditiousRetreat;Shout_FalseLife;Target_FindFamiliar;Target_FogCloud;SB_Zone_GhastlyFlight;Target_Heroism;Target_Hex;Target_InflictWounds;Target_Longstrider;Target_ProtectionfromEvilandGood;Target_Sanctuary;Target_ShieldOfFaith;Target_Sleep;Projectile_WitchBolt"/> 
+                    <attribute id="UUID" type="guid" value="1d1fe289-f941-487a-a13a-825174570fb8"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="ShamanSpellsLevel9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Shout_CommuneWithNature;SB_Target_Dawn;Shout_DispelEvilAndGood;Target_FarStep;Target_PlanarBinding;Target_SkillEmpowerment;SB_Projectile_SpiritualSundering;Target_Banishment;Shout_FireShield;Target_FreedomofMovement;Target_GraspingVine;Shout_GuardianOfNature;Target_IceStorm;Target_Stoneskin;Target_Daylight;SB_Shout_DireWail;Target_ElementalWeapon;Target_FeignDeath;Target_GaseousForm;Target_Haste;Target_LifeTransference;Target_Nondetection;Target_PlantGrowth;Target_ProtectionfromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Shout_SpiritGuardians;Target_StinkingCloud;Teleportation_ThunderStep;Shout_Aid;Shout_AlterSelf;Target_Barkskin;Shout_Blur;Target_ContinualFlame;target_darkness;Target_DustDevil;Target_EnhanceAbility;Shout_FlameBlade;Zone_GustOfWind;Target_HeatMetal;Target_MistyStep;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;SB_Target_TotemicCowl;Shout_WardingWind;Shout_AbsorbElements;Target_AnimalFriendship;Shout_ArmorOfAgathys;Target_Bane;Target_BeastBond;Target_Bless;Target_CauseFear;Zone_TashasCausticBrew;Target_Ceremony;Target_Command;Target_CureWounds;Shout_DetectEvilAndGood;Target_DissonantWhispers;Target_Entangle;Shout_ExpeditiousRetreat;Shout_FalseLife;Target_FindFamiliar;Target_FogCloud;SB_Zone_GhastlyFlight;Target_Heroism;Target_Hex;Target_InflictWounds;Target_Longstrider;Target_ProtectionfromEvilandGood;Target_Sanctuary;Target_ShieldOfFaith;Target_Sleep;Projectile_WitchBolt"/> 
+                    <attribute id="UUID" type="guid" value="b94afe22-98ce-420b-8512-989e39e1c66a"/> 
+                </node>
+                <node id="SpellList"> Spirit Warrior
+                    <attribute id="Comment" type="LSString" value="SpiritWarriorLevel3"/>
+                    <attribute id="Spells" type="LSString" value="Target_MagicWeapon;Target_SpiritualWeapon"/> 
+                    <attribute id="UUID" type="guid" value="00953d59-d1ce-4c91-b38f-c23a0a7f0084"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="SpiritWarriorLevel5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SpiritShroud;Shout_AshardalonsStride"/> 
+                    <attribute id="UUID" type="guid" value="8aa9f92b-b19c-4dad-bf6d-db401af67d74"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="SpiritWarriorLevel7"/>
+                    <attribute id="Spells" type="LSString" value="Target_GuardianOfFaith;Target_StaggeringSmite"/> 
+                    <attribute id="UUID" type="guid" value="c22038b7-74a0-40ba-8b16-b6fe0d399e2a"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="SpiritWarriorLevel9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Smite_Banishing;Target_SteelWindStrike"/> 
+                    <attribute id="UUID" type="guid" value="bd81c6dd-8dcd-4291-aa45-03b302d5a19b"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="SpiritWarriorLevel12"/>
+                    <attribute id="Spells" type="LSString" value="SB_Shout_SpiritualChampion"/> 
+                    <attribute id="UUID" type="guid" value="d029cc30-86dc-4bb4-9cb0-efd212fd2d8f"/> 
+                </node>
+                <node id="SpellList"> Curse Binder
+                    <attribute id="Comment" type="LSString" value="CurseBinderLevel3Features"/>
+                    <attribute id="Spells" type="LSString" value="SB_Shout_EvilEye;SB_Shout_TotemicCurse_Slow;SB_Shout_TotemicCurse_Bane;SB_Shout_TotemicCurse_Hex"/> 
+                    <attribute id="UUID" type="guid" value="517a3ece-b291-4f02-b0e8-17b401fb7e72"/> 
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="CurseBinderSinisterSpellcasting"/>
+                    <attribute id="Spells" type="LSString" value="SB_Shout_Totems_Wrath;"/> 
+                    <attribute id="UUID" type="guid" value="b527b3e7-d2eb-40f4-9ee6-80f3d89f61e4"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="CurseBinderLevel3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Projectile_RayOfEnfeeblement"/> 
+                    <attribute id="UUID" type="guid" value="386e3283-8c01-42ca-864f-a83821f29326"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="CurseBinderLevel5"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Target_VampiricTouch"/> 
+                    <attribute id="UUID" type="guid" value="293e8e8c-c303-4a5e-b57b-e4e569c9c567"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="CurseBinderLevel7"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_PhantasmalKiller"/> 
+                    <attribute id="UUID" type="guid" value="252865bc-7beb-4c20-bf0a-f14ad0a1beae"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="CurseBinderLevel9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Contagion;Projectile_NegativeEnergyFlood"/> 
+                    <attribute id="UUID" type="guid" value="3c4c2173-f5ba-4a67-be06-5f1859834386"/> 
+                </node>
+                <node id="SpellList"> Witch Doctor
+                    <attribute id="Comment" type="LSString" value="WitchDoctorLevel3Features"/>
+                    <attribute id="Spells" type="LSString" value="SB_Target_LifeBearer;"/> 
+                    <attribute id="UUID" type="guid" value="59eb9765-43ba-47c1-8c20-dae777cb6c84"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="WitchDoctorLevel3"/>
+                    <attribute id="Spells" type="LSString" value="Target_LesserRestoration;Target_WardingBond"/> 
+                    <attribute id="UUID" type="guid" value="84f8773a-609b-4532-b518-c0912131e6ef"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="WitchDoctorLevel5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BeaconofHope;Teleportation_Revivify"/> 
+                    <attribute id="UUID" type="guid" value="0b70a936-1706-4ece-9495-1fa345f58453"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="WitchDoctorLevel7"/>
+                    <attribute id="Spells" type="LSString" value="Target_ConjureWoodlandBeings;Target_DeathWard"/> 
+                    <attribute id="UUID" type="guid" value="1f2b0acd-3546-4af2-974d-09b202d53157"/> 
+                </node>
+                <node id="SpellList"> 
+                    <attribute id="Comment" type="LSString" value="WitchDoctorLevel9"/>
+                    <attribute id="Spells" type="LSString" value="Target_GreaterRestoration;Target_CureWounds_Mass"/> 
+                    <attribute id="UUID" type="guid" value="141c29a7-1e87-4569-aa8d-adb08c0a2fea"/> 
+                </node>
+                <node id="SpellList"> Totems Level 1  
+                    <attribute id="Comment" type="LSString" value="TotemsLevel1"/>
+                    <attribute id="Spells" type="LSString" value="SB_Shout_Totems_Bear;SB_Shout_Totems_Crossroads;SB_Shout_Totems_Eagle;SB_Shout_Totems_Earthquake;SB_Shout_Totems_Harvest;SB_Shout_Totems_Hound;SB_Shout_Totems_Mountain;SB_Shout_Totems_Panther;SB_Shout_Totems_Quagmire;SB_Shout_Totems_Rains;SB_Shout_Totems_Twilight;SB_Shout_Totems_Whirlwind;SB_Passive_Totems_Winds"/> 
+                    <attribute id="UUID" type="guid" value="beed4d8d-ab48-44fc-9089-514f4232e45a"/> 
+                </node>
+                <node id="SpellList"> Totems Level 5  
+                    <attribute id="Comment" type="LSString" value="TotemsLevel5"/>
+                    <attribute id="Spells" type="LSString" value="SB_Shout_Totems_Bloom;SB_Shout_Totems_Eruption;SB_Shout_Totems_Grave;SB_Shout_Totems_Hunt;SB_Shout_Totems_GrowthUnlock;SB_Shout_Totems_Light;SB_Shout_Totems_Mirth_Unlock;SB_Shout_Totems_Mystic;SB_Shout_Totems_Wild;SB_Shout_Totems_Wrath;SB_Shout_Totems_Bear;SB_Shout_Totems_Crossroads;SB_Shout_Totems_Eagle;SB_Shout_Totems_Earthquake;SB_Target_Totems_Harvest;SB_Shout_Totems_Hound;SB_Shout_Totems_Mountain;SB_Shout_Totems_Panther;SB_Shout_Totems_Quagmire;SB_Shout_Totems_Rains;SB_Shout_Totems_Twilight;SB_Shout_Totems_Whirlwind;SB_Passive_Totems_Winds"/> 
+                    <attribute id="UUID" type="guid" value="202ae033-8736-4a50-9990-ed888837f57f"/> 
+                </node>
+                <node id="SpellList"> Totems Level 9  
+                    <attribute id="Comment" type="LSString" value="TotemsLevel9"/>
+                    <attribute id="Spells" type="LSString" value="SB_Shout_Totems_Dawn;SB_Shout_Totems_Sun;SB_Shout_Totems_Vine;SB_Shout_Totems_Bloom;SB_Shout_Totems_Eruption;SB_Shout_Totems_Grave;SB_Shout_Totems_Hunt;SB_Shout_Totems_GrowthUnlock;SB_Shout_Totems_Light;SB_Shout_Totems_Mirth_Unlock;SB_Shout_Totems_Mystic;SB_Shout_Totems_Wild;SB_Shout_Totems_Wrath;SB_Shout_Totems_Bear;SB_Shout_Totems_Crossroads;SB_Shout_Totems_Eagle;SB_Shout_Totems_Earthquake;SB_Target_Totems_Harvest;SB_Shout_Totems_Hound;SB_Shout_Totems_Mountain;SB_Shout_Totems_Panther;SB_Shout_Totems_Quagmire;SB_Shout_Totems_Rains;SB_Shout_Totems_Twilight;SB_Shout_Totems_Whirlwind;SB_Passive_Totems_Winds"/> 
+                    <attribute id="UUID" type="guid" value="d4185d99-fa81-44a0-ab9d-766cd24be3a1"/> 
+                </node>
+                <node id="SpellList"> Totems Level 12  
+                    <attribute id="Comment" type="LSString" value="TotemsLevel12"/>
+                    <attribute id="Spells" type="LSString" value="SB_Shout_Totems_Binding;SB_Shout_Totems_Eclipse;SB_Shout_Totems_Elements;SB_Shout_Totems_Sapling;SB_Shout_Totems_Skies;SB_Shout_Totems_Dawn;SB_Shout_Totems_Sun;SB_Shout_Totems_Vine;SB_Shout_Totems_Bloom;SB_Shout_Totems_Eruption;SB_Shout_Totems_Grave;SB_Shout_Totems_Hunt;SB_Shout_Totems_GrowthUnlock;SB_Shout_Totems_Light;SB_Shout_Totems_Mirth_Unlock;SB_Shout_Totems_Mystic;SB_Shout_Totems_Wild;SB_Shout_Totems_Wrath;SB_Shout_Totems_Bear;SB_Shout_Totems_Crossroads;SB_Shout_Totems_Eagle;SB_Shout_Totems_Earthquake;SB_Target_Totems_Harvest;SB_Shout_Totems_Hound;SB_Shout_Totems_Mountain;SB_Shout_Totems_Panther;SB_Shout_Totems_Quagmire;SB_Shout_Totems_Rains;SB_Shout_Totems_Twilight;SB_Shout_Totems_Whirlwind;SB_Passive_Totems_Winds"/> 
+                    <attribute id="UUID" type="guid" value="b587c1fd-8613-4fb7-849c-4ffcb9906074"/> 
+                </node>
+			</children>
+        </node>
+    </region>
+</save>

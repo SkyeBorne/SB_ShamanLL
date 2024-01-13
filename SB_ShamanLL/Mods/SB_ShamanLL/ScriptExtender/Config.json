@@ -1,5 +1,0 @@
-{
-    "RequiredVersion": 12,
-    "ModTable": "SB_ShamanLL",
-    "FeatureFlags": ["Lua"]
-}

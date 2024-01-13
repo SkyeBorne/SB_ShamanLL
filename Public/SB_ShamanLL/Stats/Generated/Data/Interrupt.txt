@@ -107,6 +107,31 @@
     data "EnableCondition" "(not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise'))"
     data "EnableContext" "OnActionResourcesChanged; OnCreate"
 
+/// Witch Doctor ///
+
+    new entry "SB_Interrupt_SpiritualAwakening"
+    type "InterruptData"
+    data "DisplayName" "hce3f7cebg2c96g4b11g89dage257a37c7113;1"
+    data "Description" "hee354cf2gb1c9g4a46g955agd333f76b7cb5;2"
+    data "DescriptionParams" "RegainHitPoints(WisdomModifer+Level)"
+    data "Icon" "SB_SpiritualAwakening_Icon"
+    data "InterruptContext" "OnPostRoll"
+    data "InterruptContextScope" "Nearby"
+    data "Container" "YesNoDecision"
+    data "Conditions" "not Dead(context.Observer) and IsDowned() and Ally(context.Source,context.Observer) and HasInterruptedSavingThrow() and not AnyEntityIsItem()"
+    data "Properties" "UseSpell(SWAP,SB_Target_SpiritualAwakening,true,true,true)"
+    data "Cost" "ReactionActionPoint:1;"
+    data "Cooldown" "OncePerRest"
+    data "InterruptDefaultValue" "Enabled"
+    data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
+    data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
+    new entry "SB_Interrupt_SpiritualAwakeningPM"
+    type "InterruptData"
+    using "SB_Interrupt_SpiritualAwakening"
+    data "Cost" "ReactionActionPoint:1;SpellSlotsGroup:1:1:5"
+    data "Cooldown" ""
+
 /// Totem Interrupts ///
 
     // Earthquake //

@@ -23,6 +23,13 @@
                     <attribute id="UUID" type="guid" value="7e525f5b-bfab-4242-8ba5-de6ca06cb6d7" />
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="" version="1" />
+                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="Name" type="FixedString" value="SB_TotemicBlessingCharge" />
+                    <attribute id="ReplenishType" type="FixedString" value="Turn" />
+                    <attribute id="UUID" type="guid" value="7c711e25-7b34-4201-9eb3-f817174f029b" />
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="haceabbfdg58c0g40d1ga0bcgbd22e5554e20" version="3"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h10fc7a17gc636g45a4g9cc8g8afaa9c7285e" version="2"/>
                     <attribute id="Name" type="FixedString" value="SB_Shaman_EvilEyeCharge"/>

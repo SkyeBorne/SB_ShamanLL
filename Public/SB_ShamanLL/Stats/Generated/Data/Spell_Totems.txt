@@ -624,7 +624,7 @@
     data "Icon" "SB_Totem_Mirth_Icon"
     data "DisplayName" "hd66f97b9g087cg4ccfga3afgeb949d6cd389;1"
     data "Description" "hd9020d67ga393g4bbag968cg7a90aa22ec04;2"
-    data "DescriptionParams" "GainTemporaryHitPoints(ClassLevel(SB_ShamanLL))"
+    data "DescriptionParams" "GainTemporaryHitPoints(Level)"
     data "TooltipStatusApply" "ApplyStatus(SB_Status_Totems_Mirth,100,-1)"
     data "TooltipPermanentWarnings" "8892b93b-721f-4b99-b9b4-05ac25aadb33"
     data "CastSound" "Spell_Cast_Healing_FalseLife_L1to3"

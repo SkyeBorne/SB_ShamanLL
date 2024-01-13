@@ -2,6 +2,17 @@
 
     // Pure Passives //
 
+        // Bear //
+
+        new entry "SB_Passive_Totems_Bear"
+        type "PassiveData"
+        data "DisplayName" "h89cb4477g880fg4bf3gbffbgf136be5c0d6e;1"
+        data "Description" "h7c9ec313gc50cg4037gb2dfgfd113654d985;2"
+        data "Properties" "IsHidden"
+        data "Icon" "SB_Totem_BearActive_Icon"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Bear_Self', context.Source)"
+        data "Boosts" "UnlockSpell(SB_Shout_Totems_BearUnlock);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Bear)"
+
         // Crossroads // 
 
         new entry "SB_Passive_Totems_Crossroads"
@@ -10,8 +21,8 @@
         data "Description" "h8d4f086ag2342g4a91g8c94g03851cd7b4c7;6"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Crossroads_Icon"
-        data "BoostConditions" "HasPassive('SB_ShamanLL_FocusHeart',context.Source)"
-        data "Boosts" "Tag(PETPAL)"
+        data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusHeart',context.Source) or HasStatus('SB_Status_TotemicBlessing_Crossroads', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Crossroads_Self', context.Source)"
+        data "Boosts" "Tag(PETPAL);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Crossroads)"
 
         // Eagle //
 
@@ -21,7 +32,19 @@
         data "Description" "h57cc15dfg83bbg4db4g89ffg8ea84783d234;6"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Eagle_Icon"
-        data "Boosts" "ProficiencyBonus(Skill, Perception);Advantage(Skill, Perception)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Eagle_Self', context.Source)"
+        data "Boosts" "ProficiencyBonus(Skill, Perception);Advantage(Skill, Perception);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Eagle)"
+
+        // Earthquake //
+
+        new entry "SB_Passive_Totems_Earthquake"
+        type "PassiveData"
+        data "DisplayName" "h89cb4477g880fg4bf3gbffbgf136be5c0d6e;1"
+        data "Description" "h7c9ec313gc50cg4037gb2dfgfd113654d985;2"
+        data "Properties" "IsHidden"
+        data "Icon" "SB_Totem_Earthquake_Icon"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Earthquake_Self', context.Source)"
+        data "Boosts" "UnlockSpell(SB_Shout_Totems_Earthquake);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Earthquake)"
 
         // Harvest //
 
@@ -32,7 +55,7 @@
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Harvest_Icon"
         data "BoostConditions" "HasPassive('SB_ShamanLL_FocusSoul', context.Source)"
-        data "Boosts" "UnlockSpell(SB_Target_Totems_Harvest)"
+        data "Boosts" "UnlockSpell(SB_Target_Totems_Harvest);"
 
         // Hound //
 
@@ -42,7 +65,8 @@
         data "Description" "hb419bf25g6ebdg40a1g9bffg97273a02c0a9;6"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Hound_Icon"
-        data "Boosts" "ProficiencyBonus(Skill, Survival);Advantage(Skill, Survival)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Hound_Self', context.Source)"
+        data "Boosts" "ProficiencyBonus(Skill, Survival);Advantage(Skill, Survival);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Hound)"
 
         // Mountain //
 
@@ -51,9 +75,8 @@
         data "Properties" "Highlighted"
         data "DisplayName" "hefb10318g5f0ag45a7g94d0gc7d0b0fb5a11"
         data "Description" "habc18b5cgedf0g42b9gabceg9885f3dd02f3;5"
-        data "BoostContext" "OnEquip;OnCreate"
-        data "BoostConditions" "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source) and HasPassive('SB_ShamanLL_FocusBody',context.Source)"
-        data "Boosts" "ACOverrideFormula(13,true,Constitution)"
+        data "BoostConditions" "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source) and (HasPassive('SB_ShamanLL_FocusBody',context.Source) or HasStatus('SB_Status_TotemicBlessing_Mountain', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Mountain_Self', context.Source)"
+        data "Boosts" "ACOverrideFormula(13,true,Constitution);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Mountain)"
         data "Icon" "SB_Totem_Mountain_Icon"
 
         // Panther //
@@ -64,7 +87,8 @@
         data "Description" "h4c7f888ag468bg4dd2g90a5g7490c9c000c0;6"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Panther_Icon"
-        data "Boosts" "ProficiencyBonus(Skill, Stealth);Advantage(Skill, Stealth)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Panther_Self', context.Source)"
+        data "Boosts" "ProficiencyBonus(Skill, Stealth);Advantage(Skill, Stealth);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Panther)"
 
         // Quagmire //
 
@@ -74,8 +98,8 @@
         data "Description" "hf1aef0cfg2040g46d4g800cg122df5e6d518;6"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Quagmire_Icon"
-        data "BoostConditions" "HasPassive('SB_ShamanLL_FocusMind',context.Source)"
-        data "Boosts" "ProficiencyBonus(Skill, Deception);ProficiencyBonus(Skill, Intimidation)"
+        data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusMind',context.Source) or HasStatus('SB_Status_TotemicBlessing_Quagmire', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Quagmire_Self', context.Source)"
+        data "Boosts" "ProficiencyBonus(Skill, Deception);ProficiencyBonus(Skill, Intimidation);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Quagmire)"
 
         // Rains //
 
@@ -85,7 +109,8 @@
         data "Description" "h0f0acfcag7335g46d4gadd8gda46f757bb1c;1"
         data "Icon" "SB_Totem_Rains_Icon"
         data "Properties" "Highlighted"
-        data "Boosts" "Resistance(Poison, Resistant);Resistance(Acid, Resistant);Tag(POISONED_ADV)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Rains_Self', context.Source)"
+        data "Boosts" "Resistance(Poison, Resistant);Resistance(Acid, Resistant);Tag(POISONED_ADV);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Rains)"
 
         // Twilight //
 
@@ -96,7 +121,8 @@
         data "DescriptionParams" "Distance(24)"
         data "Icon" "SB_Totem_Twilight_Icon"
         data "Properties" "Highlighted"
-        data "Boosts" "DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7)
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Twilight_Self', context.Source)"
+        data "Boosts" "DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Twilight)"
 
         new entry "SB_Passive_Totems_Twilight2"
         type "PassiveData"
@@ -105,7 +131,7 @@
         data "DescriptionParams" "Distance(24)"
         data "Icon" "SB_Totem_Twilight_Icon"
         data "Properties" "IsHidden"
-        data "BoostConditions" "HasPassive('SB_Passives_Totems_Twilight', context.Source)"
+        data "BoostConditions" "HasPassive('SB_Passives_Totems_Twilight', context.Source) and not HasStatus('SB_Status_TotemicBlessing_Twilight_Self', context.Source)"
         data "Boosts" "StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud)"
 
         // Waves WIP //
@@ -137,7 +163,8 @@
         data "DescriptionParams" "Distance(1.5);Distance(3);Distance(4.5);Distance(6)"
         data "Icon" "SB_Totem_Winds_Icon"
         data "Properties" "Highlighted"
-        data "Boosts" "ActionResource(Movement,1.5,0)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Twilight_Winds_Self', context.Source)"
+        data "Boosts" "ActionResource(Movement,1.5,0);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Winds)"
 
         new entry "SB_Passive_Totems_Winds2"
         type "PassiveData"
@@ -146,7 +173,7 @@
         data "DescriptionParams" "Distance(1.5);Distance(3);Distance(4.5);Distance(6)"
         data "Icon" "SB_Totem_Winds_Icon"
         data "Properties" "IsHidden"
-        data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source)"
+        data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source) and not HasStatus('SB_Status_TotemicBlessing_Twilight_Winds_Self', context.Source) and CharacterLevelGreaterThan(4)"
         data "Boosts" "ActionResource(Movement,1.5,0)"
 
         new entry "SB_Passive_Totems_Winds3"
@@ -156,7 +183,7 @@
         data "DescriptionParams" "Distance(1.5);Distance(3);Distance(4.5);Distance(6)"
         data "Icon" "SB_Totem_Winds_Icon"
         data "Properties" "IsHidden"
-        data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source)"
+        data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source) and not HasStatus('SB_Status_TotemicBlessing_Twilight_Winds_Self', context.Source) and CharacterLevelGreaterThan(9)"        data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source)"
         data "Boosts" "ActionResource(Movement,1.5,0)"
 
         new entry "SB_Passive_Totems_Winds4"
@@ -166,40 +193,8 @@
         data "DescriptionParams" "Distance(1.5);Distance(3);Distance(4.5);Distance(6)"
         data "Icon" "SB_Totem_Winds_Icon"
         data "Properties" "IsHidden"
-        data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source)"
+        data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source) and not HasStatus('SB_Status_TotemicBlessing_Twilight_Winds_Self', context.Source) and CharacterLevelGreaterThan(14)"
         data "Boosts" "ActionResource(Movement,1.5,0)"
-
-    // Passives for Totem Binder //
-
-        // Bear //
-
-        new entry "SB_Passive_Totems_Bear"
-        type "PassiveData"
-        data "DisplayName" "h89cb4477g880fg4bf3gbffbgf136be5c0d6e;1"
-        data "Description" "h7c9ec313gc50cg4037gb2dfgfd113654d985;2"
-        data "Properties" "IsHidden"
-        data "Icon" "SB_Totem_BearActive_Icon"
-        data "Boosts" "UnlockSpell(SB_Shout_Totems_BearUnlock)"
-
-        // Earthquake //
-
-        new entry "SB_Passive_Totems_Earthquake"
-        type "PassiveData"
-        data "DisplayName" "h89cb4477g880fg4bf3gbffbgf136be5c0d6e;1"
-        data "Description" "h7c9ec313gc50cg4037gb2dfgfd113654d985;2"
-        data "Properties" "IsHidden"
-        data "Icon" "SB_Totem_Earthquake_Icon"
-        data "Boosts" "UnlockSpell(SB_Shout_Totems_Earthquake)"
-
-        // Whirlwind //
-
-        new entry "SB_Passive_Totems_Whirlwind"
-        type "PassiveData"
-        data "DisplayName" "h89cb4477g880fg4bf3gbffbgf136be5c0d6e;1"
-        data "Description" "h7c9ec313gc50cg4037gb2dfgfd113654d985;2"
-        data "Properties" "IsHidden"
-        data "Icon" "SB_Totem_Whirlwind_Icon"
-        data "Boosts" "UnlockSpell(SB_Shout_Totems_WhirlwindUnlock)"
 
 /// Level 5 Totems ///
 
@@ -213,8 +208,8 @@
         data "Description" "hc1ab66dcg4203g4546gbfbcg2c625712df53;2"
         data "Properties" "IsHidden"
         data "Icon" "SB_Totem_Bloom_Icon"
-        data "BoostConditions" "HasPassive('SB_ShamanLL_FocusSoul', context.Source)"
-        data "Boosts" "UnlockSpell(SB_Target_Totems_Bloom)"
+        data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusSoul', context.Source) or HasStatus('SB_Status_TotemicBlessing_Bloom', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Bloom_Self', context.Source)"
+        data "Boosts" "UnlockSpell(SB_Target_Totems_Bloom);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Bloom)"
 
         // Eruption //     
 
@@ -224,7 +219,8 @@
         data "Description" "h30960f2egb2c3g4f39gb62bg6d125ebfe6bc;2"
         data "Properties" "IsHidden"
         data "Icon" "SB_Totem_Eruption_Icon"
-        data "Boosts" "UnlockSpell(SB_Shout_Totems_Eruption_Cold,AddChildren,a49fae7a-d80e-4049-8246-126cc32d1678,,Wisdom);UnlockSpell(SB_Shout_Totems_Eruption_Fire,AddChildren,a49fae7a-d80e-4049-8246-126cc32d1678,,Wisdom);UnlockSpell(SB_Shout_Totems_Eruption_Lightning,AddChildren,a49fae7a-d80e-4049-8246-126cc32d1678,,Wisdom);UnlockSpell(SB_Shout_Totems_Eruption_Thunder,AddChildren,a49fae7a-d80e-4049-8246-126cc32d1678,,Wisdom);"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Eruption_Self', context.Source)"
+        data "Boosts" "UnlockSpell(SB_Shout_Totems_Eruption_Cold,AddChildren,a49fae7a-d80e-4049-8246-126cc32d1678,,Wisdom);UnlockSpell(SB_Shout_Totems_Eruption_Fire,AddChildren,a49fae7a-d80e-4049-8246-126cc32d1678,,Wisdom);UnlockSpell(SB_Shout_Totems_Eruption_Lightning,AddChildren,a49fae7a-d80e-4049-8246-126cc32d1678,,Wisdom);UnlockSpell(SB_Shout_Totems_Eruption_Thunder,AddChildren,a49fae7a-d80e-4049-8246-126cc32d1678,,Wisdom);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Eruption)"
 
         // Growth //
 
@@ -234,8 +230,8 @@
         data "Description" "hd73ca0e1gb719g403bg8f86g956bcf928ea0;2"
         data "Properties" "IsHidden"
         data "Icon" "SB_Totem_Growth_Icon"
-        data "BoostConditions" "HasPassive('SB_ShamanLL_FocusBody', context.Source)"
-        data "Boosts" "UnlockSpell(SB_Shout_Totems_Growth)"
+        data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusBody', context.Source) or HasStatus('SB_Status_TotemicBlessing_Growth', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Growth_Self', context.Source)"
+        data "Boosts" "UnlockSpell(SB_Shout_Totems_Growth);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Growth)"
 
         // Grave //
 
@@ -255,7 +251,8 @@
         data "Description" "hb7ec2c4egf368g4437g82b7gda49b0531cee;2"
         data "Properties" "IsHidden"
         data "Icon" "SB_Totem_Hunt_Icon"
-        data "Boosts" "UnlockInterrupt(SB_Interrupt_Totems_Hunt)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Hunt_Self', context.Source)"
+        data "Boosts" "UnlockInterrupt(SB_Interrupt_Totems_Hunt);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Hunt)"
 
         // Light //
 
@@ -265,8 +262,9 @@
         data "Description" "h11ffa9f2g332bg46a0gbab0g72280a9d5e49;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Light_Icon"
+        data "Boosts" "IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Light)"
         data "StatsFunctorContext" "OnHeal"
-        data "Conditions" "HealDoneGreaterThan(0) and IsSpell() and not IsCantrip() or SpellId('Target_AuraOfVitality_Activate')"
+        data "Conditions" "HealDoneGreaterThan(0) and IsSpell() and not IsCantrip() or SpellId('Target_AuraOfVitality_Activate') and not HasStatus('SB_Status_TotemicBlessing_Light_Self', context.Source)"
         data "StatsFunctors" "ApplyStatus(SELF, SB_Status_Totems_Light,100,-1)"
 
         // Mirth //
@@ -277,8 +275,8 @@
         data "Description" "hd9020d67ga393g4bbag968cg7a90aa22ec04;2"
         data "Properties" "IsHidden"
         data "Icon" "SB_Totem_Mirth_Icon"
-        data "BoostConditions" "HasPassive('SB_ShamanLL_FocusHeart', context.Source)"
-        data "Boosts" "UnlockSpell(SB_Shout_Totems_Mirth)"
+        data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusHeart', context.Source) or HasStatus('SB_Status_TotemicBlessing_Mystic', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Mirth_Self', context.Source)"
+        data "Boosts" "UnlockSpell(SB_Shout_Totems_Mirth);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Mirth)"
 
         // Mystic //
 
@@ -288,8 +286,8 @@
         data "Description" "h2bd15106gf6e5g4ff2ga595geca59244f6ad;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Mystic_Icon"
-        data "BoostConditions" "HasPassive('SB_ShamanLL_FocusMind', context.Source)"
-        data "Boosts" "Tag(DETECTTHOUGHTS)"
+        data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusMind', context.Source) or HasStatus('SB_Status_TotemicBlessing_Mystic', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Mystic_Self', context.Source)"
+        data "Boosts" "Tag(DETECTTHOUGHTS);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Mystic)"
 
         // Wild //
 
@@ -301,6 +299,16 @@
         data "Icon" "SB_Totem_Wild_Icon"
         data "Boosts" "UnlockSpell(SB_Target_Totems_Wild)"
 
+        // Whirlwind //
+
+        new entry "SB_Passive_Totems_Whirlwind"
+        type "PassiveData"
+        data "DisplayName" "h89cb4477g880fg4bf3gbffbgf136be5c0d6e;1"
+        data "Description" "h7c9ec313gc50cg4037gb2dfgfd113654d985;2"
+        data "Properties" "IsHidden"
+        data "Icon" "SB_Totem_Whirlwind_Icon"
+        data "Boosts" "UnlockSpell(SB_Shout_Totems_WhirlwindUnlock);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Whirlwind)"
+
         // Wrath //
 
         new entry "SB_Passive_Totems_Wrath"
@@ -309,7 +317,8 @@
         data "Description" "hd5cedd4bgce5fg4d10g869bgb8b5efb5cf23;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Wrath_Icon"
-        data "Boosts" "IF(SpellId('SB_ShamanLL_TotemicAssault')):DamageBonus(WisdomModifier,Necrotic);IF(SpellId('SB_Target_TotemicAssaultRadiant')):DamageBonus(WisdomModifier,Radiant)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Wrath_Self', context.Source)"
+        data "Boosts" "IF(SpellId('SB_ShamanLL_TotemicAssault')):DamageBonus(WisdomModifier,Necrotic);IF(SpellId('SB_Target_TotemicAssaultRadiant')):DamageBonus(WisdomModifier,Radiant);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Wrath)"
 
 /// Level 9 Totems ///
 
@@ -336,7 +345,8 @@
         data "Description" "hb380657fg5df7g4d5egabeeg513c356105d0;2"
         data "Properties" "IsHidden"
         data "Icon" "SB_Totem_Sun_Icon"
-        data "Boosts" "UnlockInterrupt(SB_Interrupt_Totems_Sun)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Sun_Self', context.Source)"
+        data "Boosts" "UnlockInterrupt(SB_Interrupt_Totems_Sun);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Sun)"
 
         // Vine //
 
@@ -346,7 +356,8 @@
         data "Description" "h74d89ea9g6a54g4edcgb870g55c81d31ed07;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Vine_Icon"
-        data "Boosts" "UnlockSpell(SB_Target_Totems_Vine_Container)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Vine_Self', context.Source)"
+        data "Boosts" "UnlockSpell(SB_Target_Totems_Vine_Container);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Vine)"
 
 /// Level 12 Totems ///
 
@@ -370,7 +381,8 @@
         data "Description" "hec650e1cg3ef9g4964gaad0g0d7c3cec0eec;6"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Eclipse_Icon"
-        data "Boosts" "SpellResistance(Resistant)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Eclipse_Self', context.Source)"
+        data "Boosts" "SpellResistance(Resistant);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Eclipse)"
        
         // Elements //
 
@@ -390,8 +402,9 @@
         data "Description" "he26fdd94g4c1cg4fbcga20cgaf20b263cf9b;6"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Sapling_Icon"
+        data "Boosts" "IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Sapling)"
         data "StatsFunctorContext" "OnTurn"
-        data "Conditions" "HasHPPercentageWithoutTemporaryHPLessThan(50, context.Source) and not HasHPLessThan(1)"
+        data "Conditions" "HasHPPercentageWithoutTemporaryHPLessThan(50, context.Source) and not HasHPLessThan(1) and not HasStatus('SB_Status_TotemicBlessing_Sapling_Self', context.Source)"
         data "StatsFunctors" "RegainHitPoints(WisdomModifier)"
 
         // Skies //
@@ -402,4 +415,5 @@
         data "Description" "h9d9b9e5cg35d1g4017g9a7eg01cd7b500104;6"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Skies_Icon"
-        data "Boosts" "UnlockSpell(Projectile_Fly)"
+        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Skies_Self', context.Source)"
+        data "Boosts" "UnlockSpell(Projectile_Fly);IF(HasPassive('SB_WitchDoctor_TotemicBlessing',context.Source)):UnlockSpell(SB_Target_TotemicBlessing_Skies)"

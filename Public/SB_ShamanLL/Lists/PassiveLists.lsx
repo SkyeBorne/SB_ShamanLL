@@ -8,6 +8,10 @@
                     <attribute id="Passives" type="LSString" value="SB_ShamanLL_FocusBody,SB_ShamanLL_FocusHeart,SB_ShamanLL_FocusMind,SB_ShamanLL_FocusSoul"/> 
                     <attribute id="UUID" type="guid" value="53791456-5c68-4ef7-acbd-ef2a36f0b635"/> 
                 </node>
+                <node id="PassiveList"> Greater Spirit
+                    <attribute id="Passives" type="LSString" value="SB_GreaterSpirit_Death,SB_GreaterSpirit_Life,SB_GreaterSpirit_Moon,SB_GreaterSpirit_Sun"/> 
+                    <attribute id="UUID" type="guid" value="53ea9999-7ba0-4557-acd6-6b0cebe45afb"/> 
+                </node>
             </children>
         </node>
     </region>

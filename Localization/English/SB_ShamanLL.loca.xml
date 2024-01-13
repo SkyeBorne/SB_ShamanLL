@@ -106,5 +106,48 @@
 		<content contentuid="h7da429bbgc7b0g4705g9655gaed04c90918a" version="1">Most of your Shaman spells have become stronger.</content>
 	<content contentuid="h5aa14410g589eg4273gaa3fg4e86fb2d8520" version="1">Sacred Focus</content>
 		<content contentuid="h2cdefc0fg6ecfg46fdga837gfc4b69421c16" version="1">In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves.</content>
+	<content contentuid="h0adb0744g8bf4g4ca7gad37gcb9db1539a00" version="1">Totemic Blessing</content>
+		<content contentuid="h31ee17afg3cfbg48b9g94dag889ec1c0d9f1" version="1">Your Totemic Assault now deals Radiant Damage and you may bestow the powers of your Totems upon your allies. They gain the effects of the totem and you lose them until your next long rest. You may bestow a second Totem per long rest at 6th level and a 3rd Totem at 12th level.</content>
+		<content contentuid="h719f5007g23e8g4a66g97d4g2b80b8b72fcd" version="1">You have been granted the Totem of the [1] until your next long rest.</content>
+		<content contentuid="he4aa1dccga19ag4902ga27dg110c46743036" version="1">Totemic Blessing: Bear</content>
+		<content contentuid="h90ebab9bg57b1g401agbfb1g83abe56e29e0" version="1">Totemic Blessing: Crossroads</content>
+		<content contentuid="hfdac1a5fgd12ag464fga9bdg66ef396f7df1" version="1">Totemic Blessing: Eagle</content>
+		<content contentuid="h648eaeecgc3ecg45b3g9884gabddcc09d108" version="1">Totemic Blessing: Earthquake</content>
+		<content contentuid="h4e56e575g0156g48a1g93b4g97a135f1eb44" version="1">Totemic Blessing: Hound</content>
+		<content contentuid="hd9dabff9g0723g4c11g8f49g2a3b875c7a3b" version="1">Totemic Blessing: Mountain</content>
+		<content contentuid="h8b0cf020g0594g471dg90aeg4c7abd9025be" version="1">Totemic Blessing: Panther</content>
+		<content contentuid="h15b5757dg1eeag406eg85ccga002b28c88f4" version="1">Totemic Blessing: Quagmire</content>
+		<content contentuid="h8230c897ge5e5g4c8bgab45g6123892eaaa9" version="1">Totemic Blessing: Rains</content>
+		<content contentuid="he476d9c4g2bbdg4e04ga94dgea969fd6deff" version="1">Totemic Blessing: Twilight</content>
+		<content contentuid="h368a8281gd399g419eg8364g081d55a60d2c" version="1">Totemic Blessing: Whirlwind</content>
+		<content contentuid="h70a3ae8egd758g40adgae03g9d69176369bf" version="1">Totemic Blessing: Winds</content>
+		<content contentuid="hd2fb541cgf79dg48eega017g0d91978a0be8" version="1">Totemic Blessing: Eruption</content>
+		<content contentuid="h44ae7a06gf329g4cfbg8a6bg9a110b0c2ff1" version="1">Totemic Blessing: Growth</content>
+		<content contentuid="h90efcacag6a57g487agb4d1g364f971eb5b9" version="1">Totemic Blessing: Light</content>
+		<content contentuid="h74e08e97g8d1eg4dd9ga315g5e40420f1603" version="1">Totemic Blessing: Mirth</content>
+		<content contentuid="hccc80d3fgaebbg4301gb245gbfa1cc1f267b" version="1">Totemic Blessing: Mystic</content>
+		<content contentuid="hed259ee3gbb9bg4dddg93c3ge5576c319f4a" version="1">Totemic Blessing: Wild</content>
+		<content contentuid="h52a40290gd703g4c2cg97d6g5597da87513c" version="1">Totemic Blessing: Wrath</content>
+		<content contentuid="h97484cbcg2432g4253g9480g258da8317a5f" version="1">Totemic Blessing: Hunt</content>
+		<content contentuid="h2898ada8gcb19g441ag817dg2c63944322e6" version="1">Totemic Blessing: Sund</content>
+		<content contentuid="h46e4b965g63c1g4859g948fg35a665ff0ab1" version="1">Totemic Blessing: Vine</content>
+		<content contentuid="h13d629eagabf8g46c1ga55dg08709d8b5e01" version="1">Totemic Blessing: Eclipse</content>
+		<content contentuid="hf54e1dcbgfa30g460dg9eccga3b9aeb39a68" version="1">Totemic Blessing: Sapling</content>
+		<content contentuid="hbfda063fgb991g43dag8964gff79d2f8bcb3" version="1">Totemic Blessing: Skies</content>
+		<content contentuid="hb5dbc2d8g68f5g43fbg99d2g6098116837ab" version="1">Bestow the Totem of [1] upon an ally.</content>		
+	<content contentuid="hd624bf2egc9b4g48dagbf7egd21f95060f17" version="1">Empowered Blessing</content>
+		<content contentuid="h99e8f421gc8ffg4404g9f69gb23bd4244dc7" version="1"> Your allies can channel the spiritual power within your Totems. As an action on its turn, a creature that has one of your Totems bound to it can use Totemic Assault.</content>
+	<content contentuid="hcc42b2cdgaaafg400egb511ga4d40e900106" version="1">Selfless Ward</content>
+		<content contentuid="h21f43a0agf46fg448eg822ag068ba0271bbd" version="1">Your spirit is invigorated by the binding of Totems to your allies. You gain a +1 bonus to all saving throws for each of the Totems that you bind to another creature.</content>
+	<content contentuid="hce3f7cebg2c96g4b11g89dage257a37c7113" version="1">Spiritual Awakening</content>
+		<content contentuid="hee354cf2gb1c9g4a46g955agd333f76b7cb5" version="1">Your spiritual practice has filled you with an abundance of life-giving energy. Once per long rest when a Downed Ally makes a Saving Throw you may restore [1] to that ally. You may use this additional times at the cost of a Primal Magic Spell Slot.</content>
+	<content contentuid="h85ccdae9g12cfg4b92ga70cg283cc73612fb" version="1">Greater Spirit of Death</content>
+		<content contentuid="h29c6fefdg70bdg405dgb2a8g4657eb24c5d4" version="1">Spirits of Death are drawn from the Shadowfell, the Hells, or the Abyss. They lend Shamans their powerful sinister magic. Once per long rest you may cast Flesh to Stone without using a Spell Slot.</content>
+	<content contentuid="h42ad8a60gdf96g4cf8g84e7gd488b6020922" version="1">Greater Spirit of Life</content>
+		<content contentuid="hac72c2b8g58ccg4a0bg9645gfb0202321e53" version="1">Spirits of Life come to aid Shamans from the upper planes or the Feywild. They bless Shamans with mystic healing magic. Once per long rest you may cast Heal without using a Spell Slot.</content>
+	<content contentuid="h473a1515ga9b5g4d0egb47fg22d78de5dd1f" version="1">Greater Spirit of the Moon</content>
+		<content contentuid="h97bbfcadgfca5g417egaec2g29b024fcb41a" version="1">Spirits of the Moon can be summoned from the Astral Sea or Etherial Plane. They grant Shamans wondrous magic power. Once per long rest you may cast Globe of Invulnerability without using a Spell Slot.</content>
+	<content contentuid="h2a91156fg7f55g4012g8ba1gccbc7f7de3b0" version="1">Greater Spirit of the Sun</content>
+		<content contentuid="h6112493ega12cg492fgb1edgbdacc3b3f284" version="1">Spirits of the Sun are drawn from places of powerful radiant magic. They lend Shamans restorative and purifying power. Once per long rest you may cast Sunbeam without using a Spell Slot.</content>
 
 </contentList>

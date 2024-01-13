@@ -93,6 +93,36 @@
     data "DescriptionParams" "3;5"
     data "Properties" "Highlighted"
 
+    // Greater Totems //
+
+    new entry "SB_GreaterSpirit_Death"
+    type "PassiveData"
+    data "DisplayName" "h85ccdae9g12cfg4b92ga70cg283cc73612fb"
+    data "Description" "h29c6fefdg70bdg405dgb2a8g4657eb24c5d4;5"
+    data "Boosts" "UnlockSpell(SB_GreaterTotem_FleshtoStone)"
+    data "Icon" "SB_GreaterTotem_Death_Icon"
+
+    new entry "SB_GreaterSpirit_Life"
+    type "PassiveData"
+    data "DisplayName" "h42ad8a60gdf96g4cf8g84e7gd488b6020922"
+    data "Description" "hac72c2b8g58ccg4a0bg9645gfb0202321e53;5"
+    data "Boosts" "UnlockSpell(SB_GreaterTotem_Heal)"
+    data "Icon" "SB_GreaterTotem_Life_Icon"
+
+    new entry "SB_GreaterSpirit_Moon"
+    type "PassiveData"
+    data "DisplayName" "h473a1515ga9b5g4d0egb47fg22d78de5dd1f"
+    data "Description" "h97bbfcadgfca5g417egaec2g29b024fcb41a;5"
+    data "Boosts" "UnlockSpell(SB_GreaterTotem_GlobeOfInvulnerability)"
+    data "Icon" "SB_GreaterTotem_Moon_Icon"
+
+    new entry "SB_GreaterSpirit_Sun"
+    type "PassiveData"
+    data "DisplayName" "h2a91156fg7f55g4012g8ba1gccbc7f7de3b0"
+    data "Description" "h6112493ega12cg492fgb1edgbdacc3b3f284;5"
+    data "Boosts" "UnlockSpell(SB_GreaterTotem_Sunbeam)"
+    data "Icon" "SB_GreaterTotem_Sun_Icon"
+
 /// Spirit Warrior Passives ///
 
     // Spirit Warrior Level 3 //
@@ -238,7 +268,16 @@
     data "Properties" "Highlighted"
     data "Icon" "SB_TotemicBlessing_Icon"
     data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant)"
+  
+    // Totemic Blessing //
 
+    new entry "SB_WitchDoctor_TotemicBlessing"
+    type "PassiveData"
+    data "DisplayName" "h0adb0744g8bf4g4ca7gad37gcb9db1539a00;2"
+    data "Description" "h31ee17afg3cfbg48b9g94dag889ec1c0d9f1;3"
+    data "Icon" "SB_TotemicBlessing_Icon"
+    data "Properties" "Highlighted"
+    
     // Mystical Focus //
 
     new entry "SB_WitchDoctor_MysticalFocus"
@@ -251,4 +290,38 @@
     data "Conditions" "(IsSpell() or SpellId('SB_Target_LifeBearer')) and HasUseCosts('ActionPoint', true) and not IsCantrip()"
     data "StatsFunctors" "ApplyStatus(SELF,SB_WitchDoctor_MysticalFocus_Status,100,1)"
 
+    // Empowered Blessing //
+
+    new entry "SB_WitchDoctor_EmpoweredBlessing"
+    type "PassiveData"
+    data "DisplayName" "hd624bf2egc9b4g48dagbf7egd21f95060f17;2"
+    data "Description" "h99e8f421gc8ffg4404g9f69gb23bd4244dc7;3"
+    data "Icon" "SB_EmpoweredBlessing_Icon"
+    data "Properties" "Highlighted"
+
+    new entry "SB_WitchDoctor_EmpoweredBlessing_TA"
+    type "PassiveData"
+    data "DisplayName" "hd624bf2egc9b4g48dagbf7egd21f95060f17;2"
+    data "Description" "h99e8f421gc8ffg4404g9f69gb23bd4244dc7;3"
+    data "Properties" "IsHidden"
+    data "Icon" "SB_EmpoweredBlessing_Icon"
+    data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant)"
+
+    // Selfless Ward //
+
+    new entry "SB_WitchDoctor_SelflessWard"
+    type "PassiveData"
+    data "DisplayName" "hcc42b2cdgaaafg400egb511ga4d40e900106;2"
+    data "Description" "h21f43a0agf46fg448eg822ag068ba0271bbd;3"
+    data "Icon" "SB_SelflessWard_Icon"
+    data "Properties" "Highlighted"
+
+    // Spiritual Awakening //
     
+    new entry "SB_WitchDoctor_SpiritualAwakening"
+    type "PassiveData"
+    data "DisplayName" "hce3f7cebg2c96g4b11g89dage257a37c7113;1"
+    data "Description" "hee354cf2gb1c9g4a46g955agd333f76b7cb5;2"
+    data "Icon" "SB_SpiritualAwakening_Icon"
+    data "Properties" "Highlighted"
+    data "Boosts" "UnlockInterrupt(SB_Interrupt_SpiritualAwakening);UnlockInterrupt(SB_Interrupt_SpiritualAwakeningPM)"

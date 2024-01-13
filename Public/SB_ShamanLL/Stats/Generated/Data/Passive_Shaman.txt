@@ -59,7 +59,7 @@
     new entry "SB_ShamanLL_SpellSlots2"
     type "PassiveData"
     data "DisplayName" "h6bb17decg7fb1g49c4gbea9gc17cd76998fa;1"
-    data "Description" "h49f493cag90afg417bgb7eeg319b7756ca0e;1"
+    data "Description" "h0c455adcg1019g40b0g80f1g2eb8b9d087ad;1"
     data "DescriptionParams" "2;1"
     data "Icon" "c_ico_classRes_SB_ShamanLL_Spellslot_d"
     data "Properties" "Highlighted"
@@ -305,7 +305,7 @@
     data "Description" "h99e8f421gc8ffg4404g9f69gb23bd4244dc7;3"
     data "Properties" "IsHidden"
     data "Icon" "SB_EmpoweredBlessing_Icon"
-    data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant)"
+    data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant);UnlockSpell(SB_Target_TotemicBlessing_Container)"
 
     // Selfless Ward //
 

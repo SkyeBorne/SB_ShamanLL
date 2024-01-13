@@ -21,7 +21,7 @@
 		<content contentuid="he7b4b1f7gc99ag4945g9a3bg4ea70d99cbbc" version="1">You channel necrotic spiritual power to your hand, changing it into a withered specter of itself. Make a melee spell attack against a creature within your reach. On hit, the creature takes [1] necrotic damage, and you gain [2] temporary hit points which last for the duration of your concentration.</content>
 	<content contentuid="h620c3109g751fg419fg8f26ga078df0f26d1" version="1">Ghastly Flight</content>
 		<content contentuid="h2b608d1fg04d4g4b00ga928g2d74f2359143" version="1">You release a malevolent spirit that flies out from you in a direction of your choice. Each creature within the line must make a Constitution saving throw. On a failed save, creatures take [1] and cannot regain hit points until the start of your next turn. On a success, creatures take half as much damage and can regain hit points as normal.</content>
-	<content contentuid="h8be68ccdg2d67g466dgb1d1gfb38cbc58f47" version="1">Shaman Spell Slots</content>
+	<content contentuid="h8be68ccdg2d67g466dgb1d1gfb38cbc58f47" version="1">Primal Magic Spell Slots</content>
 		<content contentuid="h0c455adcg1019g40b0g80f1g2eb8b9d087ad" version="1">You now have [1] Level [2] Shaman Spell Slots which refresh on a Short or Long Rest.</content>
 		<content contentuid="h4c964b55g604cg4086g95c7ge883e60c1ceb" version="1">Used to cast Shaman spells.</content>
 	<content contentuid="h14e4b791g37c8g47c5g95dfg6cee01e8454b" version="1">Totemic Cowl</content>

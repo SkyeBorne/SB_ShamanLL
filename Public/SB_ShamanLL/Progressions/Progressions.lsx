@@ -12,7 +12,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SacredFocus;SB_ShamanLL_TAUnlock"/> 
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/> 
-                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectSkills(db0cda56-7bc1-4733-b286-f4b135d0d1d0,2);SelectPassives(53791456-5c68-4ef7-acbd-ef2a36f0b635,1,SacredFocus);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,2,0,SB_Totems)"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectSkills(db0cda56-7bc1-4733-b286-f4b135d0d1d0,2);SelectPassives(53791456-5c68-4ef7-acbd-ef2a36f0b635,1,SacredFocus);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,2,0,a49fae7a-d80e-4049-8246-126cc32d1678)"/> 
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
                     <attribute id="UUID" type="guid" value="014bc135-7507-47c4-b87c-ea2c2065924f"/> 
                 </node>
@@ -25,7 +25,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SacredFocus;SB_ShamanLL_TAUnlock"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(53791456-5c68-4ef7-acbd-ef2a36f0b635,1,SacredFocus);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,2,0,,,SB_Totems)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(53791456-5c68-4ef7-acbd-ef2a36f0b635,1,SacredFocus);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,2,0,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/>
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/>
                     <attribute id="UUID" type="guid" value="4afba006-ce30-43fa-a448-b53aac5e5372"/>
                 </node>
@@ -49,7 +49,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots3"/> 
                     <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots2"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(9156a315-4775-43f5-9164-8c214cf02d47,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,0,2,,,SB_Totems)"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(9156a315-4775-43f5-9164-8c214cf02d47,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/> 
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
                     <attribute id="UUID" type="guid" value="1da66d15-0876-4a18-80be-02d668b995a4"/>
                     <children>
@@ -76,7 +76,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/> 
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(9f5cbaa1-2a87-4cfa-8407-4549d7efe350,1,0,,,,AlwaysPrepared);SelectSpells(9156a315-4775-43f5-9164-8c214cf02d47,1,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,1,0,,,SB_Totems)"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(9f5cbaa1-2a87-4cfa-8407-4549d7efe350,1,0,,,,AlwaysPrepared);SelectSpells(9156a315-4775-43f5-9164-8c214cf02d47,1,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/> 
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
                     <attribute id="UUID" type="guid" value="99165646-f090-4431-8da3-70c1fb50531a"/> 
                 </node>
@@ -88,7 +88,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots5;SB_Passive_PassiveTotems_Winds2;SB_Passive_Totems_Twilight2"/> 
                     <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots3"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(1816d4f4-3f05-468f-b7ba-5ebefb0094f7,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(202ae033-8736-4a50-9990-ed888837f57f,0,2,,,SB_Totems);"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1816d4f4-3f05-468f-b7ba-5ebefb0094f7,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(202ae033-8736-4a50-9990-ed888837f57f,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);"/> 
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
                     <attribute id="UUID" type="guid" value="53d2259b-f752-4248-a98b-9ca3f7f59531"/> 
                 </node>
@@ -100,7 +100,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/> 
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(1816d4f4-3f05-468f-b7ba-5ebefb0094f7,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(202ae033-8736-4a50-9990-ed888837f57f,1,0,,,SB_Totems)"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1816d4f4-3f05-468f-b7ba-5ebefb0094f7,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(202ae033-8736-4a50-9990-ed888837f57f,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/> 
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
                     <attribute id="UUID" type="guid" value="e3008373-eef2-4ec0-9c82-4279afadb2fb"/> 
                 </node>
@@ -112,7 +112,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots7"/> 
                     <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots5"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(1d1fe289-f941-487a-a13a-825174570fb8,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(202ae033-8736-4a50-9990-ed888837f57f,0,2,,,SB_Totems)"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1d1fe289-f941-487a-a13a-825174570fb8,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(202ae033-8736-4a50-9990-ed888837f57f,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/> 
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
                     <attribute id="UUID" type="guid" value="63dab5e4-0216-43d0-9c30-0b9ea81f4d90"/> 
                 </node>
@@ -136,7 +136,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots9"/> 
                     <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots7"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(d4185d99-fa81-44a0-ab9d-766cd24be3a1,0,2,,,SB_Totems)"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(d4185d99-fa81-44a0-ab9d-766cd24be3a1,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/> 
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
                     <attribute id="UUID" type="guid" value="ace99e66-c93d-411f-9ebb-d6646a4b24bf"/> 
                 </node>
@@ -160,7 +160,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots11"/> 
                     <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots9"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(d4185d99-fa81-44a0-ab9d-766cd24be3a1,0,2,,,SB_Totems);SelectPassives(53ea9999-7ba0-4557-acd6-6b0cebe45afb,1,GreaterSpirit)"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(d4185d99-fa81-44a0-ab9d-766cd24be3a1,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectPassives(53ea9999-7ba0-4557-acd6-6b0cebe45afb,1,GreaterSpirit)"/> 
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
                     <attribute id="UUID" type="guid" value="4f763432-cc73-4462-b42b-586149058d3e"/> 
                 </node>
@@ -172,7 +172,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/> 
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(b587c1fd-8613-4fb7-849c-4ffcb9906074,1,0,,,SB_Totems)"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(b587c1fd-8613-4fb7-849c-4ffcb9906074,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/> 
 					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
                     <attribute id="UUID" type="guid" value="95b3d1ba-b0dc-43d8-8a53-419a01c5d1be"/> 
                 </node>
@@ -361,7 +361,7 @@
                 <node id="Progression"> Witch Doctor L3
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,3,0);ActionResource(SB_TotemicBlessingCharge,3,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,3,0);ActionResource(SB_TotemicBlessingCharge,1,0)"/>
                     <attribute id="PassivesAdded" type="LSString" value="SB_WitchDoctor_TARadiant;SB_WitchDoctor_TotemicBlessing"/>
                     <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_TAUnlock;"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression"> Shaman L1
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shields);Proficiency(Scimitars);Proficiency(HandCrossbows);Proficiency(SimpleWeapons);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);"/>
+                    <attribute id="Level" type="uint8" value="1"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SacredFocus;SB_ShamanLL_TAUnlock"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectSkills(db0cda56-7bc1-4733-b286-f4b135d0d1d0,2);SelectPassives(53791456-5c68-4ef7-acbd-ef2a36f0b635,1,SacredFocus);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,2,0,SB_Totems)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="014bc135-7507-47c4-b87c-ea2c2065924f"/> 
+                </node>
+				<node id="Progression"> Shaman L1 MC
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);"/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+					<attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SacredFocus;SB_ShamanLL_TAUnlock"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(53791456-5c68-4ef7-acbd-ef2a36f0b635,1,SacredFocus);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,2,0,,,SB_Totems)"/>
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/>
+                    <attribute id="UUID" type="guid" value="4afba006-ce30-43fa-a448-b53aac5e5372"/>
+                </node>
+                <node id="Progression"> Shaman L2
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_ShamanSpellSlot,2,1)"/>
+                    <attribute id="Level" type="uint8" value="2"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots2"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(9f5cbaa1-2a87-4cfa-8407-4549d7efe350,2,0,,,,AlwaysPrepared);SelectSpells(a607f829-4d42-4aa5-a82b-053ad8f64c67,3,0,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/>
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="996184da-a411-4dd0-acb8-8c82b87506ce"/> 
+                </node>
+                <node id="Progression"> Shaman L3
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_ShamanSpellSlot,2,2);ActionResourceOverride(SB_ShamanSpellSlot,0,1)"/>
+                    <attribute id="Level" type="uint8" value="3"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots3"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots2"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(9156a315-4775-43f5-9164-8c214cf02d47,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,0,2,,,SB_Totems)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="1da66d15-0876-4a18-80be-02d668b995a4"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Spirit Warrior
+                                    <attribute id="Object" type="guid" value="66127561-667b-4303-a75d-b7d87056b3f6"/>
+                                </node>
+                                <node id="SubClass"> Curse Binder
+                                    <attribute id="Object" type="guid" value="8451d955-9d04-4a96-b62e-2c63e7d7ea4e"/>
+                                </node>
+                                <node id="SubClass"> Witch Doctor
+                                    <attribute id="Object" type="guid" value="6de48aa6-6a6a-494b-9211-cd50256675be"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Progression"> Shaman L4
+                    <attribute id="AllowImprovement" type="bool" value="True"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="4"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(9f5cbaa1-2a87-4cfa-8407-4549d7efe350,1,0,,,,AlwaysPrepared);SelectSpells(9156a315-4775-43f5-9164-8c214cf02d47,1,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(beed4d8d-ab48-44fc-9089-514f4232e45a,1,0,,,SB_Totems)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="99165646-f090-4431-8da3-70c1fb50531a"/> 
+                </node>
+                <node id="Progression"> Shaman L5
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_ShamanSpellSlot,2,3);ActionResourceOverride(SB_ShamanSpellSlot,0,2)"/>
+                    <attribute id="Level" type="uint8" value="5"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots5;SB_Passive_PassiveTotems_Winds2;SB_Passive_Totems_Twilight2"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots3"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1816d4f4-3f05-468f-b7ba-5ebefb0094f7,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(202ae033-8736-4a50-9990-ed888837f57f,0,2,,,SB_Totems);"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="53d2259b-f752-4248-a98b-9ca3f7f59531"/> 
+                </node>
+                <node id="Progression"> Shaman L6
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1816d4f4-3f05-468f-b7ba-5ebefb0094f7,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(202ae033-8736-4a50-9990-ed888837f57f,1,0,,,SB_Totems)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="e3008373-eef2-4ec0-9c82-4279afadb2fb"/> 
+                </node>
+                <node id="Progression"> Shaman L7
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_ShamanSpellSlot,2,4);ActionResourceOverride(SB_ShamanSpellSlot,0,3)"/>
+                    <attribute id="Level" type="uint8" value="7"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots7"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots5"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1d1fe289-f941-487a-a13a-825174570fb8,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(202ae033-8736-4a50-9990-ed888837f57f,0,2,,,SB_Totems)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="63dab5e4-0216-43d0-9c30-0b9ea81f4d90"/> 
+                </node>
+                <node id="Progression"> Shaman L8
+                    <attribute id="AllowImprovement" type="bool" value="True"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="8"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(1d1fe289-f941-487a-a13a-825174570fb8,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="93af8f15-fd23-4598-b8a5-f2ee6306ea11"/> 
+                </node>
+                <node id="Progression"> Shaman L9
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_ShamanSpellSlot,2,5);ActionResourceOverride(SB_ShamanSpellSlot,0,4)"/>
+                    <attribute id="Level" type="uint8" value="9"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots9"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots7"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(d4185d99-fa81-44a0-ab9d-766cd24be3a1,0,2,,,SB_Totems)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="ace99e66-c93d-411f-9ebb-d6646a4b24bf"/> 
+                </node>
+                <node id="Progression"> Shaman L10
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="10"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_Passive_Totems_Winds3"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(9f5cbaa1-2a87-4cfa-8407-4549d7efe350,1,0,,,,AlwaysPrepared);SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="c699bd00-1a71-4ab6-8f13-46c9e5afb2f5"/> 
+                </node>
+                <node id="Progression"> Shaman L11
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_ShamanSpellSlot,1,5)"/>
+                    <attribute id="Level" type="uint8" value="11"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SpellSlots11"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_SpellSlots9"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,1,0,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(d4185d99-fa81-44a0-ab9d-766cd24be3a1,0,2,,,SB_Totems)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="4f763432-cc73-4462-b42b-586149058d3e"/> 
+                </node>
+                <node id="Progression"> Shaman L12
+                    <attribute id="AllowImprovement" type="bool" value="True"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="12"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b94afe22-98ce-420b-8512-989e39e1c66a,0,2,,,a49fae7a-d80e-4049-8246-126cc32d1678);SelectSpells(b587c1fd-8613-4fb7-849c-4ffcb9906074,1,0,,,SB_Totems)"/> 
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="95b3d1ba-b0dc-43d8-8a53-419a01c5d1be"/> 
+                </node>
+                <node id="Progression"> Shaman L13
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="13"/> 
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+					<attribute id="TableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="UUID" type="guid" value="6ec21acb-2ebe-4da9-92da-4a5e2931c15c"/> 
+                </node>
+                <node id="Progression"> Spirit Warrior L3
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MediumArmor);Proficiency(MartialWeapons)"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_SpiritWarrior_Ancestral;SB_SpiritWarrior_TotemicWeapon"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(00953d59-d1ce-4c91-b38f-c23a0a7f0084)"/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="9589b91b-45bb-40c3-b537-3862bee986af"/>
+                </node>
+                <node id="Progression"> Spirit Warrior L4
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="f8ecac8b-1b89-4a56-a1b9-a28b0a9fd3b1"/>
+                </node>
+                <node id="Progression"> Spirit Warrior L5
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(8aa9f92b-b19c-4dad-bf6d-db401af67d74)"/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="67593496-a1db-4b8d-adcd-e4c2b2b84d61"/>
+                </node>
+                <node id="Progression"> Spirit Warrior L6
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_ExtraAttack_SpiritWarrior;SB_ExtraAttack_SpiritWarrior2;SB_ExtraAttack_SpiritWarrior3"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="c508e47b-998d-4d5f-ace6-29e95e65f1f8"/>
+                </node>
+                <node id="Progression"> Spirit Warrior L7
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c22038b7-74a0-40ba-8b16-b6fe0d399e2a)"/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="543e3e39-d47e-4b4d-8cc1-92d67b8ebe02"/>
+                </node>
+                <node id="Progression"> Spirit Warrior L8
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="e0f75ef2-23f1-4662-8694-ff612638386a"/>
+                </node>
+                <node id="Progression"> Spirit Warrior L9
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(bd81c6dd-8dcd-4291-aa45-03b302d5a19b)"/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="c4850fd9-3ace-4032-b9f8-9832f1d58cc0"/>
+                </node>
+                <node id="Progression"> Spirit Warrior L10
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_SpiritWarrior_GraveWarrior"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="183f963a-4ce0-4a65-8a43-9872e81d21ae"/>
+                </node>
+                <node id="Progression"> Spirit Warrior L11
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="9a310af6-4607-4913-9c12-b432bd00b267"/>
+                </node>
+                <node id="Progression"> Spirit Warrior L12
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(d029cc30-86dc-4bb4-9cb0-efd212fd2d8f)"/>
+                    <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="UUID" type="guid" value="e595cd7d-0829-4483-8495-f67f38c6d272"/>
+                </node>
+                <node id="Progression"> Curse Binder L3
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_CurseBinder_EvilEyeUnlock"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(386e3283-8c01-42ca-864f-a83821f29326);AddSpells(517a3ece-b291-4f02-b0e8-17b401fb7e72)"/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="597ab045-5f5a-48cb-b523-c294f1b52667"/>
+                </node>
+                <node id="Progression"> Curse Binder L4
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="ac816a69-8d7d-4586-8f7c-b37400cf5d34"/>
+                </node>
+                <node id="Progression"> Curse Binder L5
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(293e8e8c-c303-4a5e-b57b-e4e569c9c567);AddSpells(b527b3e7-d2eb-40f4-9ee6-80f3d89f61e4)"/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="40aa4d07-523c-469c-b4b7-46fa97302852"/>
+                </node>
+                <node id="Progression"> Curse Binder L6
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="dbabf9bf-fd56-4970-b2e1-d73d8e5577f3"/>
+                </node>
+                <node id="Progression"> Curse Binder L7
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(252865bc-7beb-4c20-bf0a-f14ad0a1beae);"/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="5e891792-3ad0-49b1-927a-c5aa6f95ce3f"/>
+                </node>
+                <node id="Progression"> Curse Binder L8
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="aab000b5-e004-4cc5-97b9-f95537322961"/>
+                </node>
+                <node id="Progression"> Curse Binder L9
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(3c4c2173-f5ba-4a67-be06-5f1859834386);"/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="4c937043-0988-482f-8e09-d872fbcff947"/>
+                </node>
+                <node id="Progression"> Curse Binder L10
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_CurseBinder_ShamanisticUnlock;SB_CurseBinder_ShamanisticRebuke"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="eeb58379-8ba1-4f5b-b58b-3d3424e1e9ed"/>
+                </node>
+                <node id="Progression"> Curse Binder L11
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="6b3d4cb8-07b0-4136-8388-c7a3ccc2dc40"/>
+                </node>
+                <node id="Progression"> Curse Binder L12
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_CurseBinder_FoulConjuration"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="UUID" type="guid" value="cc54b20b-5b7c-47bd-8c32-9a850c246053"/>
+                </node>
+                <node id="Progression"> Witch Doctor L3
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,3,0)"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_WitchDoctor_TARadiant;"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_TAUnlock;"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(84f8773a-609b-4532-b518-c0912131e6ef);AddSpells(59eb9765-43ba-47c1-8c20-dae777cb6c84)"/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="f3947d30-6857-455d-9e15-19da7b423a4b"/>
+                </node>
+                <node id="Progression"> Witch Doctor L4
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="5fd85b03-9dd6-44b8-97a4-f547d149481e"/>
+                </node>
+                <node id="Progression"> Witch Doctor L5
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0b70a936-1706-4ece-9495-1fa345f58453);"/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="ef03e9a4-dc6f-480b-9254-d19dfbdf9c2c"/>
+                </node>
+                <node id="Progression"> Witch Doctor L6
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_WitchDoctor_MysticalFocus"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="db5fa013-d37e-4311-b7b5-6010723e4610"/>
+                </node>
+                <node id="Progression"> Witch Doctor L7
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(1f2b0acd-3546-4af2-974d-09b202d53157)"/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="6dec69f7-7f07-47a6-86de-7d7ef1a35f1c"/>
+                </node>
+                <node id="Progression"> Witch Doctor L8
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="f1ec04b7-f9a8-4aaf-a8ab-d3f6492361f5"/>
+                </node>
+                <node id="Progression"> Witch Doctor L9
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(141c29a7-1e87-4569-aa8d-adb08c0a2fea)"/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="b5af6104-7bed-405c-9504-ab90afe3a110"/>
+                </node>
+                <node id="Progression"> Witch Doctor L10
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="8677eaa6-dbb3-43d5-9f72-363524a387cc"/>
+                </node>
+                <node id="Progression"> Witch Doctor L11
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="ffe706e5-3feb-4b51-a8a2-90bdddb9d6a6"/>
+                </node>
+                <node id="Progression"> Witch Doctor L12
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="UUID" type="guid" value="1c8bdf9c-9808-4ca0-9c1d-34d31646a9c3"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

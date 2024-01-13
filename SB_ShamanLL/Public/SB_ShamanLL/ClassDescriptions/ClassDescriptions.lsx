@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="7" build="406"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription"> Shaman
+                    <attribute id="BaseHp" type="int32" value="8"/> 
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/> 
+   					<attribute id="ClassEquipment" type="FixedString" value="SB_EQP_CC_Shaman" />
+                    <attribute id="Description" type="TranslatedString" handle="h8fd328bagd60eg4ec5ga69dg9d08e253e7db" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="h18e38c09g1b5bg44f4g8c45g0e9d5f224084" version="1"/> 
+                    <attribute id="HpPerLevel" type="int32" value="5"/> 
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="SB_ShamanLL"/> 
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/> 
+                    <attribute id="ProgressionTableUUID" type="guid" value="d90f6eef-be8d-458d-96f2-743f5cfd6cd9"/> 
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/> 
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/> 
+                    <attribute id="SpellList" type="guid" value="ffd3b636-d424-4120-87ae-4499a34828dc"/>                    
+                    <attribute id="UUID" type="guid" value="47bcebb4-164d-409e-935f-7270447bab0a"/> 
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="af7298c0-4340-4e48-ab53-7205daa763a6"/> Shaman Tag
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="37a733c1-a862-4157-b92a-9cff46232c6a"/> Dialogue tag Ranger
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="44ac4317-4d38-4d28-80e2-94024c6e42f0"/> Dialogue tag Druid
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription"> Spirit Warrior
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h27c21a27g1024g4d12g8227g5493cab6b8a1" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf286f0d4g6afdg40c1gbddbg3a0e51edac6d" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="SB_ShamanLL_SpiritWarrior"/>
+                    <attribute id="ParentGuid" type="guid" value="47bcebb4-164d-409e-935f-7270447bab0a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="66127561-667b-4303-a75d-b7d87056b3f6"/>
+                </node>
+                <node id="ClassDescription"> Curse Binder
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h57b136f0gae1dg45afg8ebcg7ea9da226435" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h46f46f3aga920g4b39g8c4fg252674fa5e66" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="SB_ShamanLL_CurseBinder"/>
+                    <attribute id="ParentGuid" type="guid" value="47bcebb4-164d-409e-935f-7270447bab0a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="d6497017-098a-4a9f-865b-88aa6b23809f"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="8451d955-9d04-4a96-b62e-2c63e7d7ea4e"/>
+                </node>
+                <node id="ClassDescription"> Witch Doctor
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h1542a79ag7fd3g4226gb21fg1a67db4773a4" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3990df33g8b05g4242g9fa7g04d366229210" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="ParentGuid" type="guid" value="47bcebb4-164d-409e-935f-7270447bab0a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="6de48aa6-6a6a-494b-9211-cd50256675be"/>
+                </node>
+
+            </children>
+        </node>
+    </region>
+</save>
+

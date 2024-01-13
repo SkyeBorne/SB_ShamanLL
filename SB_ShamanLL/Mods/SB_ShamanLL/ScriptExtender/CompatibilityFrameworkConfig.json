@@ -1,0 +1,11 @@
+{
+    "FileVersion": 1,
+    "ActionResourceGroups": [
+      {
+        "UUID": "03b17647-161a-42e1-9660-5ba517e80ad2",
+        "Definitions": ["a49fae7a-d80e-4049-8246-126cc32d1678"],
+        "modGuid": "ab03e26b-e176-417c-8d1b-af708433e590",
+        "Action": "Insert"
+      }
+    ]
+  }

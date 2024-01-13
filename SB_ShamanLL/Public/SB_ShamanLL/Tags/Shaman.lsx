@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" lslib_meta="v1,bswap_guids" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Shamans were able to bind spirits to Totems, small objects of spiritual significance, and channel that power for good of their people. " />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h8fd328bagd60eg4ec5ga69dg9d08e253e7db" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h18e38c09g1b5bg44f4g8c45g0e9d5f224084" version="2" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="SB_ShamanLL" />
+			<attribute id="UUID" type="guid" value="af7298c0-4340-4e48-ab53-7205daa763a6" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

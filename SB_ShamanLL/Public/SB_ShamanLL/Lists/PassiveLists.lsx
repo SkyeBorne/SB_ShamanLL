@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="206"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList"> Sacred Focus
+                    <attribute id="Passives" type="LSString" value="SB_ShamanLL_FocusBody,SB_ShamanLL_FocusHeart,SB_ShamanLL_FocusMind,SB_ShamanLL_FocusSoul"/> 
+                    <attribute id="UUID" type="guid" value="53791456-5c68-4ef7-acbd-ef2a36f0b635"/> 
+                </node>
+                <node id="PassiveList"> Totems Level 1  
+                    <attribute id="Passives" type="LSString" value="SB_Totems_Bear,SB_Totems_Crossroads,SB_Totems_Eagle,SB_Totems_Earthquake,SB_Totems_Harvest,SB_Totems_Hound,SB_Totems_Mountain,SB_Totems_Panther,SB_Totems_Quagmire,SB_Totems_Rains,SB_Totems_Twilight,SB_Totems_Whirlwind,SB_Totems_Winds"/> 
+                    <attribute id="UUID" type="guid" value="beed4d8d-ab48-44fc-9089-514f4232e45a"/> 
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

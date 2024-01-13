@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="60"/>
+    <region id="AbilityDistributionPresets">
+        <node id="root">
+            <children>
+                <node id="AbilityDistributionPreset">
+                    <attribute id="ClassUUID" type="guid" value="47bcebb4-164d-409e-935f-7270447bab0a"/> UUID for the class so the game knows which one it is looking at
+                    <attribute id="Charisma" type="int32" value="10"/>
+					<attribute id="Constitution" type="int32" value="13"/>
+                    <attribute id="Dexterity" type="int32" value="14"/>
+                    <attribute id="Intelligence" type="int32" value="10"/>
+                    <attribute id="Strength" type="int32" value="10"/>
+                    <attribute id="Wisdom" type="int32" value="15"/>
+					<attribute id="UUID" type="guid" value="d3415206-ac1d-4a9d-b48f-f79bd1071cbe"/> the UUID for this entry, not needed anywhere else, but you still need to make a new UUID for it
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

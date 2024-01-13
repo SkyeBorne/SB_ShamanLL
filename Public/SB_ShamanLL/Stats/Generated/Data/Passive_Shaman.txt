@@ -72,6 +72,7 @@
 
     new entry "SB_ShamanLL_SpellSlots5"
     type "PassiveData"
+    using "SB_ShamanLL_SpellSlots2"
     data "DescriptionParams" "2;3"
     data "Properties" "Highlighted"
 
@@ -258,26 +259,27 @@
 
 /// Witch Doctor Passive ///
 
-    // Totemic Assault //
+    // Totemic Blessing //
 
-    new entry "SB_WitchDoctor_TARadiant"
+    new entry "SB_WitchDoctor_Passive_TotemicBlessing"
     type "PassiveData"
     data "DisplayName" "hcf3f581agc980g4b49g875fgc69df962982e;1"
     data "Description" "h7db1fb16g0d2ag4b09g866dgcb4a9f5b0f8a;6"
     data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip), Necrotic)"
     data "Properties" "Highlighted"
     data "Icon" "SB_TotemicBlessing_Icon"
-    data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant)"
-  
-    // Totemic Blessing //
+    data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant);UnlockSpell(SB_Target_TotemicBlessing_Container)"
 
-    new entry "SB_WitchDoctor_TotemicBlessing"
+    new entry "SB_WitchDoctor_Passive_TotemicBlessing2"
     type "PassiveData"
-    data "DisplayName" "h0adb0744g8bf4g4ca7gad37gcb9db1539a00;2"
-    data "Description" "h31ee17afg3cfbg48b9g94dag889ec1c0d9f1;3"
+    data "DisplayName" "hcf3f581agc980g4b49g875fgc69df962982e;1"
+    data "Description" "h7db1fb16g0d2ag4b09g866dgcb4a9f5b0f8a;6"
+    data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip), Necrotic)"
+    data "Properties" "IsHidden"
     data "Icon" "SB_TotemicBlessing_Icon"
-    data "Properties" "Highlighted"
-    
+    data "Boosts" "UnlockSpell(SB_Target_TotemicBlessing_Container2)"
+
+
     // Mystical Focus //
 
     new entry "SB_WitchDoctor_MysticalFocus"
@@ -294,18 +296,10 @@
 
     new entry "SB_WitchDoctor_EmpoweredBlessing"
     type "PassiveData"
-    data "DisplayName" "hd624bf2egc9b4g48dagbf7egd21f95060f17;2"
-    data "Description" "h99e8f421gc8ffg4404g9f69gb23bd4244dc7;3"
-    data "Icon" "SB_EmpoweredBlessing_Icon"
     data "Properties" "Highlighted"
-
-    new entry "SB_WitchDoctor_EmpoweredBlessing_TA"
-    type "PassiveData"
     data "DisplayName" "hd624bf2egc9b4g48dagbf7egd21f95060f17;2"
     data "Description" "h99e8f421gc8ffg4404g9f69gb23bd4244dc7;3"
-    data "Properties" "IsHidden"
     data "Icon" "SB_EmpoweredBlessing_Icon"
-    data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant);UnlockSpell(SB_Target_TotemicBlessing_Container)"
 
     // Selfless Ward //
 

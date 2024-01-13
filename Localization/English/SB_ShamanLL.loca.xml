@@ -22,7 +22,7 @@
 	<content contentuid="h620c3109g751fg419fg8f26ga078df0f26d1" version="1">Ghastly Flight</content>
 		<content contentuid="h2b608d1fg04d4g4b00ga928g2d74f2359143" version="1">You release a malevolent spirit that flies out from you in a direction of your choice. Each creature within the line must make a Constitution saving throw. On a failed save, creatures take [1] and cannot regain hit points until the start of your next turn. On a success, creatures take half as much damage and can regain hit points as normal.</content>
 	<content contentuid="h8be68ccdg2d67g466dgb1d1gfb38cbc58f47" version="1">Primal Magic Spell Slots</content>
-		<content contentuid="h0c455adcg1019g40b0g80f1g2eb8b9d087ad" version="1">You now have [1] Level [2] Shaman Spell Slots which refresh on a Short or Long Rest.</content>
+		<content contentuid="h0c455adcg1019g40b0g80f1g2eb8b9d087ad" version="1">You now have [1] Level [2] Primal MAgic Spell Slots which refresh on a Short or Long Rest.</content>
 		<content contentuid="h4c964b55g604cg4086g95c7ge883e60c1ceb" version="1">Used to cast Shaman spells.</content>
 	<content contentuid="h14e4b791g37c8g47c5g95dfg6cee01e8454b" version="1">Totemic Cowl</content>
 		<content contentuid="h0c15a94ag4957g4314g8e64g37f619425682" version="1">You touch a willing creature. Until the spell ends, it is cloaked in a ghostly cowl, and any damage it takes is reduced by [1].</content>
@@ -106,7 +106,7 @@
 		<content contentuid="h7da429bbgc7b0g4705g9655gaed04c90918a" version="1">Most of your Shaman spells have become stronger.</content>
 	<content contentuid="h5aa14410g589eg4273gaa3fg4e86fb2d8520" version="1">Sacred Focus</content>
 		<content contentuid="h2cdefc0fg6ecfg46fdga837gfc4b69421c16" version="1">In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves.</content>
-	<content contentuid="h0adb0744g8bf4g4ca7gad37gcb9db1539a00" version="1">Totemic Blessing</content>
+	<content contentuid="h0adb0744g8bf4g4ca7gad37gcb9db1539a00" version="1">Lesser Totemic Blessing</content>
 		<content contentuid="h31ee17afg3cfbg48b9g94dag889ec1c0d9f1" version="1">Your Totemic Assault now deals Radiant Damage and you may bestow the powers of your Totems upon your allies. They gain the effects of the totem and you lose them until your next long rest. You may bestow a second Totem per long rest at 6th level and a 3rd Totem at 12th level.</content>
 		<content contentuid="h719f5007g23e8g4a66g97d4g2b80b8b72fcd" version="1">You have been granted the Totem of the [1] until your next long rest.</content>
 		<content contentuid="he4aa1dccga19ag4902ga27dg110c46743036" version="1">Totemic Blessing: Bear</content>
@@ -121,6 +121,7 @@
 		<content contentuid="he476d9c4g2bbdg4e04ga94dgea969fd6deff" version="1">Totemic Blessing: Twilight</content>
 		<content contentuid="h368a8281gd399g419eg8364g081d55a60d2c" version="1">Totemic Blessing: Whirlwind</content>
 		<content contentuid="h70a3ae8egd758g40adgae03g9d69176369bf" version="1">Totemic Blessing: Winds</content>
+	<content contentuid="h031ff1b1gf89eg4109gaec1g6b4668a2953a" version="1">Greater Totemic Blessing</content>
 		<content contentuid="hd2fb541cgf79dg48eega017g0d91978a0be8" version="1">Totemic Blessing: Eruption</content>
 		<content contentuid="h44ae7a06gf329g4cfbg8a6bg9a110b0c2ff1" version="1">Totemic Blessing: Growth</content>
 		<content contentuid="h90efcacag6a57g487agb4d1g364f971eb5b9" version="1">Totemic Blessing: Light</content>
@@ -129,7 +130,7 @@
 		<content contentuid="hed259ee3gbb9bg4dddg93c3ge5576c319f4a" version="1">Totemic Blessing: Wild</content>
 		<content contentuid="h52a40290gd703g4c2cg97d6g5597da87513c" version="1">Totemic Blessing: Wrath</content>
 		<content contentuid="h97484cbcg2432g4253g9480g258da8317a5f" version="1">Totemic Blessing: Hunt</content>
-		<content contentuid="h2898ada8gcb19g441ag817dg2c63944322e6" version="1">Totemic Blessing: Sund</content>
+		<content contentuid="h2898ada8gcb19g441ag817dg2c63944322e6" version="1">Totemic Blessing: Sun</content>
 		<content contentuid="h46e4b965g63c1g4859g948fg35a665ff0ab1" version="1">Totemic Blessing: Vine</content>
 		<content contentuid="h13d629eagabf8g46c1ga55dg08709d8b5e01" version="1">Totemic Blessing: Eclipse</content>
 		<content contentuid="hf54e1dcbgfa30g460dg9eccga3b9aeb39a68" version="1">Totemic Blessing: Sapling</content>

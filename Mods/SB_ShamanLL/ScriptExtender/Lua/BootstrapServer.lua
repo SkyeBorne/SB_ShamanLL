@@ -1,7 +1,7 @@
 Ext.Osiris.RegisterListener("LeveledUp", 1, "after", function(characterGUID)
   if HasShamanTag(characterGUID) then
-    Osi.TimerLaunch("Trigger_Shaman_Totems", 120000)
-    _P("Shaman: Created 2 Minute Timer for Totem Check")
+    Osi.TimerLaunch("Trigger_Shaman_Totems", 60000)
+    _P("Shaman: Created 1 Minute Timer for Totem Check")
   end
 end)
 
@@ -169,11 +169,11 @@ function applyShamanTotemPassives(characterGUID)
     _P("Shaman: Added Totem of the Bloom")
   end
 
-  if (Osi.HasSpell(characterGUID, "SB_Shout_Totems_Eruption") == 0) and (Osi.HasActiveStatus(characterGUID, "SB_Passive_Totems_Eruption") == 1) then
-    Osi.RemoveStatus(characterGUID, "SB_Passive_Totems_Bloom")
+  if (Osi.HasSpell(characterGUID, "SB_Shout_Totems_EruptionUnlock") == 0) and (Osi.HasActiveStatus(characterGUID, "SB_Passive_Totems_Eruption") == 1) then
+    Osi.RemoveStatus(characterGUID, "SB_Passive_Totems_Eruption   ")
     hasChanged = true
     _P("Shaman: Removed Totem of the Eruption")
-  elseif (Osi.HasSpell(characterGUID, "SB_Shout_Totems_Eruption") == 1) and (Osi.HasActiveStatus(characterGUID, "SB_Passive_Totems_Eruption") == 0) then
+  elseif (Osi.HasSpell(characterGUID, "SB_Shout_Totems_EruptionUnlock") == 1) and (Osi.HasActiveStatus(characterGUID, "SB_Passive_Totems_Eruption") == 0) then
     Osi.ApplyStatus(characterGUID, "SB_Passive_Totems_Eruption", -1)
     hasChanged = true
     _P("Shaman: Added Totem of the Eruption")
@@ -184,7 +184,7 @@ function applyShamanTotemPassives(characterGUID)
     hasChanged = true
     _P("Shaman: Removed Totem of Growth")
   elseif (Osi.HasSpell(characterGUID, "SB_Shout_Totems_GrowthUnlock") == 1) and (Osi.HasActiveStatus(characterGUID, "SB_Passive_Totems_Growth") == 0) then
-    Osi.ApplyStatus(characterGUID, "SB_Passive_Totems_Eruption", -1)
+    Osi.ApplyStatus(characterGUID, "SB_Passive_Totems_Growth", -1)
     hasChanged = true
     _P("Shaman: Added Totem of Growth")
   end

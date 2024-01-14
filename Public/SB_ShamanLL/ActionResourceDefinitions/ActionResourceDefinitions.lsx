@@ -23,12 +23,12 @@
                     <attribute id="UUID" type="guid" value="7e525f5b-bfab-4242-8ba5-de6ca06cb6d7" />
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h10fc7a17gc636g45a4g9cc8g8afaa9c7285e" version="1" />
                     <attribute id="IsHidden" type="bool" value="false" />
                     <attribute id="UpdatesSpellPowerLevel" type="bool" value="true"/>
                     <attribute id="Name" type="FixedString" value="SB_TotemicBlessing_Charge" />
-                    <attribute id="ReplenishType" type="FixedString" value="Turn" />
-                    <attribute id="UUID" type="guid" value="7bc59c9c-8b5a-4f25-98f2-e6b4766a80b0" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="UUID" type="guid" value="22202884-754d-49f7-885c-cd4420c6b135" />
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="haceabbfdg58c0g40d1ga0bcgbd22e5554e20" version="3"/>

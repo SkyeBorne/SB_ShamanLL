@@ -126,7 +126,7 @@
 
 /// Spirit Warrior Passives ///
 
-    // Spirit Warrior Level 3 //
+    // Ancestral Knowledge //
 
     new entry "SB_SpiritWarrior_Ancestral"
     type "PassiveData"
@@ -134,6 +134,8 @@
     data "Description" "h22a97e39gf3b4g4b13g8e85g873bb12354b2;4"
     data "Icon" "SB_AncestralKnowledge_Icon"
     data "Properties" "Highlighted"
+
+    // Totemic Weapon //
 
     new entry "SB_SpiritWarrior_TotemicWeapon"
     type "PassiveData"
@@ -174,7 +176,7 @@
     new entry "SB_ExtraAttack_SpiritWarrior"
     type "PassiveData"
     using "ExtraAttack"
-    data "Description" "h45440387g2aaag4887g99ccge08a84c0f181;2"
+    data "Description" "h76632ac5g8688g498egb870g096fbc1c2dd5;2"
     data "Conditions" "(context.HasContextFlag(StatsFunctorContext.OnCast) and (ExtraAttackSpellCheck() or SB_SpiritWarrior_CantripCheckCheck()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_Q'))"
 
     new entry "SB_ExtraAttack_SpiritWarrior2"
@@ -193,7 +195,7 @@
     data "Conditions" "HasStatus('EXTRA_ATTACK',context.Source) and not HasStatus('SB_ExtraAttack_SpiritWarriorCantripUsed',context.Source)"
     data "StatsFunctors" "ApplyStatus(SELF,SB_ExtraAttack_SpiritWarriorCantripsExtra,100,1);"
 
-    // Spirit Warrior Level 10 //
+    // Warrior of the Grave //
 
     new entry "SB_SpiritWarrior_GraveWarrior"
     type "PassiveData"
@@ -268,7 +270,7 @@
     data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip), Necrotic)"
     data "Properties" "Highlighted"
     data "Icon" "SB_TotemicBlessing_Icon"
-    data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant);UnlockSpell(SB_Target_TotemicBlessing_Container)"
+    data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant);UnlockSpell(SB_Target_TotemicBlessing_Container);ActionResource(SB_TotemicBlessing_Charge,1,0)"
 
     new entry "SB_WitchDoctor_Passive_TotemicBlessing2"
     type "PassiveData"
@@ -288,6 +290,7 @@
     data "Description" "hff892a28g44c4g4f8dg92a9g5107d2068200;3"
     data "Icon" "SB_MysticalFocus_Icon"
     data "Properties" "Highlighted"
+    data "Boosts" "ActionResource(SB_TotemicBlessing_Charge,1,0)"
     data "StatsFunctorContext" "OnCast;"
     data "Conditions" "(IsSpell() or SpellId('SB_Target_LifeBearer')) and HasUseCosts('ActionPoint', true) and not IsCantrip()"
     data "StatsFunctors" "ApplyStatus(SELF,SB_WitchDoctor_MysticalFocus_Status,100,1)"
@@ -316,6 +319,8 @@
     type "PassiveData"
     data "DisplayName" "hce3f7cebg2c96g4b11g89dage257a37c7113;1"
     data "Description" "hee354cf2gb1c9g4a46g955agd333f76b7cb5;2"
+    data "DescriptionParams" "RegainHitPoints(Level+SpellCastingAbilityModifier)"
     data "Icon" "SB_SpiritualAwakening_Icon"
     data "Properties" "Highlighted"
-    data "Boosts" "UnlockInterrupt(SB_Interrupt_SpiritualAwakening);UnlockInterrupt(SB_Interrupt_SpiritualAwakeningPM)"
+    data "Boosts" "UnlockInterrupt(SB_Interrupt_SpiritualAwakening);UnlockInterrupt(SB_Interrupt_SpiritualAwakeningPM);ActionResource(SB_TotemicBlessing_Charge,1,0)"
+

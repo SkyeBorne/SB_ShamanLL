@@ -135,7 +135,7 @@
                     <attribute id="V2" type="float" value="0.03125"/> 
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="SB_SpiritDraining_Icon"/> 
+                    <attribute id="MapKey" type="FixedString" value="SB_GraveWarrior_Icon"/> 
                     <attribute id="U1" type="float" value="0.5"/> 
                     <attribute id="U2" type="float" value="0.53125"/> 
                     <attribute id="V1" type="float" value="0.0"/> 

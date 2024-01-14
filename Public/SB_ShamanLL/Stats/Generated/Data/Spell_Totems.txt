@@ -325,7 +325,7 @@
 
     // Winds //
 
-    new entry "SB_Passive_Totems_Winds"
+    new entry "SB_Shout_Totems_Winds"
     type "SpellData"
     data "SpellType" "Shout"
     data "DisplayName" "hc204f3cag02c2g4e9cg9228gf72f3af0d4ee;1"

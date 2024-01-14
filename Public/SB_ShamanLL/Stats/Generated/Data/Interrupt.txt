@@ -333,4 +333,3 @@
     data "InterruptDefaultValue" "Ask;Enabled"
     data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
     data "EnableContext" "OnStatusApplied;OnStatusRemoved"
-

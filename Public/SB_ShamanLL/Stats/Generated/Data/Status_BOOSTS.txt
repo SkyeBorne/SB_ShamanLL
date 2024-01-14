@@ -1074,7 +1074,6 @@
     data "StatusGroups" "SG_Incapacitated"
     data "ApplyEffect" ""
 
-
 /// Totems ///
 
     // Bear //
@@ -1162,6 +1161,3 @@
     data "RemoveEvents" "OnDamage"
     data "StatusGroups" "SG_RemoveOnRespec"
     data "ApplyEffect" "c8f93b82-29e0-44ab-af10-d4284d67974b"
-
-
-

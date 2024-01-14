@@ -361,7 +361,7 @@
                 <node id="Progression"> Witch Doctor L3
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,3,0);ActionResource(SB_TotemicBlessingCharge,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,3,0);ActionResource(SB_TotemicBlessing_Charge,1,0)"/>
                     <attribute id="PassivesAdded" type="LSString" value="SB_WitchDoctor_Passive_TotemicBlessing"/>
                     <attribute id="PassivesRemoved" type="LSString" value="SB_ShamanLL_TAUnlock;"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -391,7 +391,7 @@
                 <node id="Progression"> Witch Doctor L6
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0);ActionResource(SB_TotemicBlessingCharge,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0);ActionResource(SB_TotemicBlessing_Charge,1,0)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="SB_WitchDoctor_MysticalFocus"/>
                     <attribute id="Selectors" type="LSString" value=""/>
@@ -447,7 +447,7 @@
                 <node id="Progression"> Witch Doctor L12
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0);ActionResource(SB_TotemicBlessingCharge,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0);ActionResource(SB_TotemicBlessing_Charge,1,0)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="SB_WitchDoctor_SpiritualAwakening"/>
                     <attribute id="Selectors" type="LSString" value=""/>

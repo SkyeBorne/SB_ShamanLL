@@ -400,7 +400,7 @@
                 </node>
                 <node id="Progression"> Witch Doctor L7
                     <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
+                    <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor;"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(1f2b0acd-3546-4af2-974d-09b202d53157)"/>

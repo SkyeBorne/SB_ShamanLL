@@ -1,6 +1,6 @@
 Ext.Osiris.RegisterListener("LeveledUp", 1, "after", function(characterGUID)
   if HasShamanTag(characterGUID) then
-    Osi.TimerLaunch("Trigger_Shaman_Totems", 30000)
+    Osi.TimerLaunch("Trigger_Shaman_Totems", 60000)
     _P("Shaman: Created Timer for Totem Check")
   end
 end)
@@ -13,9 +13,9 @@ Ext.Osiris.RegisterListener("TimerFinished", 1, "after", function(finishedTimer)
   end
 end)
 
-Ext.Osiris.RegisterListener("RequestPickpocket", 2, "after", function(characterGUID, targetID)
+Ext.Osiris.RegisterListener("PingRequested", 1, "after", function(characterGUID)
   if HasShamanTag(characterGUID) then
-    _P("Shaman: RequestPickpocket")
+    _P("Shaman: PingRequested")
     applyShamanTotemPassives(characterGUID)
   end
 end)

@@ -327,7 +327,7 @@
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_BearActive_Icon"
         data "BoostContext" "OnCreate;OnEquip;OnStatusApplied;OnStatusRemoved"
-        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Bear_Self', context.Source)"
+        data "BoostConditions" "HasStatus('SB_Status_TotemicBlessing_Bear', context.Source)"
         data "Boosts" "UnlockSpell(SB_Shout_Totems_Bear)"
 
         // Crossroads // 
@@ -363,19 +363,8 @@
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Earthquake_Icon"
         data "BoostContext" "OnCreate;OnEquip;OnStatusApplied;OnStatusRemoved"
-        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Earthquake_Self', context.Source)"
+        data "BoostConditions" "HasStatus('SB_Status_TotemicBlessing_Earthquake', context.Source)"
         data "Boosts" "UnlockSpell(SB_Shout_Totems_Earthquake);"
-
-        // Harvest //
-
-        new entry "SB_Passive_Totems_Harvest"
-        type "PassiveData"
-        data "DisplayName" "hd1cc0d25g271dg41b2g931bg26650e821e43;3"
-        data "Description" "h0d43f4cag0f5bg4e2fg8234g6772fc9d8a94;2"
-        data "Properties" "Highlighted"
-        data "Icon" "SB_Totem_Harvest_Icon"
-        data "BoostConditions" "HasPassive('SB_ShamanLL_FocusSoul', context.Source)"
-        data "Boosts" "UnlockSpell(SB_Target_Totems_Harvest);"
 
         // Hound //
 
@@ -528,17 +517,6 @@
 
     // Pure Passives //
 
-        // Bloom //
-
-        new entry "SB_Passive_Totems_Bloom"
-        type "PassiveData"
-        data "DisplayName" "hacff76e1g2ff9g4b8bgbeb9gac83543efc03;1"
-        data "Description" "hc1ab66dcg4203g4546gbfbcg2c625712df53;2"
-        data "Properties" "Highlighted"
-        data "Icon" "SB_Totem_Bloom_Icon"
-        data "BoostConditions" "HasPassive('SB_ShamanLL_FocusSoul', context.Source)"
-        data "Boosts" "UnlockSpell(SB_Target_Totems_Bloom);"
-
         // Eruption //   
   
         new entry "SB_Passive_Totems_Eruption"
@@ -567,7 +545,7 @@
         data "Description" "hd73ca0e1gb719g403bg8f86g956bcf928ea0;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Growth_Icon"
-        data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusBody', context.Source) or HasStatus('SB_Status_TotemicBlessing_Growth', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Growth_Self', context.Source)"
+        data "BoostConditions" "HasStatus('SB_Status_TotemicBlessing_Growth', context.Source)"
         data "Boosts" "UnlockSpell(SB_Shout_Totems_Growth);"
 
         // Grave //
@@ -611,7 +589,7 @@
         data "Description" "hd9020d67ga393g4bbag968cg7a90aa22ec04;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Mirth_Icon"
-        data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusHeart', context.Source) or HasStatus('SB_Status_TotemicBlessing_Mystic', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Mirth_Self', context.Source)"
+        data "BoostConditions" "HasStatus('SB_Status_TotemicBlessing_Mystic', context.Source)"
         data "Boosts" "UnlockSpell(SB_Shout_Totems_Mirth);"
 
         // Mystic //
@@ -625,16 +603,6 @@
         data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusMind', context.Source) or HasStatus('SB_Status_TotemicBlessing_Mystic', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Mystic_Self', context.Source)"
         data "Boosts" "Tag(DETECTTHOUGHTS);"
 
-        // Wild //
-
-        new entry "SB_Passive_Totems_Wild"
-        type "PassiveData"
-        data "DisplayName" "hb4c95854g2a92g4c8dg83cbgd2789c95175b;1"
-        data "Description" "h8f29409dg4982g4017gbc91gb981127e4f3b;2"
-        data "Properties" "Highlighted"
-        data "Icon" "SB_Totem_Wild_Icon"
-        data "Boosts" "UnlockSpell(SB_Target_Totems_Wild)"
-
         // Whirlwind //
 
         new entry "SB_Passive_Totems_Whirlwind"
@@ -643,6 +611,7 @@
         data "Description" "h7c9ec313gc50cg4037gb2dfgfd113654d985;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Whirlwind_Icon"
+        data "BoostConditions" "HasStatus('SB_Status_TotemicBlessing_Whirlwind', context.Source)"
         data "Boosts" "UnlockSpell(SB_Shout_Totems_WhirlwindUnlock);"
 
         // Wrath //
@@ -659,16 +628,6 @@
 /// Level 9 Totems ///
 
     // Pure Passives //
-
-        // Dawn //
-
-        new entry "SB_Passive_Totems_Dawn"
-        type "PassiveData"
-        data "DisplayName" "he08126ccga24bg4303ga9f4g4939c9027010;1"
-        data "Description" "h811a362eg613fg4e40g95d5g2ed750cc8f46;6"
-        data "Properties" "Highlighted"
-        data "Icon" "SB_Totem_Dawn_Icon"
-        data "Boosts" "UnlockSpell(SB_Target_Totems_Dawn)"
 
         // Faerie //
 
@@ -692,7 +651,7 @@
         data "Description" "h74d89ea9g6a54g4edcgb870g55c81d31ed07;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Vine_Icon"
-        data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Vine_Self', context.Source)"
+        data "BoostConditions" "HasStatus('SB_Status_TotemicBlessing_Vine', context.Source)"
         data "Boosts" "UnlockSpell(SB_Target_Totems_Vine_Container);"
 
 /// Level 12 Totems ///
@@ -720,16 +679,6 @@
         data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Eclipse_Self', context.Source)"
         data "Boosts" "SpellResistance(Resistant);"
        
-        // Elements //
-
-        new entry "SB_Passive_Totems_Elements"
-        type "PassiveData"
-        data "DisplayName" "h4a01d6b6g5c97g4fe6g8c8dgbe05f3879599;1"
-        data "Description" "hf04fff9fgccb3g4c6cg8f08g09d5020816d2;6"
-        data "Properties" "Highlighted"
-        data "Icon" "SB_Totem_Elements_Icon"
-        data "Boosts" "UnlockSpell(SB_Target_Totems_Elements)"
-
         // Sapling //
 
         new entry "SB_Passive_Totems_Sapling"

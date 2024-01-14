@@ -130,7 +130,7 @@
     data "AuraStatuses" "TARGET:IF(Character() and not Dead()):ApplyStatus(SB_Dawn,100,-1);TARGET:IF(Character() and not Dead() and HasPassive('SunlightHypersensitivity')):ApplyStatus(SUNLIGHT_FROM_SPELL_TECHNICAL)"
     data "Boosts" "GameplayLight(3,false,0.1,true)"
     data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;InitiateCombat;BringIntoCombat"
-    data "StatusEffect" "258b4ce3-de11-4357-9975-b7676750e033"
+    data "StatusEffect" "dd02e9e1-8ab7-4da0-9097-26fd886c06d4"
 
     new entry "SB_Dawn_OWNER"
     type "StatusData"

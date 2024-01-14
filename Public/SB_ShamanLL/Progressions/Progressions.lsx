@@ -382,7 +382,7 @@
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="SB_ShamanLL_WitchDoctor"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(SB_Shaman_LifeCharge,1,0)"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SB_WitchDoctor_Passive_TotemicBlessing2"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(0b70a936-1706-4ece-9495-1fa345f58453);"/>
                     <attribute id="TableUUID" type="guid" value="3c1255de-13a0-4c0d-bf26-73845238bcc2"/>

@@ -1,7 +1,7 @@
 Ext.Osiris.RegisterListener("LeveledUp", 1, "after", function(characterGUID)
   if HasShamanTag(characterGUID) then
-    Osi.TimerLaunch("Trigger_Shaman_Totems", 120000)
-    _P("Shaman: Created 2 Minute Timer for Totem Check")
+    Osi.TimerLaunch("Trigger_Shaman_Totems", 30000)
+    _P("Shaman: Created Timer for Totem Check")
   end
 end)
 

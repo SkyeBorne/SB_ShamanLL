@@ -24,8 +24,7 @@
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h10fc7a17gc636g45a4g9cc8g8afaa9c7285e" version="1" />
-                    <attribute id="IsHidden" type="bool" value="false" />
-                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="true"/>
+                    <attribute id="IsHidden" type="bool" value="true" />
                     <attribute id="Name" type="FixedString" value="SB_TotemicBlessing_Charge" />
                     <attribute id="ReplenishType" type="FixedString" value="Rest" />
                     <attribute id="UUID" type="guid" value="22202884-754d-49f7-885c-cd4420c6b135" />

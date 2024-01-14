@@ -537,6 +537,8 @@
         data "Icon" "SB_Totem_BearActive_Icon"
         data "StackId" "SB_TotemicBlessing"
         data "Passives" "SB_Passive_Totems_Bear"
+        data "BoostConditions" "HasPassive('SB_WitchDoctor_EmpoweredBlessing',context.Source)"
+        data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant)"
         data "RemoveConditions" "not HasStatus('SB_Status_TotemicBlessing_Bear_Self', context.Source)"
         data "RemoveEvents" "OnStatusApplied;OnTurn;OnStatusRemoved"
         data "OnRemoveFunctors" "RemoveStatus(SELF,SB_Status_TotemicBlessing_Bear_Self);RemoveStatus(SB_Status_TotemicBlessing_Unique);"
@@ -554,7 +556,6 @@
         data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
         data "StatusEffect" "b42ef64a-9318-4b57-a757-cbd947b4c597"
         data "StatusGroups" "SG_RemoveOnRespec"
-
 
         // Crossroads //
     
@@ -796,7 +797,7 @@
         data "RemoveEvents" "OnStatusApplied;OnTurn;OnStatusRemoved"
         data "DescriptionParams" "Eruption"
         data "Icon" "SB_Totem_Eruption_Icon"
-        data "Passives" "SB_Passive_Totems_Eruption"
+        data "Passives" ""
         data "OnRemoveFunctors" "RemoveStatus(SELF,SB_Status_TotemicBlessing_Eruption_Self);RemoveStatus(SB_Status_TotemicBlessing_Unique);"
         data "StatusEffect" "b42ef64a-9318-4b57-a757-cbd947b4c597"
 
@@ -804,6 +805,7 @@
         type "StatusData"
         data "StatusType" "BOOST"
         using "SB_Status_TotemicBlessing_Bear_Self"
+        data "Passives" "SB_Passive_Totems_Eruption_Granted"
         data "DescriptionParams" "Eruption"
         data "Icon" "SB_Totem_EruptionActive"
  
@@ -1036,17 +1038,6 @@
         using "SB_Status_TotemicBlessing_Bear_Self"
         data "DescriptionParams" "Skies"
     
-    // Empowered Blessing //
-
-    new entry "SB_Status_EmpoweredBlessing"
-    type "StatusData"
-    data "StatusType" "BOOST"
-    data "DisplayName" "hd624bf2egc9b4g48dagbf7egd21f95060f17;2"
-    data "Description" "h99e8f421gc8ffg4404g9f69gb23bd4244dc7;3"
-    data "Icon" "SB_EmpoweredBlessing_Icon"
-    data "Passives" "SB_WitchDoctor_EmpoweredBlessing_TA"
-    data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
     // Spiritual Awakening //
 
     new entry "SB_Status_SpiritualAwakening"

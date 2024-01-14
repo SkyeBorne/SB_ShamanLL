@@ -272,16 +272,6 @@
     data "Icon" "SB_TotemicBlessing_Icon"
     data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant);UnlockSpell(SB_Target_TotemicBlessing_Container);ActionResource(SB_TotemicBlessing_Charge,1,0)"
 
-    new entry "SB_WitchDoctor_Passive_TotemicBlessing2"
-    type "PassiveData"
-    data "DisplayName" "hcf3f581agc980g4b49g875fgc69df962982e;1"
-    data "Description" "h7db1fb16g0d2ag4b09g866dgcb4a9f5b0f8a;6"
-    data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip), Necrotic)"
-    data "Properties" "IsHidden"
-    data "Icon" "SB_TotemicBlessing_Icon"
-    data "Boosts" "UnlockSpell(SB_Target_TotemicBlessing_Container2)"
-
-
     // Mystical Focus //
 
     new entry "SB_WitchDoctor_MysticalFocus"
@@ -558,7 +548,16 @@
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Eruption_Icon"
         data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Eruption_Self', context.Source)"
-        data "Boosts" "UnlockSpell(SB_Shout_Totems_Eruption_Cold,AddChildren,);UnlockSpell(SB_Shout_Totems_Eruption_Fire,AddChildren,);UnlockSpell(SB_Shout_Totems_Eruption_Lightning,AddChildren,);UnlockSpell(SB_Shout_Totems_Eruption_Thunder,AddChildren,)"
+        data "BoostContext" "OnCreate;OnEquip;OnStatusApplied;OnStatusRemoved"
+        data "Boosts" "UnlockSpell(SB_Shout_Totems_Eruption_Cold,MostPowerful,a49fae7a-d80e-4049-8246-126cc32d1678);UnlockSpell(SB_Shout_Totems_Eruption_Fire,MostPowerful,a49fae7a-d80e-4049-8246-126cc32d1678);UnlockSpell(SB_Shout_Totems_Eruption_Lightning,MostPowerful,a49fae7a-d80e-4049-8246-126cc32d1678);UnlockSpell(SB_Shout_Totems_Eruption_Thunder,MostPowerful,a49fae7a-d80e-4049-8246-126cc32d1678)"
+
+        new entry "SB_Passive_Totems_Eruption_Granted"
+        type "PassiveData"
+        data "DisplayName" "h06ddb55fg7834g4cf8g99ecg3ae4838578ec;1"
+        data "Description" "h30960f2egb2c3g4f39gb62bg6d125ebfe6bc;2"
+        data "Properties" "IsHidden"
+        data "Icon" "SB_Totem_Eruption_Icon"
+        data "Boosts" "UnlockSpell(SB_Shout_Totems_Eruption_Cold_Granted,MostPowerful,a49fae7a-d80e-4049-8246-126cc32d1678);UnlockSpell(SB_Shout_Totems_Eruption_Fire_Granted,MostPowerful,a49fae7a-d80e-4049-8246-126cc32d1678);UnlockSpell(SB_Shout_Totems_Eruption_Lightning_Granted,MostPowerful,a49fae7a-d80e-4049-8246-126cc32d1678);UnlockSpell(SB_Shout_Totems_Eruption_Thunder_Granted,MostPowerful,a49fae7a-d80e-4049-8246-126cc32d1678)"
 
         // Growth //
 
@@ -579,7 +578,7 @@
         data "Description" "h0387f6f8g98a4g4a5fg80cag9b5ade37270f;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Grave_Icon"
-        data "Boosts" "UnlockSpell(Target_AnimateDead)"
+        data "Boosts" "UnlockSpell(SB_Target_Totems_GraveContainer,MostPowerful,a49fae7a-d80e-4049-8246-126cc32d1678)"
 
         // Hunt //
 

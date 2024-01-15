@@ -65,6 +65,8 @@
 		<content contentuid="hb7ec2c4egf368g4437g82b7gda49b0531cee" version="1">You bind a spirit of the Wild Hunt that enhances your ferocity. Once per turn, you can grant yourself advantage on an attack roll if your target is within 5 feet of one of your allies.</content>
 	<content contentuid="he08126ccga24bg4303ga9f4g4939c9027010" version="1">Totem of the Dawn</content>
 		<content contentuid="h811a362eg613fg4e40g95d5g2ed750cc8f46" version="1">You bind a spirit of radiance which you can shield creatures from death. Once per Long Rest, you can cast death ward on a creature of your choice, without expending a spell slot.</content>
+	<content contentuid="h96be6576g81a8g465bg97f7g573b1b39287f" version="1">Totem of Midnight</content>
+		<content contentuid="hb5291b99g7d21g4ca7g98ccg060d4915cab9" version="1">You bind a sinister spirit which you can call to you. Once per long rest, you may cast Summon Shadowspawn at the level of your Primal Magic slots, without expending a spell slot.</content>
 	<content contentuid="h42a67bebg18dfg4106g9d6eg67dd48867ae4" version="1">Totem of the Sun</content>
 		<content contentuid="hb380657fg5df7g4d5egabeeg513c356105d0" version="1"> You bind a spirit of radiance that allows you to succeed when all hope seems lost. Once per short rest, when you fail a saving throw, you can choose to re-roll, possibly turning a failure into a success.</content>
 	<content contentuid="h22b7fddbg92adg4989g8f3cg98f32fc17b20" version="1">Totem of the Vine</content>

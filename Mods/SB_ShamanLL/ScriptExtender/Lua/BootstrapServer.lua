@@ -1,6 +1,6 @@
 Ext.Osiris.RegisterListener("LeveledUp", 1, "after", function(characterGUID)
   if HasShamanTag(characterGUID) then
-    Osi.TimerLaunch("Trigger_Shaman_Totems", 60000)
+    Osi.TimerLaunch("Trigger_Shaman_Totems", 10000)
     _P("Shaman: Created Timer for Totem Check")
   end
 end)
@@ -201,6 +201,16 @@ function applyShamanTotemPassives(characterGUID)
     _P("Shaman: Added Totem of the Mystic")
   end
   
+  if (Osi.HasSpell(characterGUID, "SB_Target_Totems_Wild") == 0) and (Osi.HasPassive(characterGUID, "SB_Passive_Totems_Wild") == 1) then
+    Osi.RemovePassive(characterGUID, "SB_Passive_Totems_Wild")
+    hasChanged = true
+    _P("Shaman: Removed Totem of the Wild")
+  elseif (Osi.HasSpell(characterGUID, "SB_Target_Totems_Wild") == 1) and (Osi.HasPassive(characterGUID, "SB_Passive_Totems_Wild") == 0) then
+    Osi.AddPassive(characterGUID, "SB_Passive_Totems_Wild")
+    hasChanged = true
+    _P("Shaman: Added Totem of the Wild")
+  end
+
   if (Osi.HasSpell(characterGUID, "SB_Shout_Totems_WhirlwindUnlock") == 0) and (Osi.HasPassive(characterGUID, "SB_Passive_Totems_Whirlwind") == 1) then
     Osi.RemovePassive(characterGUID, "SB_Passive_Totems_Whirlwind")
     hasChanged = true
@@ -322,6 +332,10 @@ function removeShamanTotemPassives(characterGUID)
     if(Osi.HasPassive(characterGUID, "SB_Passive_Totems_Whirlwind") == 1) then
       _P("Shaman: Removed Totem of the Whirlwind")
       Osi.RemovePassive(characterGUID, "SB_Passive_Totems_Whirlwind")
+    end
+    if(Osi.HasPassive(characterGUID, "SB_Passive_Totems_Wild") == 1) then
+      _P("Shaman: Removed Totem of the Wild")
+      Osi.RemovePassive(characterGUID, "SB_Passive_Totems_Wild")
     end
     if(Osi.HasPassive(characterGUID, "SB_Passive_Totems_Winds") == 1) then
       _P("Shaman: Removed Totem of the Winds")

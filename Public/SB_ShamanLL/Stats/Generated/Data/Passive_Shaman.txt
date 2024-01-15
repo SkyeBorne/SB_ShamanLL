@@ -603,6 +603,16 @@
         data "BoostConditions" "(HasPassive('SB_ShamanLL_FocusMind', context.Source) or HasStatus('SB_Status_TotemicBlessing_Mystic', context.Source)) and not HasStatus('SB_Status_TotemicBlessing_Mystic_Self', context.Source)"
         data "Boosts" "Tag(DETECTTHOUGHTS);"
 
+        // Wild //
+
+        new entry "SB_Passive_Totems_Wild"
+        type "PassiveData"
+        data "DisplayName" "hb4c95854g2a92g4c8dg83cbgd2789c95175b;1"
+        data "Description" "h8f29409dg4982g4017gbc91gb981127e4f3b;2"
+        data "Icon" "SB_Totem_Wild_Icon"
+        data "Properties" "Highlighted"
+        data "Boosts" "UnlockSpellVariant(SB_WildandFree(),ModifyUseCosts(Replace,SB_ShamanSpellSlot,0,-1,SB_ShamanSpellSlot))"
+
         // Whirlwind //
 
         new entry "SB_Passive_Totems_Whirlwind"

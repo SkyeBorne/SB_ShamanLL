@@ -9,3 +9,15 @@ function SB_SpiritWarrior_CantripCheckCheck()
         | SpellId('SB_Target_TotemicAssaultRadiant')
         | IsCantrip()
 end
+
+function SB_WildandFree()
+        return SpellId('SB_Target_Totems_Wild')
+        | SpellId('SB_Target_Totems_Wild_3')
+        | SpellId('SB_Target_Totems_Wild_4')
+        | SpellId('SB_Target_Totems_Wild_Air')
+        | SpellId('SB_Target_Totems_Wild_Air_3')
+        | SpellId('SB_Target_Totems_Wild_Air_4')
+        | SpellId('SB_Target_Totems_Wild_Land')
+        | SpellId('SB_Target_Totems_Wild_Land_3')
+        | SpellId('SB_Target_Totems_Wild_Land_4')
+end

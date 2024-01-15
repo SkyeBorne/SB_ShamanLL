@@ -101,7 +101,7 @@
                 </node>
                 <node id="SpellList"> 
                     <attribute id="Comment" type="LSString" value="WitchDoctorLevel5"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BeaconofHope;Teleportation_Revivify"/> 
+                    <attribute id="Spells" type="LSString" value="Shout_BeaconofHope;Shout_HealingWord_Mass"/> 
                     <attribute id="UUID" type="guid" value="0b70a936-1706-4ece-9495-1fa345f58453"/> 
                 </node>
                 <node id="SpellList"> 

@@ -10,6 +10,7 @@
     data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip),Necrotic);TemporaryHP(LevelMapValue(D4Cantrip))"
     data "Icon" "Spell_Necromancy_FalseLife"
     data "TickType" "StartTurn"
+    data "Boosts" "UnlockSpell(SB_Target_OtherworldlyGrasp_Recast)"
     data "StatusGroups" "SG_RemoveOnRespec"
     data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead;NonExtendable"
     data "OnApplyFunctors" "ApplyStatus(SELF,SB_ShamanLL_OtherworldlyHP,100,-1)"

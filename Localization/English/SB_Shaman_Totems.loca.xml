@@ -30,7 +30,7 @@
 	<content contentuid="h48624958ga0d0g47eegb63bg0f27382521c6" version="1">Totem of the Rains</content>
 		<content contentuid="h0f0acfcag7335g46d4gadd8gda46f757bb1c" version="1">You bind a minor spirit of water that washes poison away like rain. You gain resistance to acid and poison damage, and you have advantage on saving throws to resist being poisoned.</content>
 	<content contentuid="hcb010643g9433g411cgabceg2e73de2216e1" version="1">Totem of Twilight</content>
-		<content contentuid="haf1c947eg60d1g4259gbe2fg367905b38920" version="1">You bind a minor spirit of darkness that grants you enhanced sight in the shadows. You gain Darkvision to a range of [1] and at 5th level this becomes Devil's Sight, and you can see through magical darkness.</content>
+		<content contentuid="haf1c947eg60d1g4259gbe2fg367905b38920" version="1">You bind a minor spirit of darkness that grants you enhanced sight in the shadows. You gain Darkvision to a range of [1]. At 5th level this becomes Devil's Sight, and you can see through magical darkness.</content>
 	<content contentuid="h21286809g8debg45e9g81fcg4532adbddbf0" version="1">Totem of the Waves</content>
 		<content contentuid="hdb40820cg3e23g4caaga0caga9ba4639f6a9" version="1">You bind a minor spirit of water that allows you to shift like the sea. Once per short Rest as a reaction when you take a critical hit, you can to turn it into a normal hit. When you reach 12th level in this class, you can use this reaction twice between each Short Rest.</content>
 	<content contentuid="hddf178dag79eag48acg9224g1fcfacaaba18" version="1">Totem of the Whirlwind</content>
@@ -50,7 +50,7 @@
 	<content contentuid="h5365d00ega1d6g423dgbea1g7bbd2d3d2ecf" version="1">Totem of Growth</content>
 		<content contentuid="hd73ca0e1gb719g403bg8f86g956bcf928ea0" version="1">REQUIRES: Body Sacred Focus&#xA; You bind a spirit of wild growth that can temporarily increase your size. Once per Short Rest you may cast the 'Enlarge' version of Enlarge/Reduce on yourself as a bonus action, without expending a spell slot or concentrating.</content>
 	<content contentuid="he9ac54a3g62c7g4ddbg8189g05e47b1da175" version="1">Totem of the Grave</content>
-		<content contentuid="h0387f6f8g98a4g4a5fg80cag9b5ade37270f" version="1">You bind a spirit of undead power which you can summon to your service. You can expend one of your Primal Magic spell slots to cast animate dead.</content>
+		<content contentuid="h0387f6f8g98a4g4a5fg80cag9b5ade37270f" version="1">You bind a spirit of undead power which you can summon to your service. You learn Animate Dead and can cast it with your Primal Magic Spell Slots.</content>
 	<content contentuid="hda000c1fgcfa7g4156g8cb0gc71833b403f7" version="1">Totem of Light</content>
 		<content contentuid="h11ffa9f2g332bg46a0gbab0g72280a9d5e49" version="1">You bind a spirit of radiance that restores your spirit when you aid others. When you cast a spell of 1st-level or higher that restores hit points to a creature other than yourself, you gain temporary hit points equal to your Wisdom modifier. </content>
 	<content contentuid="hd66f97b9g087cg4ccfga3afgeb949d6cd389" version="1">Totem of Mirth</content>
@@ -68,7 +68,7 @@
 	<content contentuid="h42a67bebg18dfg4106g9d6eg67dd48867ae4" version="1">Totem of the Sun</content>
 		<content contentuid="hb380657fg5df7g4d5egabeeg513c356105d0" version="1"> You bind a spirit of radiance that allows you to succeed when all hope seems lost. Once per short rest, when you fail a saving throw, you can choose to re-roll, possibly turning a failure into a success.</content>
 	<content contentuid="h22b7fddbg92adg4989g8f3cg98f32fc17b20" version="1">Totem of the Vine</content>
-		<content contentuid="h74d89ea9g6a54g4edcgb870g55c81d31ed07" version="1">You bind a spirit of wild growth which lends you the power to restrain your foes. You can cast ensnaring strike at 1st-level, at will, without expending a spell slot.</content>
+		<content contentuid="h74d89ea9g6a54g4edcgb870g55c81d31ed07" version="1">You bind a spirit of wild growth which lends you the power to restrain your foes. You can cast Ensnaring Strike at 1st-level, at will, without expending a spell slot.</content>
 	<content contentuid="h35b9e325gc109g46bbg89c0ga20c550db613" version="1">Totem of Binding</content>
 		<content contentuid="h0190ce5fg68a5g4da8gaa5dg2ff954d1e327" version="1"> You can quickly bind a spirit to regain some of your power. Once per long rest, you can use a Bonus Action to regain one of your expended Primal Magic spell slots.</content>
 	<content contentuid="h89eec00dgfdd5g49f6gb577gf0f7e21bf738" version="1">Totem of the Eclipse</content>

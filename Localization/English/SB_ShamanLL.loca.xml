@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 	<content contentuid="h18e38c09g1b5bg44f4g8c45g0e9d5f224084" version="1">Shaman</content>
-		<content contentuid="h8fd328bagd60eg4ec5ga69dg9d08e253e7db" version="1">Before the gods took notice of mortals and bestowed power on Clerics and Paladins, Shamans served as protectors and guides. Using ancient techniques, Shamans were able to bind spirits to Totems, small objects of spiritual significance, and channel that power for good of their people. </content>
-		<content contentuid="h5510b3efgf77dg4201g9d61ga2d53610c7b7" version="1">Shaman's bind and deal with the primal spirits of nature to fuel their magics and pursue their own ends.</content>
+		<content contentuid="h8fd328bagd60eg4ec5ga69dg9d08e253e7db" version="1">Before the gods took notice of mortals and bestowed power upon Clerics and Paladins, Shamans served as protectors and guides. Using ancient techniques, Shamans were able to bind spirits to Totems, small objects of spiritual significance, and channel that power for good of their people. </content>
+		<content contentuid="h5510b3efgf77dg4201g9d61ga2d53610c7b7" version="1">Shamans bind and deal with the primal spirits of nature to fuel their magics and pursue their own ends.</content>
 	<content contentuid="hba5aa2a9gb3c0g4d87g97f2gcc45a0a47028" version="1">Sacred Focus</content>
 		<content contentuid="h64019770g015bg4ac5gab03ge1b2da00f184" version="1">In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves. You must choose to channel your power through your Body, Heart, Mind, or Soul.</content>
 		<content contentuid="h1a47883dg5018g4e74gacb1gaf30b1a2a954" version="1">Sacred Focus: Body</content>
 			<content contentuid="h6e794e02g5f26g4e3eg8e24g56102dbfee06" version="1">You channel spiritual power through your body, bending the spirits to your will with physical might. When you choose this Sacred Focus your hit point maximum increases by 1, and it increases by 1 again each time you gain a level in this class.</content>
 		<content contentuid="ha1eca09agfe87g47a1ga70bg0c363d7fe8aa" version="1">Sacred Focus: Heart</content>
-			<content contentuid="hf3eeee19g29d8g41dega97ege29cf6e3edcf" version="1">You channel spiritual power into your heart and overwhelm spirits with powerful emotions. You have advantage against being Fightened or Charmed.</content>
+			<content contentuid="hf3eeee19g29d8g41dega97ege29cf6e3edcf" version="1">You channel spiritual power into your heart and overwhelm spirits with powerful emotions. You have advantage against being Frightened or Charmed.</content>
 		<content contentuid="h78e5b33ege4eag435ega895g90db163b2442" version="1">Sacred Focus: Mind</content>
 			<content contentuid="h77be164dgaea5g4334gae14ge395b618d340" version="1">You channel spiritual power through your mind, manipulating the spirits with your wit. Whenever you would make an ability check or a saving throw that uses your Intelligence score, you can choose to use your Wisdom score instead.</content>
 		<content contentuid="h16f590baga061g4a01g8611gaf787cd51ecc" version="1">Sacred Focus: Soul</content>
@@ -16,13 +16,13 @@
 	<content contentuid="h5d2acb17g0bb2g43d8g84f2g99f9329700e9" version="1">Totemic Assault</content>
 		<content contentuid="hea56aaf4gc5e5g4b80gafd3gc1a8ad65dce9" version="1">You can temporarily unleash the primal spirits bound within your Totems to assault your foes. You can use your action to force one creature you can see to make a Charisma saving throw. On a failed save, it takes [1]. This damage scales with your cantrips.</content>
 	<content contentuid="h6bb17decg7fb1g49c4gbea9gc17cd76998fa" version="1">Primal Magic Spell Slots</content>
-		<content contentuid="h49f493cag90afg417bgb7eeg319b7756ca0e" version="1">Used to cast Shaman spells. Regain Shaman Spell Slots by taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+		<content contentuid="h49f493cag90afg417bgb7eeg319b7756ca0e" version="1">Used to cast Shaman spells. Regain Primal Magic Spell Slots by taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h09e4a89cgfe29g4a31gba02g90ea208b07d4" version="1">Otherworldly Grasp</content>
 		<content contentuid="he7b4b1f7gc99ag4945g9a3bg4ea70d99cbbc" version="1">You channel necrotic spiritual power to your hand, changing it into a withered specter of itself. Make a melee spell attack against a creature within your reach. On hit, the creature takes [1] necrotic damage, and you gain [2] temporary hit points which last for the duration of your concentration.</content>
 	<content contentuid="h620c3109g751fg419fg8f26ga078df0f26d1" version="1">Ghastly Flight</content>
 		<content contentuid="h2b608d1fg04d4g4b00ga928g2d74f2359143" version="1">You release a malevolent spirit that flies out from you in a direction of your choice. Each creature within the line must make a Constitution saving throw. On a failed save, creatures take [1] and cannot regain hit points until the start of your next turn. On a success, creatures take half as much damage and can regain hit points as normal.</content>
 	<content contentuid="h8be68ccdg2d67g466dgb1d1gfb38cbc58f47" version="1">Primal Magic Spell Slots</content>
-		<content contentuid="h0c455adcg1019g40b0g80f1g2eb8b9d087ad" version="1">You now have [1] Level [2] Primal MAgic Spell Slots which refresh on a Short or Long Rest.</content>
+		<content contentuid="h0c455adcg1019g40b0g80f1g2eb8b9d087ad" version="1">You now have [1] Level [2] Primal Magic Spell Slots which refresh on a Short or Long Rest.</content>
 		<content contentuid="h4c964b55g604cg4086g95c7ge883e60c1ceb" version="1">Used to cast Shaman spells.</content>
 	<content contentuid="h14e4b791g37c8g47c5g95dfg6cee01e8454b" version="1">Totemic Cowl</content>
 		<content contentuid="h0c15a94ag4957g4314g8e64g37f619425682" version="1">You touch a willing creature. Until the spell ends, it is cloaked in a ghostly cowl, and any damage it takes is reduced by [1].</content>
@@ -30,7 +30,7 @@
 	<content contentuid="h34be756eg6951g4a76g9f62ga53cbaabdf61" version="1">Dire Wail</content>
 		<content contentuid="h510c9553g0388g45c2g8021g12a53db6b8af" version="1">You let forth a wail filled with otherworldly power. Enemies must succeed on a Constitution saving throw or take [1] and start Bleeding for 2 turns.</content>
 	<content contentuid="h6e84ad2cgc013g4df8g85c2g893b1ebc9c0f" version="1">Spiritual Sundering</content>
-		<content contentuid="hafd2f0ebg7c19g453dgb10fg334c61b70adc" version="1">Cast out a ball of spiritual energy. Enemies in the area must make a Charisma save or take [1] and become afflicted by Spiritual Torment, recieving -1d6 to all Intelligence, Wisdom, and Charisma saves they make for 10 turns or until they save. </content>
+		<content contentuid="hafd2f0ebg7c19g453dgb10fg334c61b70adc" version="1">Cast out a ball of spiritual energy. Enemies in the area must make a Charisma save or take [1] and become afflicted by Spiritual Torment, receiving  -1d6 to all Intelligence, Wisdom, and Charisma saves they make for 10 turns or until they save. </content>
 	<content contentuid="he62aa0e7g7899g4fefg8265g14e3ca94bdba" version="1">Dawn</content>
 		<content contentuid="hbb65e32dg966dg401agb307g790af2f8f0db" version="1">The light of dawn shines down on a location and damages any creature that enters the beam or starts its turn in the light. This counts as Sunlight and you can use a bonus action to move the beam [1].</content>
 	<content contentuid="hf286f0d4g6afdg40c1gbddbg3a0e51edac6d" version="1">Spirit Warrior</content>
@@ -64,7 +64,7 @@
 		<content contentuid="haceabbfdg58c0g40d1ga0bcgbd22e5554e20" version="1">You can use your Evil Eye a number of times per long rest equal to your Wisdom Modifier</content>
 	<content contentuid="hee485c58g4681g4b1ag9a8eg2ca1beca65fa" version="1">Totemic Curse: Bane</content>
 		<content contentuid="h0cd40c00gc8cbg4385gb16ega7bbc9db92bf" version="1"> You bind spirits of pain, suffering, and despair to your will, using them to inflict curses upon your enemies. When a creature fails its saving throw against Totemic Assault afflict it with: Whenever it makes an ability check or an attack roll, it must subtract your Wisdom modifier from the result of its roll.</content>
-		<content contentuid="h20a0675fg7506g4687ga1c4g27422fbd5215" version="1"> This creature recieves a [1] penalty to Attack Rolls and Skill Checks</content>
+		<content contentuid="h20a0675fg7506g4687ga1c4g27422fbd5215" version="1"> This creature receives a [1] penalty to Attack Rolls and Skill Checks</content>
 	<content contentuid="h5856ae9bg21afg418bg99ccg017381cffe30" version="1">Totemic Curse: Hex</content>
 		<content contentuid="hd176deeag0490g4326g8f26gd555624c3f18" version="1"> You bind spirits of pain, suffering, and despair to your will, using them to inflict curses upon your enemies. When a creature fails its saving throw against Totemic Assault afflict it with: It cannot regain hit points, and when it takes damage it takes an additional [1].</content>
 		<content contentuid="h544da829g86f0g456aga538g6fe4b84f181e" version="1"> This creature cannot heal and whenever it is damage by a Spell or Attack it takes [1]</content>
@@ -87,7 +87,7 @@
 	<content contentuid="haa20ab4ag190fg4edagb936gb72b1d601820" version="1">Shamanistic Rebuke</content>
 		<content contentuid="h39fc39f8g3a95g4e46g9300g3fbc2cfb795a" version="1">Your sinister spirits yearn to lash out. When you take Damage of a type that you resist, you can use Totemic Assault as a reaction, targeting your attacker.</content>
 	<content contentuid="h07b492d7g768dg4dd4gb26ag9a9d28274406" version="1">Foul Conjuration</content>
-		<content contentuid="h04d96422g0d6ag44c7gb157g40e9de64fb6a" version="1"> You have reached the apex of sinister shamanism, the ability to create corporeal bodies for the spirits you conjure. Once per Long Rest, you may cast create undead at 6th-level, without expending a spell slot.</content>
+		<content contentuid="h04d96422g0d6ag44c7gb157g40e9de64fb6a" version="1"> You have reached the apex of sinister shamanism, the ability to create corporeal bodies for the spirits you conjure. Once per Long Rest, you may cast Create Undead at 6th-level, without expending a spell slot.</content>
 	<content contentuid="h3990df33g8b05g4242g9fa7g04d366229210" version="1">Witch Doctor</content>
 		<content contentuid="h1542a79ag7fd3g4226gb21fg1a67db4773a4" version="1">Long before the gods took notice of mortals, Witch Doctors wandered the land, providing spiritual healing and medicine. Working in tandem with spirits of life, Witch Doctors heal the wounded and grant their allies mystical abilities. These sages are peaceful in nature and can often be found traveling the wilds tending to the spiritual needs of those they meet.</content>
 	<content contentuid="h9f13eecagb724g4248gb57fgba7ba97fc80d" version="1">Life Bearer</content>
@@ -147,7 +147,7 @@
 	<content contentuid="h42ad8a60gdf96g4cf8g84e7gd488b6020922" version="1">Greater Spirit of Life</content>
 		<content contentuid="hac72c2b8g58ccg4a0bg9645gfb0202321e53" version="1">Spirits of Life come to aid Shamans from the upper planes or the Feywild. They bless Shamans with mystic healing magic. Once per long rest you may cast Heal without using a Spell Slot.</content>
 	<content contentuid="h473a1515ga9b5g4d0egb47fg22d78de5dd1f" version="1">Greater Spirit of the Moon</content>
-		<content contentuid="h97bbfcadgfca5g417egaec2g29b024fcb41a" version="1">Spirits of the Moon can be summoned from the Astral Sea or Etherial Plane. They grant Shamans wondrous magic power. Once per long rest you may cast Globe of Invulnerability without using a Spell Slot.</content>
+		<content contentuid="h97bbfcadgfca5g417egaec2g29b024fcb41a" version="1">Spirits of the Moon can be summoned from the Astral Sea or Ethereal Plane. They grant Shamans wondrous magic power. Once per long rest you may cast Globe of Invulnerability without using a Spell Slot.</content>
 	<content contentuid="h2a91156fg7f55g4012g8ba1gccbc7f7de3b0" version="1">Greater Spirit of the Sun</content>
 		<content contentuid="h6112493ega12cg492fgb1edgbdacc3b3f284" version="1">Spirits of the Sun are drawn from places of powerful radiant magic. They lend Shamans restorative and purifying power. Once per long rest you may cast Sunbeam without using a Spell Slot.</content>
 

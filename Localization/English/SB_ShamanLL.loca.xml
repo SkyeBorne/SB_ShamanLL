@@ -33,6 +33,18 @@
 		<content contentuid="hafd2f0ebg7c19g453dgb10fg334c61b70adc" version="1">Cast out a ball of spiritual energy. Enemies in the area must make a Charisma save or take [1] and become afflicted by Spiritual Torment, receiving  -1d6 to all Intelligence, Wisdom, and Charisma saves they make for 10 turns or until they save. </content>
 	<content contentuid="he62aa0e7g7899g4fefg8265g14e3ca94bdba" version="1">Dawn</content>
 		<content contentuid="hbb65e32dg966dg401agb307g790af2f8f0db" version="1">The light of dawn shines down on a location and damages any creature that enters the beam or starts its turn in the light. This counts as Sunlight and you can use a bonus action to move the beam [1].</content>
+	<content contentuid="h6dd716e6g29f0g4a01ga307gc057a67dc083" version="1">Investiture of Flame</content>
+		<content contentuid="h8031c826g00afg4f5cga6cfgc571b50a17b2" version="1">Flames race across your body, shedding bright light. For the spell’s duration you gain the following effects: You are Immune to Fire and Resistant to Cold Damage, enemies who enter or start their turn within [1] of you take [2], and you may use an action to cast &lt;LSTag Type="Spell" Tooltip="SB_Zone_Investiture_Flame"&gt;Roiling Inferno&lt;/LSTag&gt;</content>
+		<content contentuid="h700f95fbg2929g4b5cga06bg587d76fa7fda" version="1">Roiling Inferno</content>
+			<content contentuid="hfa294bb9gee41g49fegbb89g8bb5a4572bbd" version="1">Lash out with a line of Flames dealing 4d8 fire damage to all creatures.</content>
+	<content contentuid="h325c7679g0ca7g48e7gaf35g31c389601ed1" version="1">Investiture of Ice</content>
+		<content contentuid="haeb2c7a0gbaddg4a31g877dgf4a0180eff7f" version="1">Frost and ice spreads across your body. For the spell’s duration you gain the following effects: You are Immune to Cold and Resistant to Fire Damage,you cannot slip on ice, and at the end of each turn the area around you turns into ice, and you may use an action to cast &lt;LSTag Type="Spell" Tooltip="SB_Zone_Investiture_Ice"&gt;Tundra's Lash&lt;/LSTag&gt;</content>
+		<content contentuid="hcfa4e99bgd956g40f1gace2g4f82cd11e2d1" version="1">Tundra's Lash</content>
+			<content contentuid="h2e00a114gc7cfg42feg8f01g830bd21027a2" version="1">Lash out with a cone of ice dealing 4d6 cold damage to all creatures and potentially halving their movespeed.</content>
+	<content contentuid="h1e777f3bg4d6dg4208ga458g999145369439" version="1">Investiture of Wind</content>
+		<content contentuid="h40f0dc12g48bbg4a77gbba6g482bc8b6f4de" version="1">Until the spell ends, wind whirls around you, and you gain the following benefits: Ranged Weapon Attacks have Disadvantage against you, you can fly, and you may use an action to cast &lt;LSTag Type="Spell" Tooltip="SB_Zone_Investiture_Wind"&gt;Buffeting Winds&lt;/LSTag&gt;</content>
+		<content contentuid="hf3a30419g3684g47b7gb016g3def3cea5883" version="1">Buffeting Winds</content>
+			<content contentuid="h9cafabf2g28bag4a18g9cbcg8c47f81491d2" version="1">Create a burst of incredible wind in an area you can see. Creatures in the area must make a Constitution save or take 2d10 damage and be pushed back.</content>
 	<content contentuid="hf286f0d4g6afdg40c1gbddbg3a0e51edac6d" version="1">Spirit Warrior</content>
 		<content contentuid="h27c21a27g1024g4d12g8227g5493cab6b8a1" version="1">Serving as the guardians of sacred groves and places of great spiritual power, Spirit Warriors draw on the power of ancient spirits to enhance their physical form. When they allow these incorporeal beings to walk the world through their physical bodies, they gain increased physical and martial abilities.</content>
 	<content contentuid="h53e677abgeb47g45b1ga66ag16c953505049" version="1">Ancestral Knowledge</content>
@@ -121,7 +133,6 @@
 		<content contentuid="he476d9c4g2bbdg4e04ga94dgea969fd6deff" version="1">Totemic Blessing: Twilight</content>
 		<content contentuid="h368a8281gd399g419eg8364g081d55a60d2c" version="1">Totemic Blessing: Whirlwind</content>
 		<content contentuid="h70a3ae8egd758g40adgae03g9d69176369bf" version="1">Totemic Blessing: Winds</content>
-	<content contentuid="h031ff1b1gf89eg4109gaec1g6b4668a2953a" version="1">Greater Totemic Blessing</content>
 		<content contentuid="hd2fb541cgf79dg48eega017g0d91978a0be8" version="1">Totemic Blessing: Eruption</content>
 		<content contentuid="h44ae7a06gf329g4cfbg8a6bg9a110b0c2ff1" version="1">Totemic Blessing: Growth</content>
 		<content contentuid="h90efcacag6a57g487agb4d1g364f971eb5b9" version="1">Totemic Blessing: Light</content>
@@ -143,12 +154,21 @@
 	<content contentuid="hce3f7cebg2c96g4b11g89dage257a37c7113" version="1">Spiritual Awakening</content>
 		<content contentuid="hee354cf2gb1c9g4a46g955agd333f76b7cb5" version="1">Your spiritual practice has filled you with an abundance of life-giving energy. Once per long rest when a an Ally is Downed you may restore [1] to that ally. You may use this additional times at the cost of a Primal Magic Spell Slot.</content>
 	<content contentuid="h85ccdae9g12cfg4b92ga70cg283cc73612fb" version="1">Greater Spirit of Death</content>
-		<content contentuid="h29c6fefdg70bdg405dgb2a8g4657eb24c5d4" version="1">Spirits of Death are drawn from the Shadowfell, the Hells, or the Abyss. They lend Shamans their powerful sinister magic. Once per long rest you may cast Flesh to Stone without using a Spell Slot.</content>
+		<content contentuid="h29c6fefdg70bdg405dgb2a8g4657eb24c5d4" version="1">Spirits of Death are drawn from the Shadowfell, the Hells, or the Abyss. They lend Shamans their powerful sinister magic. Once per long rest you may cast&lt;LSTag Type="Spell" Tooltip="SB_GreaterSpirit_FleshtoStone"&gt; Flesh to Stone&lt;/LSTag&gt; without using a Spell Slot.</content>
 	<content contentuid="h42ad8a60gdf96g4cf8g84e7gd488b6020922" version="1">Greater Spirit of Life</content>
-		<content contentuid="hac72c2b8g58ccg4a0bg9645gfb0202321e53" version="1">Spirits of Life come to aid Shamans from the upper planes or the Feywild. They bless Shamans with mystic healing magic. Once per long rest you may cast Heal without using a Spell Slot.</content>
+		<content contentuid="hac72c2b8g58ccg4a0bg9645gfb0202321e53" version="1">Spirits of Life come to aid Shamans from the upper planes or the Feywild. They bless Shamans with mystic healing magic. Once per long rest you may cast &lt;LSTag Type="Spell" Tooltip="SB_GreaterSpirit_Heal"&gt; Heal&lt;/LSTag&gt; without using a Spell Slot.</content>
 	<content contentuid="h473a1515ga9b5g4d0egb47fg22d78de5dd1f" version="1">Greater Spirit of the Moon</content>
-		<content contentuid="h97bbfcadgfca5g417egaec2g29b024fcb41a" version="1">Spirits of the Moon can be summoned from the Astral Sea or Ethereal Plane. They grant Shamans wondrous magic power. Once per long rest you may cast Globe of Invulnerability without using a Spell Slot.</content>
+		<content contentuid="h97bbfcadgfca5g417egaec2g29b024fcb41a" version="1">Spirits of the Moon can be summoned from the Astral Sea or Ethereal Plane. They grant Shamans wondrous magic power. Once per long rest you may cast&lt;LSTag Type="Spell" Tooltip="SB_GreaterSpirit_GlobeOfInvulnerability"&gt; Globe of Invulnerability&lt;/LSTag&gt;without using a Spell Slot.</content>
 	<content contentuid="h2a91156fg7f55g4012g8ba1gccbc7f7de3b0" version="1">Greater Spirit of the Sun</content>
-		<content contentuid="h6112493ega12cg492fgb1edgbdacc3b3f284" version="1">Spirits of the Sun are drawn from places of powerful radiant magic. They lend Shamans restorative and purifying power. Once per long rest you may cast Sunbeam without using a Spell Slot.</content>
-
+		<content contentuid="h6112493ega12cg492fgb1edgbdacc3b3f284" version="1">Spirits of the Sun are drawn from places of powerful radiant magic. They lend Shamans restorative and purifying power. Once per long rest you may cast&lt;LSTag Type="Spell" Tooltip="SB_GreaterSpirit_Sunbeam"&gt; Sunbeam&lt;/LSTag&gt; without using a Spell Slot.</content>
+	<content contentuid="hb897d669g1dc4g4812g9467g1fa83d1cac06" version="1">Greater Spirit of the Inferno</content>
+		<content contentuid="hcbf24ac0g3e56g4b99g85e1gccf53c2dc4d1" version="1">Spirits of the Inferno are summoned from the great Plane of Fire. They grant Shamans overwhelming destructive power. Once per long rest you may cast&lt;LSTag Type="Spell" Tooltip="SB_GreaterSpirit_Investiture_Flame"&gt; Investiture of Flame&lt;/LSTag&gt; without using a Spell Slot.</content>
+	<content contentuid="h729ee980gf709g4871g9245g965d3037ded4" version="1">Greater Spirit of the Hurricane</content>
+		<content contentuid="hab64b23agb937g424ag8d8ag33f9c96d6ade" version="1">Spirits of the Hurricane come to aid Shamans from the Elemental Plane of Air. They bless Shamans with the incredible power of the winds. Once per long rest you may cast&lt;LSTag Type="Spell" Tooltip="SB_GreaterSpirit_Investiture_Wind"&gt; Investiture of Wind&lt;/LSTag&gt; without using a Spell Slot.</content>
+	<content contentuid="h835d13b7g2817g401cg859dg3905967a8a05" version="1">Greater Spirit of the Tundra</content>
+		<content contentuid="h002c93aag9b0eg4276g83f2ga99e4fdc14bb" version="1">Spirits of the Hurricane come to aid Shamans from the Elemental Plane of Ice. They bless Shamans with the chilling magic power. Once per long rest you may cast&lt;LSTag Type="Spell" Tooltip="SB_GreaterSpirit_Investiture_Ice"&gt; Investiture of Ice&lt;/LSTag&gt; without using a Spell Slot.</content>
+	<content contentuid="h19b31a38gdbddg4f48gadb6g4066eecb78f4" version="1">Greater Spirit of the Sea</content>
+		<content contentuid="h9d8eb868g079fg428eg9046gb5fd646b1c53" version="1">Spirits of the Sea are called up from the depths of the Plane of Water. They bestow Shamans with frigid ethereal magics. Once per long rest you may cast&lt;LSTag Type="Spell" Tooltip="SB_GreaterSpirit_ChainLightning"&gt; Chain Lightning&lt;/LSTag&gt; without using a Spell Slot.</content>
+	<content contentuid="h9002307bgf4aeg403bga5cdg1843de33674f" version="1">Greater Spirit of the Storm</content>
+		<content contentuid="h8cd90367geb92g488fg9c0egc130d8f9b26e" version="1">Spirits of the Storm are drawn from the great tempests of the Plane of Air. They lend Shamans the wild magic of storms. Once per long rest you may cast&lt;LSTag Type="Spell" Tooltip="SB_GreaterSpirit_FreezingSpher"&gt; Otiluke's Freezing Sphere&lt;/LSTag&gt; without using a Spell Slot.</content>
 </contentList>

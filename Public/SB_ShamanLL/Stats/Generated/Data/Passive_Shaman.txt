@@ -9,7 +9,7 @@
     data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip), Necrotic)"
     data "Properties" "Highlighted"
     data "Icon" "SB_TotemicAssault_Icon"
-    data "Boosts" "UnlockSpell(SB_ShamanLL_TotemicAssault)"
+    data "Boosts" "UnlockSpell(SB_ShamanLL_TotemicAssault);UnlockSpell(SB_GreaterTotem_Investiture_Ice);UnlockSpell(SB_GreaterTotem_Investiture_Wind)"
 
     // Sacred Focus //
 
@@ -94,34 +94,69 @@
     data "DescriptionParams" "3;5"
     data "Properties" "Highlighted"
 
-    // Greater Totems //
+    // Greater Spirits //
 
     new entry "SB_GreaterSpirit_Death"
     type "PassiveData"
     data "DisplayName" "h85ccdae9g12cfg4b92ga70cg283cc73612fb"
     data "Description" "h29c6fefdg70bdg405dgb2a8g4657eb24c5d4;5"
-    data "Boosts" "UnlockSpell(SB_GreaterTotem_FleshtoStone)"
+    data "Boosts" "UnlockSpell(SB_GreaterSpirit_FleshtoStone)"
     data "Icon" "SB_GreaterTotem_Death_Icon"
 
     new entry "SB_GreaterSpirit_Life"
     type "PassiveData"
     data "DisplayName" "h42ad8a60gdf96g4cf8g84e7gd488b6020922"
     data "Description" "hac72c2b8g58ccg4a0bg9645gfb0202321e53;5"
-    data "Boosts" "UnlockSpell(SB_GreaterTotem_Heal)"
+    data "Boosts" "UnlockSpell(SB_GreaterSpirit_Heal)"
     data "Icon" "SB_GreaterTotem_Life_Icon"
 
     new entry "SB_GreaterSpirit_Moon"
     type "PassiveData"
     data "DisplayName" "h473a1515ga9b5g4d0egb47fg22d78de5dd1f"
     data "Description" "h97bbfcadgfca5g417egaec2g29b024fcb41a;5"
-    data "Boosts" "UnlockSpell(SB_GreaterTotem_GlobeOfInvulnerability)"
+    data "Boosts" "UnlockSpell(SB_GreaterSpirit_GlobeOfInvulnerability)"
     data "Icon" "SB_GreaterTotem_Moon_Icon"
 
     new entry "SB_GreaterSpirit_Sun"
     type "PassiveData"
     data "DisplayName" "h2a91156fg7f55g4012g8ba1gccbc7f7de3b0"
     data "Description" "h6112493ega12cg492fgb1edgbdacc3b3f284;5"
-    data "Boosts" "UnlockSpell(SB_GreaterTotem_Sunbeam)"
+    data "Boosts" "UnlockSpell(SB_GreaterSpirit_Sunbeam)"
+    data "Icon" "SB_GreaterTotem_Sun_Icon"
+
+    new entry "SB_GreaterSpirit_Tundra"
+    type "PassiveData"
+    data "DisplayName" "h835d13b7g2817g401cg859dg3905967a8a05"
+    data "Description" "h002c93aag9b0eg4276g83f2ga99e4fdc14bb;5"
+    data "Boosts" "UnlockSpell(SB_GreaterSpirit_Investiture_Ice)"
+    data "Icon" "SB_GreaterTotem_Death_Icon"
+
+    new entry "SB_GreaterSpirit_Inferno"
+    type "PassiveData"
+    data "DisplayName" "hb897d669g1dc4g4812g9467g1fa83d1cac06"
+    data "Description" "hcbf24ac0g3e56g4b99g85e1gccf53c2dc4d1;5"
+    data "Boosts" "UnlockSpell(SB_GreaterSpirit_Investiture_Flame)"
+    data "Icon" "SB_GreaterTotem_Life_Icon"
+
+    new entry "SB_GreaterSpirit_Hurricane"
+    type "PassiveData"
+    data "DisplayName" "h729ee980gf709g4871g9245g965d3037ded4"
+    data "Description" "hab64b23agb937g424ag8d8ag33f9c96d6ade;5"
+    data "Boosts" "UnlockSpell(SB_GreaterSpirit_Investiture_Wind)"
+    data "Icon" "SB_GreaterTotem_Moon_Icon"
+
+    new entry "SB_GreaterSpirit_Sea"
+    type "PassiveData"
+    data "DisplayName" "h19b31a38gdbddg4f48gadb6g4066eecb78f4"
+    data "Description" "h9d8eb868g079fg428eg9046gb5fd646b1c53;5"
+    data "Boosts" "UnlockSpell(SB_GreaterSpirit_FreezingSphere)"
+    data "Icon" "SB_GreaterTotem_Sun_Icon"
+
+    new entry "SB_GreaterSpirit_Storm"
+    type "PassiveData"
+    data "DisplayName" "h9002307bgf4aeg403bga5cdg1843de33674f"
+    data "Description" "h8cd90367geb92g488fg9c0egc130d8f9b26e;5"
+    data "Boosts" "UnlockSpell(SB_GreaterSpirit_ChainLightning)"
     data "Icon" "SB_GreaterTotem_Sun_Icon"
 
 /// Spirit Warrior Passives ///

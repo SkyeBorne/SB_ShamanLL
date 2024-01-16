@@ -18,7 +18,7 @@
 	<content contentuid="h6bb17decg7fb1g49c4gbea9gc17cd76998fa" version="1">Primal Magic Spell Slots</content>
 		<content contentuid="h49f493cag90afg417bgb7eeg319b7756ca0e" version="1">Used to cast Shaman spells. Regain Primal Magic Spell Slots by taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h09e4a89cgfe29g4a31gba02g90ea208b07d4" version="1">Otherworldly Grasp</content>
-		<content contentuid="he7b4b1f7gc99ag4945g9a3bg4ea70d99cbbc" version="1">You channel necrotic spiritual power to your hand, changing it into a withered specter of itself. Make a melee spell attack against a creature within your reach. On hit, the creature takes [1] necrotic damage, and you gain [2] temporary hit points which last for the duration of your concentration.</content>
+		<content contentuid="he7b4b1f7gc99ag4945g9a3bg4ea70d99cbbc" version="1">You channel necrotic spiritual power to your hand, changing it into a withered specter of itself. Make a melee spell attack against a creature within your reach. On hit, the creature takes [1] necrotic damage, and you gain [2] temporary hit points which lasts until the start of your next turn.</content>
 	<content contentuid="h620c3109g751fg419fg8f26ga078df0f26d1" version="1">Ghastly Flight</content>
 		<content contentuid="h2b608d1fg04d4g4b00ga928g2d74f2359143" version="1">You release a malevolent spirit that flies out from you in a direction of your choice. Each creature within the line must make a Constitution saving throw. On a failed save, creatures take [1] and cannot regain hit points until the start of your next turn. On a success, creatures take half as much damage and can regain hit points as normal.</content>
 	<content contentuid="h8be68ccdg2d67g466dgb1d1gfb38cbc58f47" version="1">Primal Magic Spell Slots</content>
@@ -42,7 +42,7 @@
 		<content contentuid="hcfa4e99bgd956g40f1gace2g4f82cd11e2d1" version="1">Tundra's Lash</content>
 			<content contentuid="h2e00a114gc7cfg42feg8f01g830bd21027a2" version="1">Lash out with a cone of ice dealing 4d6 cold damage to all creatures and potentially halving their movespeed.</content>
 	<content contentuid="h1e777f3bg4d6dg4208ga458g999145369439" version="1">Investiture of Wind</content>
-		<content contentuid="h40f0dc12g48bbg4a77gbba6g482bc8b6f4de" version="1">Until the spell ends, wind whirls around you, and you gain the following benefits: Ranged Weapon Attacks have Disadvantage against you, you can fly, and you may use an action to cast &lt;LSTag Type="Spell" Tooltip="SB_Zone_Investiture_Wind"&gt;Buffeting Winds&lt;/LSTag&gt;</content>
+		<content contentuid="h40f0dc12g48bbg4a77gbba6g482bc8b6f4de" version="1">Until the spell ends, wind whirls around you, and you gain the following benefits: Ranged Weapon Attacks have Disadvantage against you, you can fly, and you may use an action to cast &lt;LSTag Type="Spell" Tooltip="SB_Target_Investiture_Wind"&gt;Buffeting Winds&lt;/LSTag&gt;</content>
 		<content contentuid="hf3a30419g3684g47b7gb016g3def3cea5883" version="1">Buffeting Winds</content>
 			<content contentuid="h9cafabf2g28bag4a18g9cbcg8c47f81491d2" version="1">Create a burst of incredible wind in an area you can see. Creatures in the area must make a Constitution save or take 2d10 damage and be pushed back.</content>
 	<content contentuid="hf286f0d4g6afdg40c1gbddbg3a0e51edac6d" version="1">Spirit Warrior</content>

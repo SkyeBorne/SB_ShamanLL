@@ -45,7 +45,7 @@
     data "ConcentrationSpellID" "SB_Target_OtherworldlyGrasp_Recast"
     data "TargetRadius" "1.5"
     data "SpellRoll" "Attack(AttackType.MeleeSpellAttack)"
-    data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Necrotic,Magical);ApplyStatus(SELF,SB_ShamanLL_OtherworldlyOwner,100,10)"
+    data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Necrotic,Magical);ApplyStatus(SELF,SB_ShamanLL_OtherworldlyHP,100,1)"
     data "TargetConditions" "not Self() and Character() and not Dead()"
     data "Icon" "SB_OtherworldlyGrasp_Icon"
     data "DisplayName" "h09e4a89cgfe29g4a31gba02g90ea208b07d4;1"
@@ -61,15 +61,9 @@
     data "TargetEffect" "a3e2368b-1c86-4a9b-9387-46cac57c70a7"
     data "UseCosts" "ActionPoint:1"
     data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,,;f4ac302b-1569-404f-bd52-1fe443e265df,,;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,,;,,;,,;,,"
-    data "SpellFlags" "IsMelee;IsHarmful;HasSomaticComponent;IsSpell;IsConcentration"
+    data "SpellFlags" "IsMelee;IsHarmful;HasSomaticComponent;IsSpell"
     data "SpellAnimationIntentType" "Aggressive"
     data "DamageType" "Necrotic"
-
-    new entry "SB_Target_OtherworldlyGrasp_Recast"
-    type "SpellData"
-    data "SpellType" "Target"
-    using "SB_Target_OtherworldlyGrasp"
-    data "SpellFlags" "IsMelee;IsHarmful;HasSomaticComponent;IsSpell;Temporary"
 
     // Ghastly Flight //
     

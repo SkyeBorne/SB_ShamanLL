@@ -9,7 +9,7 @@
     data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip), Necrotic)"
     data "Properties" "Highlighted"
     data "Icon" "SB_TotemicAssault_Icon"
-    data "Boosts" "UnlockSpell(SB_ShamanLL_TotemicAssault);UnlockSpell(SB_GreaterTotem_Investiture_Ice);UnlockSpell(SB_GreaterTotem_Investiture_Wind)"
+    data "Boosts" "UnlockSpell(SB_ShamanLL_TotemicAssault)"
 
     // Sacred Focus //
 
@@ -18,7 +18,7 @@
     data "DisplayName" "hba5aa2a9gb3c0g4d87g97f2gcc45a0a47028"
     data "Description" "h64019770g015bg4ac5gab03ge1b2da00f184"
     data "Properties" "IsHidden"
-    data "Icon" "PassiveFeature_FightingStyle_Duelling"
+    data "Icon" ""
 
     new entry "SB_ShamanLL_FocusBody"
     type "PassiveData"

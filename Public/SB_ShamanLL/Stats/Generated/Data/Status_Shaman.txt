@@ -2,20 +2,6 @@
 
     // Otherworldly Grasp //
 
-    new entry "SB_ShamanLL_OtherworldlyOwner"
-    type "StatusData"
-    data "StatusType" "EFFECT"
-    data "DisplayName" "h09e4a89cgfe29g4a31gba02g90ea208b07d4;1"
-    data "Description" "he7b4b1f7gc99ag4945g9a3bg4ea70d99cbbc;2"
-    data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip),Necrotic);TemporaryHP(LevelMapValue(D4Cantrip))"
-    data "Icon" "Spell_Necromancy_FalseLife"
-    data "TickType" "StartTurn"
-    data "Boosts" "UnlockSpell(SB_Target_OtherworldlyGrasp_Recast)"
-    data "StatusGroups" "SG_RemoveOnRespec"
-    data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead;NonExtendable"
-    data "OnApplyFunctors" "ApplyStatus(SELF,SB_ShamanLL_OtherworldlyHP,100,-1)"
-    data "OnRemoveFunctors" "ApplyStatus(SELF,SB_ShamanLL_OtherworldlyHPTech,100,0)"
-
     new entry "SB_ShamanLL_OtherworldlyHP"
     type "StatusData"
     data "StatusType" "BOOST"
@@ -25,23 +11,13 @@
     data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip),Necrotic);TemporaryHP(LevelMapValue(D4Cantrip))"
     data "SoundStart" "Misc_Status_Stormshoretabernacle_Godblessed"
     data "StackId" "TEMPORARY_HP"
+    data "TickType" "StartTurn"
     data "Boosts" "TemporaryHP(LevelMapValue(D4Cantrip))"
     data "StatusGroups" "SG_RemoveOnRespec"
     data "RemoveConditions" "not HasTemporaryHP()"
     data "RemoveEvents" "OnDamage"
     data "StatusGroups" "SG_RemoveOnRespec"
     data "ApplyEffect" "c8f93b82-29e0-44ab-af10-d4284d67974b"
-
-    new entry "SB_ShamanLL_OtherworldlyHPTech"
-    type "StatusData"
-    data "StatusType" "BOOST"
-    data "DisplayName" "h09e4a89cgfe29g4a31gba02g90ea208b07d4;1"
-    data "Description" "he7b4b1f7gc99ag4945g9a3bg4ea70d99cbbc;2"
-    data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip),Necrotic);TemporaryHP(TemporaryHP(Cause.LevelMapValue(D4Cantrip)))"
-    data "Icon" "Spell_Necromancy_FalseLife"
-    data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead;NonExtendable"
-    data "OnRemoveFunctors" "IF(not IsConcentrating()):RemoveStatus(SB_ShamanLL_OtherworldlyHP)"
-    data "StatusGroups" "SG_RemoveOnRespec"
 
     // Totemic Cowl //
 

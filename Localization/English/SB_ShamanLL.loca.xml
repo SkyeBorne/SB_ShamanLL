@@ -106,8 +106,6 @@
 		<content contentuid="hdd55d41fg03c2g4617gb280gd31d6e60fa94" version="1"> You can channel spirits of abundance and life to heal others. As an action, you can touch a creature and cause it to regain hit points equal to 1d8 + your Wisdom modifier. This feature has no effect on undead creatures or constructs.</content>
 	<content contentuid="hdab0c206gad30g454eg9291gb208e10a0840" version="1">Life Bearer Charges</content>
 		<content contentuid="h51df80e5g6c22g4576g8605ged18a6c25b26" version="1">You can use your Life Bearer ability a number of times equal to your Shaman Level and regain all uses on a Long Rest.</content>
-	<content contentuid="hcf3f581agc980g4b49g875fgc69df962982e" version="1">Totemic Blessing</content>
-		<content contentuid="h7db1fb16g0d2ag4b09g866dgcb4a9f5b0f8a" version="1"> You bind only willing spirits to the Totems you wield. Your Totemic Assault now deals radiant damage on a failed save.</content>
 	<content contentuid="h402c4a5dg8fbdg40f7ga211gcd3930f4342a" version="1">Mystical Focus</content>
 		<content contentuid="hff892a28g44c4g4f8dg92a9g5107d2068200" version="1">You work in tandem with the spirits bound to you, drawing out more of their power. When you use your action to cast one of your Witch Doctor Spells, or to use your Life Bearer ability, you can use Totemic Assault as a bonus action on that turn.</content>
 	<content contentuid="h45f837fbgec81g4de8ga1cdgb8693efba04c" version="1">Primal Magic Spell Slot Gained</content>

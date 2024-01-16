@@ -300,8 +300,8 @@
 
     new entry "SB_WitchDoctor_Passive_TotemicBlessing"
     type "PassiveData"
-    data "DisplayName" "hcf3f581agc980g4b49g875fgc69df962982e;1"
-    data "Description" "h7db1fb16g0d2ag4b09g866dgcb4a9f5b0f8a;6"
+    data "DisplayName" "h0adb0744g8bf4g4ca7gad37gcb9db1539a00;1"
+    data "Description" "h31ee17afg3cfbg48b9g94dag889ec1c0d9f1;6"
     data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip), Necrotic)"
     data "Properties" "Highlighted"
     data "Icon" "SB_TotemicBlessing_Icon"

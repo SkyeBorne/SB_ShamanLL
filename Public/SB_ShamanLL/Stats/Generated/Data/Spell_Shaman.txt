@@ -1215,7 +1215,7 @@
     data "SpellProperties" "ApplyStatus(SB_Status_TotemicBlessing_Unique,100,-1);ApplyStatus(SELF,SB_Status_TotemicBlessing_Bear_Self,100,-1);ApplyStatus(SB_Status_TotemicBlessing_Bear,100,-1);RemoveStatus(SELF,SB_Status_Totems_Bear)"
     data "TargetRadius" "9"
     data "SpellContainerID" "SB_Target_TotemicBlessing_Container"
-    data "TargetConditions" "Character() and Ally() and not HasStatus('SB_Status_TotemicBlessing_Unique')"
+    data "TargetConditions" "Character() and Ally() and not Self() and not HasStatus('SB_Status_TotemicBlessing_Unique')"
     data "Icon" "SB_Totem_BearActive_Icon"
     data "DisplayName" "he4aa1dccga19ag4902ga27dg110c46743036;1"
     data "Description" "hb5dbc2d8g68f5g43fbg99d2g6098116837ab;3"

@@ -1,5 +1,3 @@
-Ext.Require("InitCompatibilityFramework.lua")
-
 Ext.Osiris.RegisterListener("LeveledUp", 1, "after", function(characterGUID)
   if HasShamanTag(characterGUID) then
     Osi.TimerLaunch("Trigger_Shaman_Totems", 10000)

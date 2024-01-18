@@ -2756,6 +2756,7 @@
     data "DisplayName" "h22b7fddbg92adg4989g8f3cg98f32fc17b20;1"
     data "Description" "h74d89ea9g6a54g4edcgb870g55c81d31ed07;2"    
     data "SpellContainerID" ""
+    data "HitCosts" "BonusActionPoint:1;"
     data "ContainerSpells" "SB_Target_Totems_Vine_Ranged;SB_Target_Totems_Vine_Melee"
     data "WeaponTypes" ""
     data "SpellFlags" "HasVerbalComponent;IsSpell;HasHighGroundRangeExtension;IsConcentration;RangeIgnoreVerticalThreshold;IsHarmful;IsLinkedSpellContainer"
@@ -2912,3 +2913,67 @@
     data "Autocast" "Yes"
     data "SpellFlags" "IsSpell;ImmediateCast;"
     data "InterruptPrototype" "Interrupt_Dummy"
+
+/// Equipment ///
+
+    // Curse Binder //
+
+        // Conduit //
+    
+        new entry "SB_Shout_ShamanSpellRestoration"
+        type "SpellData"
+        data "SpellType" "Shout"
+        using "Shout_ArcaneRecovery"
+        data "ContainerSpells" ""
+        data "Cooldown" "OncePerRestPerItem"
+        data "SpellProperties" "RestoreResource(SB_ShamanSpellSlot,1,1);RestoreResource(SB_ShamanSpellSlot,1,2);RestoreResource(SB_ShamanSpellSlot,1,3);RestoreResource(SB_ShamanSpellSlot,1,4);RestoreResource(SB_ShamanSpellSlot,1,5)"
+        data "Icon" "Action_Mag_CaitiffsRestoration"
+        data "DisplayName" "h7bf0abb6g24c4g4f31ga843g6bb995c2267c;2"
+        data "Description" "ha4ea74eeg4510g48a5g9a16gdb22ae883ea4;3"
+        data "DescriptionParams" "1"
+        data "CastSound" "Action_Cast_Warlock_SpellSlotRestoration"
+        data "TargetSound" "Action_Impact_Warlock_SpellSlotRestoration"
+        data "UseCosts" "BonusActionPoint:1"
+        data "SpellAnimation" "0de4f5f1-c143-4dc4-a98a-f75d9d8c3fa5,,;,,;0ae52657-3910-4d5a-b561-623524505704,,;5184b801-24e1-4ec5-b078-489ec2c7c6ee,,;0afd108e-fc08-405d-906d-4778b833388e,,;,,;ffea93f3-ec0c-4639-be9e-5760c7f67ae1,,;,,;,,"
+        data "VerbalIntent" "Healing"
+        data "SpellStyleGroup" "Intent"
+        data "SpellFlags" ""
+        data "Requirements" ""
+        data "PrepareEffect" "617356b2-8b51-471f-ba67-5f9f1fd4bccc"
+        data "CastEffect" "c90dca7b-0926-4158-8015-9acc390fea0f"
+
+        new entry "SB_Target_HoldPersonItem"
+        type "SpellData"
+        data "SpellType" "Target"
+        using "Target_HoldPerson"
+        data "UseCosts" "ActionPoint:1;"
+        data "Cooldown" "OncePerRest"
+
+        new entry "SB_Projectile_DethroneItem"
+        type "SpellData"
+        data "SpellType" "Projectile"
+        using "Projectile_CursedTome_Dethrone"
+        data "Cooldown" "OncePerRest"
+        data "AmountOfTargets" ""
+        data "SpellRoll" "not SavingThrow(Ability.Constitution, SourceSpellDC())"
+        data "UseCosts" "ActionPoint:1;"
+
+    // Spirit Warrior //
+
+        // Conduit // 
+
+        new entry "SB_Target_Smite_BrandingItem"
+        type "SpellData"
+        data "SpellType" "Target"
+        using "Target_Smite_Branding"
+        data "SpellContainerID" ""
+        data "HitCosts" "BonusActionPoint:1"
+        data "SpellFlags" "IsSpell;HasVerbalComponent;IsMelee;IsHarmful"
+
+        new entry "SB_Projectile_CurriculumofStrategyItem"
+        type "SpellData"
+        data "SpellType" "Projectile"
+        using "Projectile_CursedTome_CurriculumofStrategy"
+        data "Cooldown" "OncePerRest"
+        data "UseCosts" "ActionPoint:1;"
+

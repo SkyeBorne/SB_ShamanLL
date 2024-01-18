@@ -10,6 +10,11 @@ function SB_SpiritWarrior_CantripCheckCheck()
         | IsCantrip()
 end
 
+function SB_TotemicAssault_Check()
+        return SpellId('SB_ShamanLL_TotemicAssault')
+        | SpellId('SB_Target_TotemicAssaultRadiant')
+end
+
 function SB_WildandFree()
         return SpellId('SB_Target_Totems_Wild')
         | SpellId('SB_Target_Totems_Wild_3')
@@ -20,4 +25,13 @@ function SB_WildandFree()
         | SpellId('SB_Target_Totems_Wild_Land')
         | SpellId('SB_Target_Totems_Wild_Land_3')
         | SpellId('SB_Target_Totems_Wild_Land_4')
+end
+
+function SB_FreecastCheckSpells()
+    return HasUseCosts('SpellSlot') 
+    | HasUseCosts('SB_ShamanSpellSlot')
+end
+
+function SB_ShamanLevelCheck(level)
+    return ConditionResult(context.Source.GetClassLevel('SB_ShamanLL') >= level)
 end

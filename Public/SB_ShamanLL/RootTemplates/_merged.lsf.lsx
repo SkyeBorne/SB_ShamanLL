@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+                <node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h15f8dc53gec6eg4e8agaae0g0d60ce02125f" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h2632b84dge664g48d6g86fag994d323cda9f" version="1" />
+					<attribute id="ExamineRotation" type="fvec3" value="70 180 0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_StaffOfCrones_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="17774eb8-d0ec-40d2-b723-1bb9e67b8a61" />
+					<attribute id="Name" type="LSString" value="SB_Cursebringer_Conduit" />
+					<attribute id="ParentTemplateId" type="FixedString" value="746b4059-90f5-428a-9d5a-fdac34201daf" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="dfb4edcb-9402-6ea5-f6ae-2f3f26ea32c7" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209017" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="heb679143g4cf8g4daaga9d9g787be27f0ea1" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h498237fbge102g46f3g8fbag42e750ed1c84" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1d05bbb4-b06d-4225-9b4a-c7842451253d" />
+					<attribute id="Name" type="LSString" value="MAG_Druid_IronWood_Club" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c71e2798-31ae-4f57-8073-c6195c2e9d02" />
+					<attribute id="Stats" type="FixedString" value="MAG_Druid_IronWood_Club" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SB_SpiritWarrior_ConduitChallenge" />
+								</node>
+                                <node id="Status">
+									<attribute id="Object" type="FixedString" value="SB_SpiritWarrior_ConduitDraining" />
+								</node>
+                                <node id="Status">
+									<attribute id="Object" type="FixedString" value="SB_SpiritWarrior_ConduitMight" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>		
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="he1b1a83dg9c35g4badga9afg254ce536cf81" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h752eed14g79bbg4a9eg8d57g257016cb5c5c" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="b428632e-3137-47aa-ae8f-ddff6fc27cc8" />
+					<attribute id="ExamineRotation" type="fvec3" value="70 180 0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_DRYAD_Staff_A" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="c5354307-d1a0-41a4-99fd-a26ccee664c2" />
+					<attribute id="Name" type="LSString" value="SB_WitchDoctor_Conduit" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b789aedc-c010-47b0-9801-d9aacdce4c56" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7c02df22-38e7-b296-547e-6b448a685ae7" />
+					<attribute id="Stats" type="FixedString" value="WPN_Quaterstaff_Dryad" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="8a96b47e-bf3f-8051-0fa6-1fcbfb00f220" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209022" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.08795571" />
+									<attribute id="Max" type="fvec3" value="0.02128059 0.04397757 0.287122" />
+									<attribute id="Min" type="fvec3" value="-0.02199169 -0.04397815 -0.7075682" />
+									<attribute id="Radius" type="float" value="0.2491504" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.08795571" />
+									<attribute id="Max" type="fvec3" value="0.04256118 0.04397757 0.5742439" />
+									<attribute id="Min" type="fvec3" value="-0.04398338 -0.04397815 -1.415136" />
+									<attribute id="Radius" type="float" value="0.4983009" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.08795571" />
+									<attribute id="Max" type="fvec3" value="0.04256118 0.04397757 0.5742439" />
+									<attribute id="Min" type="fvec3" value="-0.04398338 -0.04397815 -1.415136" />
+									<attribute id="Radius" type="float" value="0.4983009" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+            </children>
+		</node>
+	</region>
+</save>

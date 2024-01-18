@@ -13,6 +13,13 @@
 					<attribute id="PreferredClassUUID" type="guid" value="47bcebb4-164d-409e-935f-7270447bab0a"/>
                     <attribute id="UUID" type="guid" value="adcfe31f-fc67-4eed-8d99-b413a869a48e"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level4" type="LSString" value="1d4"/>
+                    <attribute id="Level9" type="LSString" value="1d6"/>
+                    <attribute id="Level15" type="LSString" value="1d8"/>
+                    <attribute id="Name" type="FixedString" value="SB_SpiritWarrior_ConduitMap"/>
+                    <attribute id="UUID" type="guid" value="a3366093-68fc-4d6a-afca-6112b9d69a6b"/>
+                </node>
             </children>
         </node>
     </region>

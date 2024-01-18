@@ -75,7 +75,7 @@
     new entry "SB_Dawn"
     type "StatusData"
     data "StatusType" "BOOST"
-    data "DisplayName" "heb1d42dfgaad2g4ca6gabf7g83b101791226;2"
+    data "DisplayName" "he62aa0e7g7899g4fefg8265g14e3ca94bdba;1"
     data "Description" "hddd473aegb174g4f67g934dg1399cdcebc9d;2"
     data "DescriptionParams" "DealDamage(4d10,Radiant)"
     data "Icon" "SB_Dawn_Icon"
@@ -98,7 +98,7 @@
     new entry "SB_Dawn_AURA"
     type "StatusData"
     data "StatusType" "BOOST"
-    data "DisplayName" "h884e9694g454dg4b19g9341g0351dcfffad0;2"
+    data "DisplayName" "he62aa0e7g7899g4fefg8265g14e3ca94bdba;1"
     data "Description" "h444939b4g734eg4c9cg8fd8g8170a0f37e9c;4"
     data "DescriptionParams" "DealDamage(2d10,Radiant)"
     data "Icon" "SB_Dawn_Icon"
@@ -107,12 +107,12 @@
     data "AuraStatuses" "TARGET:IF(Character() and not Dead()):ApplyStatus(SB_Dawn,100,-1);TARGET:IF(Character() and not Dead() and HasPassive('SunlightHypersensitivity')):ApplyStatus(SUNLIGHT_FROM_SPELL_TECHNICAL)"
     data "Boosts" "GameplayLight(3,false,0.1,true)"
     data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;InitiateCombat;BringIntoCombat"
-    data "StatusEffect" "dd02e9e1-8ab7-4da0-9097-26fd886c06d4"
+    data "StatusEffect" "f4530a63-8744-450b-95bf-f066527ee22b"
 
     new entry "SB_Dawn_OWNER"
     type "StatusData"
     data "StatusType" "BOOST"
-    data "DisplayName" "h19303fadgf83fg49ddgb579g51e2f5fd8fe5;1"
+    data "DisplayName" "he62aa0e7g7899g4fefg8265g14e3ca94bdba;1"
     data "Description" "h215eb8b5g1e29g4e8bgac3dg79b458de3aea;1"
     data "Icon" "SB_Dawn_Icon"
     data "StackId" "SB_Dawn_OWNER"
@@ -207,9 +207,9 @@
     data "StackId" "SB_Status_Investiture_Wind_Aura"
     data "AuraRadius" "3"
     data "StatusGroups" "SG_RemoveOnRespec"
-    data "StatusEffect" "a340c5c1-6ec4-4ecd-a037-643e3196172c"
+    data "StatusEffect" "cd5cd7f1-64a8-4d4c-985a-079110eae62f"
 
-/// Spirit Warrior Status Data ///
+/// Spirit Warrior///
 
     // Totemic Might //
 
@@ -292,7 +292,7 @@
     data "StatusType" "BOOST"
     data "DisplayName" "hcee741b1gae69g4634g9c75g6bfc4e59b3ae;1"
     data "Description" "he7165934g03e7g4e7fg93f8g29720c41dea2;6"
-    data "Icon" "SB_SpiritDraining_Icon"
+    data "Icon" "SB_SpiritMight_Icon"
     data "StackId" "SHILLELAGH"
     data "Boosts" "WeaponProperty(Magical);WeaponAttackRollAbilityOverride(Wisdom);Attribute(InventoryBound)"
     data "StatusGroups" "SG_RemoveOnRespec"
@@ -303,7 +303,7 @@
     data "StatusType" "BOOST"
     data "DisplayName" "hcee741b1gae69g4634g9c75g6bfc4e59b3ae;1"
     data "Description" "he7165934g03e7g4e7fg93f8g29720c41dea2;6"
-    data "Icon" "SB_SpiritDraining_Icon"
+    data "Icon" "SB_SpiritMight_Icon"
     data "StackId" ""
     data "Passives" "SB_SpiritWarrior_TotemicMight_Bonus;SB_SpiritWarrior_TotemicMight_Bonus2"
     data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
@@ -1217,3 +1217,39 @@
     data "RemoveEvents" "OnDamage"
     data "StatusGroups" "SG_RemoveOnRespec"
     data "ApplyEffect" "c8f93b82-29e0-44ab-af10-d4284d67974b"
+
+/// Equipment ///
+
+    // Spirit Warrior //
+
+        // Conduit //
+
+        new entry "SB_SpiritWarrior_ConduitChallenge"
+        type "StatusData"
+        data "StatusType" "BOOST"
+        data "DisplayName" "h498237fbge102g46f3g8fbag42e750ed1c84;2"
+        data "Description" "heb679143g4cf8g4daaga9d9g787be27f0ea1;4"
+        data "DescriptionParams" "DealDamage(LevelMapValue(SB_SpiritWarrior_ConduitMap), Psychic)"
+        data "Icon" "SB_SpiritChallenge_Icon"
+        data "Boosts" "IF(HasStatus('SB_SpiritWarrior_TotemicChallenge_Stat',GetAttackWeapon())):WeaponDamage(LevelMapValue(SB_SpiritWarrior_ConduitMap), Psychic)"
+        data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+        new entry "SB_SpiritWarrior_ConduitDraining"
+        type "StatusData"
+        data "StatusType" "BOOST"
+        data "DisplayName" "h498237fbge102g46f3g8fbag42e750ed1c84;2"
+        data "Description" "heb679143g4cf8g4daaga9d9g787be27f0ea1;4"
+        data "DescriptionParams" "DealDamage(LevelMapValue(SB_SpiritWarrior_ConduitMap), Necrotic)"
+        data "Icon" "SB_SpiritDraining_Icon"
+        data "Boosts" "IF(HasStatus('SB_SpiritWarrior_TotemicDrain_Stat',GetAttackWeapon())):WeaponDamage(LevelMapValue(SB_SpiritWarrior_ConduitMap), Necrotic)"
+        data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+        new entry "SB_SpiritWarrior_ConduitMight"
+        type "StatusData"
+        data "StatusType" "BOOST"
+        data "DisplayName" "h498237fbge102g46f3g8fbag42e750ed1c84;2"
+        data "Description" "heb679143g4cf8g4daaga9d9g787be27f0ea1;4"
+        data "DescriptionParams" "DealDamage(LevelMapValue(SB_SpiritWarrior_ConduitMap), Force)"
+        data "Icon" "SB_SpiritMight_Icon"
+        data "Boosts" "IF(HasStatus('SB_SpiritWarrior_TotemicMight_Stat',GetAttackWeapon())):WeaponDamage(LevelMapValue(SB_SpiritWarrior_ConduitMap), Force)"
+        data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"

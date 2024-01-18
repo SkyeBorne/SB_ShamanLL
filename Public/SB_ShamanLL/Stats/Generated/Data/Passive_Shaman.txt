@@ -747,3 +747,81 @@
         data "Icon" "SB_Totem_Skies_Icon"
         data "BoostConditions" "not HasStatus('SB_Status_TotemicBlessing_Skies_Self', context.Source)"
         data "Boosts" "UnlockSpell(Projectile_Fly);"
+
+/// Equipment ///
+
+    // Curse Bringer //
+
+        // Conduit //
+
+            new entry "SB_CurseBringer_ConduitPassive"
+            type "PassiveData"
+            data "DisplayName" "hc324fad1gf6e6g4cf1gb423g3274fa33c258;1"
+            data "Description" "h9a8462d6gc106g4137gaacdg42a68506f172;2"
+            data "Icon" ""
+            data "BoostConditions" "ClassLevelHigherOrEqualThan(6,'SB_ShamanLL')"
+            data "BoostContext" "OnEquip;OnCreate;OnRest"
+            data "Boosts" "UnlockSpellVariant(SB_TotemicAssault_Check(),ModifyNumberOfTargets(AdditiveBase,1,false))"
+
+            new entry "SB_CurseBringer_EnhancedHarm"
+            type "PassiveData"
+            using "MAG_ElementalGish_CantripBooster_Amulet_Passive"
+            data "DisplayName" "h1a478e3cg6b90g439fgb50fg113a8b8a3e44;1"
+            data "Description" "hc5cd47f0g25f7g4b7fgadafg90c0b05b6b3b;2"
+            data "Properties" "IsHidden"
+            data "BoostConditions" "ClassLevelHigherOrEqualThan(7,'SB_ShamanLL')"
+            data "BoostContext" "OnEquip;OnCreate;OnRest"
+            data "Boosts" "IF(SB_TotemicAssault_Check()):DamageBonus(max(1,WisdomModifier))"
+
+            new entry "SB_ShamanLL_RestorePassive"
+            type "PassiveData"
+            data "DisplayName" "h1a478e3cg6b90g439fgb50fg113a8b8a3e44;1"
+            data "Description" "hc5cd47f0g25f7g4b7fgadafg90c0b05b6b3b;2"
+            data "Icon" "Skill_Sorcerer_Passive_Metamagic_HeightenedSpell"
+            data "BoostContext" "OnEquip;OnCreate;OnRest"
+            data "Properties" "IsHidden"
+            data "BoostConditions" "ClassLevelHigherOrEqualThan(8,'SB_ShamanLL')"
+            data "Boosts" "UnlockSpell(SB_Shout_ShamanSpellRestoration)"
+
+            new entry "SB_CB_ArcaneEnchantmentScale1"
+            type "PassiveData"
+            data "DisplayName" "h181f9246g612ag484cg99c2g57ca3e4ffcb5;3"
+            data "Description" "h6a7f9b37g7213g4328g9bceg352bf62c1c31;4"
+            data "DescriptionParams" "1"
+            data "Properties" "IsHidden"
+            data "BoostContext" "OnEquip;OnCreate;OnRest"
+            data "BoostConditions" "(ClassLevelHigherOrEqualThan(4,'SB_ShamanLL') and not ClassLevelHigherOrEqualThan(9,'SB_ShamanLL'))"
+            data "Boosts" "SpellSaveDC(1);RollBonus(MeleeSpellAttack, 1);RollBonus(RangedSpellAttack,1);UnlockSpell(SB_Target_HoldPersonItem);"
+
+            new entry "SB_CB_ArcaneEnchantmentScale2"
+            type "PassiveData"
+            data "DisplayName" "h181f9246g612ag484cg99c2g57ca3e4ffcb5;3"
+            data "Description" "h6a7f9b37g7213g4328g9bceg352bf62c1c31;4"
+            data "DescriptionParams" "2"
+            data "Properties" "IsHidden"
+            data "BoostContext" "OnEquip;OnCreate;OnRest"
+            data "BoostConditions" "ClassLevelHigherOrEqualThan(9,'SB_ShamanLL')"
+            data "Boosts" "SpellSaveDC(2);RollBonus(MeleeSpellAttack, 2);RollBonus(RangedSpellAttack,2);UnlockSpell(SB_Target_HoldPersonItem);UnlockSpell(SB_Projectile_DethroneItem)"
+
+    // Spirit Warrior //
+
+        // Conduit //
+
+            new entry "SB_SpiritWarrior_ConduitPassive"
+            type "PassiveData"
+            data "DisplayName" "hc324fad1gf6e6g4cf1gb423g3274fa33c258;3"
+            data "Description" "hb84fcd8ag8c20g4d04gbbe3g4dddf0655b6b;4"
+            data "DescriptionParams" "1"
+            data "Properties" "IsHidden"
+            data "BoostContext" "OnEquip;OnCreate;OnRest"
+            data "BoostConditions" "(ClassLevelHigherOrEqualThan(4,'SB_ShamanLL') and not ClassLevelHigherOrEqualThan(9,'SB_ShamanLL'))"
+            data "Boosts" "UnlockSpell(SB_Target_Smite_BrandingItem);"
+
+            new entry "SB_SpiritWarrior_ConduitSpell"
+            type "PassiveData"
+            data "DisplayName" "hc324fad1gf6e6g4cf1gb423g3274fa33c258;3"
+            data "DescriptionParams" "2"
+            data "Properties" "IsHidden"
+            data "BoostContext" "OnEquip;OnCreate;OnRest"
+            data "BoostConditions" "ClassLevelHigherOrEqualThan(9,'SB_ShamanLL')"
+            data "Boosts" "UnlockSpell(SB_Target_Smite_BrandingItem);UnlockSpell(SB_Projectile_CurriculumofStrategyItem)"

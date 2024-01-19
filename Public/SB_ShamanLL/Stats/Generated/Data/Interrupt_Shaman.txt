@@ -1,4 +1,4 @@
-/// Curse Binder Interrupts ///
+/// Curse Binder ///
 
     // Evil Eye //
 
@@ -13,7 +13,7 @@
     data "Conditions" "IsAbleToReact(context.Observer) and ((HasInterruptedAttack() and Enemy(context.Source,context.Observer) and IsRerollInterruptInteresting(context.Source))) or (HasInterruptedSavingThrow() and Enemy(context.Target,context.Observer) and IsRerollInterruptInteresting()) and not AnyEntityIsItem()"
     data "Properties" "SetDisadvantage();IF(not Self(context.Target, context.Observer)):UseSpell(OBSERVER_SOURCE,SB_Target_EvilEye,true,true,true)"
     data "Cost" "ReactionActionPoint:1;SB_Shaman_EvilEyeCharge:1"
-    data "SpellFlags" "HasSomaticComponent;IsSpell;IsHarmful"
+    data "SpellFlags" "HasSomaticComponent;IsHarmful"
     data "InterruptDefaultValue" "Ask;Enabled"
     data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
     data "EnableContext" "OnStatusApplied;OnStatusRemoved"

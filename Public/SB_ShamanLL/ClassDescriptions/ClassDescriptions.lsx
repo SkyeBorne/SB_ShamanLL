@@ -35,6 +35,7 @@
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h27c21a27g1024g4d12g8227g5493cab6b8a1" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hf286f0d4g6afdg40c1gbddbg3a0e51edac6d" version="1"/>
+   					<attribute id="ClassEquipment" type="FixedString" value="SB_EQP_CC_SpiritWarrior" />
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="SB_ShamanLL_SpiritWarrior"/>
                     <attribute id="ParentGuid" type="guid" value="47bcebb4-164d-409e-935f-7270447bab0a"/>
@@ -48,6 +49,7 @@
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h57b136f0gae1dg45afg8ebcg7ea9da226435" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h46f46f3aga920g4b39g8c4fg252674fa5e66" version="1"/>
+   					<attribute id="ClassEquipment" type="FixedString" value="SB_EQP_CC_CurseBringer" />
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="SB_ShamanLL_CurseBinder"/>
                     <attribute id="ParentGuid" type="guid" value="47bcebb4-164d-409e-935f-7270447bab0a"/>
@@ -61,6 +63,7 @@
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h1542a79ag7fd3g4226gb21fg1a67db4773a4" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h3990df33g8b05g4242g9fa7g04d366229210" version="1"/>
+   					<attribute id="ClassEquipment" type="FixedString" value="SB_EQP_CC_WitchDoctor" />
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="SB_ShamanLL_WitchDoctor"/>
                     <attribute id="ParentGuid" type="guid" value="47bcebb4-164d-409e-935f-7270447bab0a"/>

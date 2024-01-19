@@ -4,7 +4,7 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
-                <node id="GameObjects">
+                <node id="GameObjects"> Cursebringer Conduit
 					<attribute id="DisplayName" type="TranslatedString" handle="h15f8dc53gec6eg4e8agaae0g0d60ce02125f" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h2632b84dge664g48d6g86fag994d323cda9f" version="1" />
 					<attribute id="ExamineRotation" type="fvec3" value="70 180 0" />
@@ -17,8 +17,9 @@
 					<attribute id="VisualTemplate" type="FixedString" value="dfb4edcb-9402-6ea5-f6ae-2f3f26ea32c7" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209017" />
 				</node>
-				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="heb679143g4cf8g4daaga9d9g787be27f0ea1" version="1" />
+
+				<node id="GameObjects"> Spirit Warrior Conduit
+ 					<attribute id="Description" type="TranslatedString" handle="heb679143g4cf8g4daaga9d9g787be27f0ea1" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h498237fbge102g46f3g8fbag42e750ed1c84" version="2" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="1d05bbb4-b06d-4225-9b4a-c7842451253d" />
@@ -51,9 +52,10 @@
 						</node>
 					</children>
 				</node>		
-				<node id="GameObjects">
+
+				<node id="GameObjects"> Witch Doctor Conduit
 					<attribute id="CanShootThrough" type="bool" value="True" />
-					<attribute id="Description" type="TranslatedString" handle="he1b1a83dg9c35g4badga9afg254ce536cf81" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h3514f1b7g0ca2g48c9gbeb9g866985b29dbf" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h752eed14g79bbg4a9eg8d57g257016cb5c5c" version="1" />
 					<attribute id="EquipmentTypeID" type="guid" value="b428632e-3137-47aa-ae8f-ddff6fc27cc8" />
 					<attribute id="ExamineRotation" type="fvec3" value="70 180 0" />

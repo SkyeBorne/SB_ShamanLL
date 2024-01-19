@@ -1,16 +1,5 @@
 /// Shaman Base Class Passives ///
 
-    // Totemic Assault //
-
-    new entry "SB_ShamanLL_TAUnlock"
-    type "PassiveData"
-    data "DisplayName" "h5d2acb17g0bb2g43d8g84f2g99f9329700e9;1"
-    data "Description" "hea56aaf4gc5e5g4b80gafd3gc1a8ad65dce9;6"
-    data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip), Necrotic)"
-    data "Properties" "Highlighted"
-    data "Icon" "SB_TotemicAssault_Icon"
-    data "Boosts" "UnlockSpell(SB_ShamanLL_TotemicAssault)"
-
     // Sacred Focus //
 
     new entry "SB_ShamanLL_SacredFocus"
@@ -305,7 +294,7 @@
     data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip), Necrotic)"
     data "Properties" "Highlighted"
     data "Icon" "SB_TotemicBlessing_Icon"
-    data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant);UnlockSpell(SB_Target_TotemicBlessing_Container);ActionResource(SB_TotemicBlessing_Charge,1,0)"
+    data "Boosts" "UnlockSpell(SB_Target_TotemicBlessing_Container);ActionResource(SB_TotemicBlessing_Charge,1,0)"
 
     // Mystical Focus //
 
@@ -766,42 +755,30 @@
             new entry "SB_CurseBringer_EnhancedHarm"
             type "PassiveData"
             using "MAG_ElementalGish_CantripBooster_Amulet_Passive"
-            data "DisplayName" "h1a478e3cg6b90g439fgb50fg113a8b8a3e44;1"
+            data "DisplayName" "hc324fad1gf6e6g4cf1gb423g3274fa33c258;1"
             data "Description" "hc5cd47f0g25f7g4b7fgadafg90c0b05b6b3b;2"
             data "Properties" "IsHidden"
-            data "BoostConditions" "ClassLevelHigherOrEqualThan(7,'SB_ShamanLL')"
+            data "BoostConditions" "ClassLevelHigherOrEqualThan(8,'SB_ShamanLL')"
             data "BoostContext" "OnEquip;OnCreate;OnRest"
             data "Boosts" "IF(SB_TotemicAssault_Check()):DamageBonus(max(1,WisdomModifier))"
 
-            new entry "SB_ShamanLL_RestorePassive"
-            type "PassiveData"
-            data "DisplayName" "h1a478e3cg6b90g439fgb50fg113a8b8a3e44;1"
-            data "Description" "hc5cd47f0g25f7g4b7fgadafg90c0b05b6b3b;2"
-            data "Icon" "Skill_Sorcerer_Passive_Metamagic_HeightenedSpell"
-            data "BoostContext" "OnEquip;OnCreate;OnRest"
-            data "Properties" "IsHidden"
-            data "BoostConditions" "ClassLevelHigherOrEqualThan(8,'SB_ShamanLL')"
-            data "Boosts" "UnlockSpell(SB_Shout_ShamanSpellRestoration)"
-
             new entry "SB_CB_ArcaneEnchantmentScale1"
             type "PassiveData"
-            data "DisplayName" "h181f9246g612ag484cg99c2g57ca3e4ffcb5;3"
-            data "Description" "h6a7f9b37g7213g4328g9bceg352bf62c1c31;4"
+            data "DisplayName" "hc324fad1gf6e6g4cf1gb423g3274fa33c258;3"
             data "DescriptionParams" "1"
             data "Properties" "IsHidden"
             data "BoostContext" "OnEquip;OnCreate;OnRest"
             data "BoostConditions" "(ClassLevelHigherOrEqualThan(4,'SB_ShamanLL') and not ClassLevelHigherOrEqualThan(9,'SB_ShamanLL'))"
-            data "Boosts" "SpellSaveDC(1);RollBonus(MeleeSpellAttack, 1);RollBonus(RangedSpellAttack,1);UnlockSpell(SB_Target_HoldPersonItem);"
+            data "Boosts" "SpellSaveDC(1);RollBonus(MeleeSpellAttack, 1);RollBonus(RangedSpellAttack,1)"
 
             new entry "SB_CB_ArcaneEnchantmentScale2"
             type "PassiveData"
-            data "DisplayName" "h181f9246g612ag484cg99c2g57ca3e4ffcb5;3"
-            data "Description" "h6a7f9b37g7213g4328g9bceg352bf62c1c31;4"
+            data "DisplayName" "hc324fad1gf6e6g4cf1gb423g3274fa33c258;3"
             data "DescriptionParams" "2"
             data "Properties" "IsHidden"
             data "BoostContext" "OnEquip;OnCreate;OnRest"
             data "BoostConditions" "ClassLevelHigherOrEqualThan(9,'SB_ShamanLL')"
-            data "Boosts" "SpellSaveDC(2);RollBonus(MeleeSpellAttack, 2);RollBonus(RangedSpellAttack,2);UnlockSpell(SB_Target_HoldPersonItem);UnlockSpell(SB_Projectile_DethroneItem)"
+            data "Boosts" "SpellSaveDC(2);RollBonus(MeleeSpellAttack, 2);RollBonus(RangedSpellAttack,2)"
 
     // Spirit Warrior //
 
@@ -825,3 +802,26 @@
             data "BoostContext" "OnEquip;OnCreate;OnRest"
             data "BoostConditions" "ClassLevelHigherOrEqualThan(9,'SB_ShamanLL')"
             data "Boosts" "UnlockSpell(SB_Target_Smite_BrandingItem);UnlockSpell(SB_Projectile_CurriculumofStrategyItem)"
+
+    // Witch Doctor //
+
+        // Conduit //
+
+            new entry "SB_WitchDoctor_EnhancedHeal"
+            type "PassiveData"
+            data "DisplayName" "hc324fad1gf6e6g4cf1gb423g3274fa33c258;1"
+            data "Description" "hef9a4419g9fe6g4b79g9f80gf8d4bdf05435;2"
+            data "DescriptionParams" "Distance(9)"
+            data "BoostConditions" ""
+            data "StatsFunctorContext" "OnHeal"
+            data "Conditions" "ClassLevelHigherOrEqualThan(6,'SB_ShamanLL') and HealDoneGreaterThan(0) and (IsSpell() or SpellId('SB_Target_LifeBearer')) and not IsCantrip() or SpellId('Target_AuraOfVitality_Activate')"
+            data "StatsFunctors" "RegainHitPoints(WisdomModifier)"
+
+            new entry "SB_WitchDoctor_RangedHeal"
+            type "PassiveData"
+            data "DisplayName" "hc324fad1gf6e6g4cf1gb423g3274fa33c258;1"
+            data "Properties" "IsHidden"
+            data "BoostConditions" ""
+            data "BoostConditions" "ClassLevelHigherOrEqualThan(8,'SB_ShamanLL')"
+            data "BoostContext" "OnEquip;OnCreate;OnRest"
+            data "Boosts" "UnlockSpellVariant(SpellId('SB_Target_LifeBearer'),ModifyTargetRadius(Override,9))"

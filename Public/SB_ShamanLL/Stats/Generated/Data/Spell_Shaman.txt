@@ -41,7 +41,6 @@
     data "SpellType" "Target"
     data "Level" "0"
     data "SpellSchool" "Necromancy"
-    data "ConcentrationSpellID" "SB_Target_OtherworldlyGrasp_Recast"
     data "TargetRadius" "1.5"
     data "SpellRoll" "Attack(AttackType.MeleeSpellAttack)"
     data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Necrotic,Magical);ApplyStatus(SELF,SB_ShamanLL_OtherworldlyHP,100,1)"

@@ -39,7 +39,7 @@
 	<content contentuid="hc204f3cag02c2g4e9cg9228gf72f3af0d4ee" version="1">Totem of the Winds</content>
 		<content contentuid="h140418fegc2b9g45c3g9624gdcbec3286726" version="1">You bind a minor spirit of the air which lends speed to your steps with a gust of mighty wind. Your walking speed increases by [1]. This bonus to your speed increases as you gain Shaman levels; at 5th level ([2]), 10th level, ([3]), and finally at 15th level ([4]).</content>
 	<content contentuid="hacff76e1g2ff9g4b8bgbeb9gac83543efc03" version="1">Totem of the Bloom</content>
-		<content contentuid="hc1ab66dcg4203g4546gbfbcg2c625712df53" version="1">You bind a spirit of wild growth that enriches the land around you. Once per Long Rest you may cast Create Food and Water without expending a spell slot.</content>
+		<content contentuid="hc1ab66dcg4203g4546gbfbcg2c625712df53" version="1">REQUIRES: Soul Sacred Focus&#xA;You bind a spirit of wild growth that enriches the land around you. Once per Long Rest you may cast Create Food and Water without expending a spell slot.</content>
 	<content contentuid="h06ddb55fg7834g4cf8g99ecg3ae4838578ec" version="1">Totem of the Eruption</content>
 		<content contentuid="h30960f2egb2c3g4f39gb62bg6d125ebfe6bc" version="1"> You bind an elemental spirit that lends you its destructive power. Once per turn, when you hit a creature with a melee weapon attack, you can expend one of your Primal Magic spell slots to deal additional cold, fire, lightning, or thunder damage (your choice) to the target equal to 1d8 per Spell Slot level spent.</content>
 		<content contentuid="h6c475c8dg6fd0g41c4g8b88g5ec386303bae" version="1">Totemic Eruption: Cold </content>

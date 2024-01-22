@@ -6,7 +6,7 @@
             <children>
                 <node id="Progression"> Shaman L1
                     <attribute id="AllowImprovement" type="bool" value="false"/> 
-                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shields);Proficiency(Scimitars);Proficiency(HandCrossbows);Proficiency(SimpleWeapons);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);"/>
                     <attribute id="Level" type="uint8" value="1"/> 
                     <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
                     <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SacredFocus;"/> 
@@ -242,7 +242,7 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SB_ExtraAttack_SpiritWarrior;SB_ExtraAttack_SpiritWarrior2;SB_ExtraAttack_SpiritWarrior3"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_SpiritWarrior_EA;SB_SpiritWarrior_EACantrip;SB_SpiritWarrior_EAReplace"/>
                     <attribute id="Selectors" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
                     <attribute id="UUID" type="guid" value="c508e47b-998d-4d5f-ace6-29e95e65f1f8"/>

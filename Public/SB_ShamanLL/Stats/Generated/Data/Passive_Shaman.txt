@@ -197,27 +197,26 @@
 
     // Extra Attack //
 
-    new entry "SB_ExtraAttack_SpiritWarrior"
+    new entry "SB_SpiritWarrior_EA"
     type "PassiveData"
     using "ExtraAttack"
     data "Description" "h76632ac5g8688g498egb870g096fbc1c2dd5;2"
-    data "Conditions" "(context.HasContextFlag(StatsFunctorContext.OnCast) and (ExtraAttackSpellCheck() or SB_SpiritWarrior_CantripCheckCheck()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_Q'))"
 
-    new entry "SB_ExtraAttack_SpiritWarrior2"
+    new entry "SB_SpiritWarrior_EACantrip"
     type "PassiveData"
-    data "DisplayName" "hcf90a672g10deg4b3egad4fg9094c6ac6224;1"
+    data "DisplayName" "h425e6327gaf37g4622g8708g7a5b8f92109c;1"
     data "Properties" "IsHidden"
-    data "StatsFunctorContext" "OnCast;OnStatusRemoved;OnStatusApplied"
-    data "Conditions" "context.HasContextFlag(StatsFunctorContext.OnCast) and (SB_SpiritWarrior_CantripCheckCheck()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source)"
-    data "StatsFunctors" "ApplyStatus(SELF,SB_ExtraAttack_SpiritWarriorCantripUsed,100,1);"
+    data "StatsFunctorContext" "OnCast"
+    data "Conditions" "SB_SpiritWarrior_CantripCheckCheck() and HasUseCosts('ActionPoint', true)"
+    data "StatsFunctors" "ApplyStatus(SB_SpiritWarrior_CantripUsed,100,1); ApplyStatus(EXTRA_ATTACK,100,1)"
 
-    new entry "SB_ExtraAttack_SpiritWarrior3"
+    new entry "SB_SpiritWarrior_EAReplace"
     type "PassiveData"
-    data "DisplayName" "hcf90a672g10deg4b3egad4fg9094c6ac6224;1"
+    data "DisplayName" "h425e6327gaf37g4622g8708g7a5b8f92109c;1"
     data "Properties" "IsHidden"
-    data "StatsFunctorContext" "OnCast;OnStatusRemoved;OnStatusApplied"
-    data "Conditions" "HasStatus('EXTRA_ATTACK',context.Source) and not HasStatus('SB_ExtraAttack_SpiritWarriorCantripUsed',context.Source)"
-    data "StatsFunctors" "ApplyStatus(SELF,SB_ExtraAttack_SpiritWarriorCantripsExtra,100,1);"
+    data "StatsFunctorContext" "OnStatusApplied;OnStatusRemoved"
+    data "Conditions" "HasStatus('EXTRA_ATTACK',context.Source) and not HasStatus('SB_SpiritWarrior_CantripUsed')"
+    data "StatsFunctors" "ApplyStatus(SB_SpiritWarrior_ExtraAttack,100,1)"
 
     // Warrior of the Grave //
 
@@ -248,8 +247,8 @@
 
     new entry "SB_Interrupt_TotemicCurse_HexPassive"
     type "PassiveData"
-    data "DisplayName" "h0df4bbfeg2e17g442bga43dg602eccff89c5;2"
-    data "Description" "h64706031g9dd0g45f2gb085gac54f2858230;2"
+    data "DisplayName" "h5856ae9bg21afg418bg99ccg017381cffe30;1"
+    data "Description" "hd176deeag0490g4326g8f26gd555624c3f18;2"
     data "DescriptionParams" "DealDamage(1d4, Necrotic)"
     data "Properties" "IsHidden"
     data "StatsFunctorContext" "OnDamaged"
@@ -383,7 +382,7 @@
         new entry "SB_Passive_Totems_Earthquake"
         type "PassiveData"
         data "DisplayName" "h563d3275g7bd4g4614gacfdg5e66dac5b705;1"
-        data "Description" "h7c9ec313gc50cg4037gb2dfgfd113654d985;2"
+        data "Description" "hf9f543ddged30g4706g8db7gec0a24a34421;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Earthquake_Icon"
         data "BoostContext" "OnCreate;OnEquip;OnStatusApplied;OnStatusRemoved"

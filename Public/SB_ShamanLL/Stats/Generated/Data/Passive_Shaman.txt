@@ -641,7 +641,7 @@
         new entry "SB_Passive_Totems_Whirlwind"
         type "PassiveData"
         data "DisplayName" "hddf178dag79eag48acg9224g1fcfacaaba18;1"
-        data "Description" "h7c9ec313gc50cg4037gb2dfgfd113654d985;2"
+        data "Description" "h8d51d231gf44dg48f3g862fg91825decc1b7;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Whirlwind_Icon"
         data "BoostConditions" "HasStatus('SB_Status_TotemicBlessing_Whirlwind', context.Source)"

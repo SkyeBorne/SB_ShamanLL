@@ -583,6 +583,17 @@
 
     // Totemic Blessing //
 
+        // Empowered Blessing ??
+        
+        new entry "SB_Status_TotemicBlessing_Empowered"
+        type "StatusData"
+        data "StatusType" "BOOST"
+        data "DisplayName" ""
+        data "Icon" "SB_Totem_BearActive_Icon"
+        data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant)"
+        data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+        data "StatusGroups" "SG_RemoveOnRespec"
+
         // Unique //
         
         new entry "SB_Status_TotemicBlessing_Unique"
@@ -604,8 +615,6 @@
         data "Icon" "SB_Totem_BearActive_Icon"
         data "StackId" "SB_TotemicBlessing"
         data "Passives" "SB_Passive_Totems_Bear"
-        data "BoostConditions" "HasPassive('SB_WitchDoctor_EmpoweredBlessing',context.Source)"
-        data "Boosts" "UnlockSpell(SB_Target_TotemicAssaultRadiant)"
         data "RemoveConditions" "not HasStatus('SB_Status_TotemicBlessing_Bear_Self', context.Source)"
         data "RemoveEvents" "OnStatusApplied;OnTurn;OnStatusRemoved"
         data "OnRemoveFunctors" "RemoveStatus(SELF,SB_Status_TotemicBlessing_Bear_Self);RemoveStatus(SB_Status_TotemicBlessing_Unique);"
@@ -651,6 +660,7 @@
         type "StatusData"
         data "StatusType" "BOOST"
         using "SB_Status_TotemicBlessing_Bear"
+        data "Icon" "SB_Totem_Eagle_Icon"
         data "DescriptionParams" "Eagle"
         data "RemoveConditions" "not HasStatus('SB_Status_TotemicBlessing_Eagle_Self', context.Source)"
         data "RemoveEvents" "OnStatusApplied;OnTurn;OnStatusRemoved"

@@ -573,7 +573,6 @@
     data "TargetEffect" "7d30207d-4c3f-4f01-8e50-aaff803e1992"
     data "DamageType" "Cold"
 
-
     // Investiture of Wind //
 
     new entry "SB_Shout_Investiture_Wind"
@@ -739,6 +738,38 @@
     data "SpellContainerID" "SB_GreaterSpirit_FreezingSphere"
     data "UseCosts" "ActionPoint:1"
     data "Cooldown" "OncePerRest"
+
+    // Spike Growth //
+
+    new entry "SB_ShamanLL_Target_SpikeGrowth"
+    type "SpellData"
+    data "SpellType" "Target"
+    using "Target_SpikeGrowth"
+    data "UseCosts" "ActionPoint:1;SB_ShamanSpellSlot:1:1:2"
+
+    new entry "SB_ShamanLL_Target_SpikeGrowth_3"
+    type "SpellData"
+    data "SpellType" "Target"
+    using "Target_SpikeGrowth"
+    data "UseCosts" "ActionPoint:1;SB_ShamanSpellSlot:1:1:3"
+    data "RootSpellID" "SB_ShamanLL_Target_SpikeGrowth"
+    data "PowerLevel" "3"
+
+    new entry "SB_ShamanLL_Target_SpikeGrowth_4"
+    type "SpellData"
+    data "SpellType" "Target"
+    using "Target_SpikeGrowth"
+    data "UseCosts" "ActionPoint:1;SB_ShamanSpellSlot:1:1:4"
+    data "RootSpellID" "SB_ShamanLL_Target_SpikeGrowth"
+    data "PowerLevel" "4"
+
+    new entry "SB_ShamanLL_Target_SpikeGrowth_5"
+    type "SpellData"
+    data "SpellType" "Target"
+    using "Target_SpikeGrowth"
+    data "UseCosts" "ActionPoint:1;SB_ShamanSpellSlot:1:1:5"
+    data "RootSpellID" "SB_ShamanLL_Target_SpikeGrowth"
+    data "PowerLevel" "5"
 
 /// Spirit Warrior Spells ///
 
@@ -1746,7 +1777,7 @@
     data "Icon" "SB_Totem_BearRetract_Icon"
     data "SpellProperties" "RemoveStatus(SELF, SB_Status_Totems_Bear);"
     data "TargetConditions" "Self()"
-    data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsMelee;Temporary"
+    data "SpellFlags" "IsMelee;Temporary"
     data "DisplayName" "hf5628e37g6ed9g437eg8848gf9ba9e32c6a4;1"
     data "Description" "hefcde9e6g6f7dg4593g9cf8gfb95877f7c6e;2"
 
@@ -2688,6 +2719,7 @@
     using "SB_Target_Totems_Midnight"
     data "Icon" "Spell_Conjuration_SummonShadowspawn"
     data "SpellContainerID" "SB_Target_Totems_Midnight"
+    data "ContainerSpells" ""
     data "SpellProperties" "GROUND:Summon(2a00d3ac-3602-11ee-be56-0242ac120002, 600,,,'ShadowspawnStack',SHADOWSPAWN_FURY_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
     data "DisplayName" "f033c414-1771-4176-a8b3-79014d4521e1;1"
     data "Description" "a7bd3f23-5cef-44ed-846b-4700fddc02d1;1"
@@ -2698,6 +2730,7 @@
     using "SB_Target_Totems_Midnight"
     data "Icon" "Spell_Conjuration_SummonShadowspawn"
     data "SpellContainerID" "SB_Target_Totems_Midnight"
+    data "ContainerSpells" ""
     data "SpellProperties" "GROUND:Summon(2a00d3ac-3602-11ee-be56-0242ac120002, 600,,,'ShadowspawnStack',SHADOWSPAWN_DESPAIR_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
     data "DisplayName" "2cdb317b-3177-41d1-8edd-f629bf75ad1c;1"
     data "Description" "88796e36-706c-4c9a-97f0-4771962c3d48;1"
@@ -2709,6 +2742,7 @@
     using "SB_Target_Totems_Midnight"
     data "Icon" "Spell_Conjuration_SummonShadowspawn"
     data "SpellContainerID" "SB_Target_Totems_Midnight"
+    data "ContainerSpells" ""
     data "SpellProperties" "GROUND:Summon(2a00d3ac-3602-11ee-be56-0242ac120002, 600,,,'ShadowspawnStack',SHADOWSPAWN_FEAR_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
     data "DisplayName" "8f6337b4-119a-4d54-a903-36c83826b6c7;1"
     data "Description" "59c4b71a-f16c-4d99-9016-91978fec022f;1"

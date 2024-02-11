@@ -52,7 +52,7 @@
                     <attribute id="Name" type="FixedString" value="SB_Totems_EarthquakeCharge"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="False"/>
-                    <attribute id="UUID" type="guid" value="66e03ebf-1905-4f72-9dbd-d1c01ce4e93c"/>
+                    <attribute id="UUID" type="guid" value="e76a626e-5cfc-4634-ac49-d901c250dce2"/>
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="" version="3"/>

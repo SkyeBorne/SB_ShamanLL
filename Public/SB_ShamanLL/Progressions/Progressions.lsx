@@ -6,7 +6,7 @@
             <children>
                 <node id="Progression"> Shaman L1
                     <attribute id="AllowImprovement" type="bool" value="false"/> 
-                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);ActionResource(SB_Totems_EarthquakeCharge,1,0)"/>
                     <attribute id="Level" type="uint8" value="1"/> 
                     <attribute id="Name" type="LSString" value="SB_ShamanLL"/> 
                     <attribute id="PassivesAdded" type="LSString" value="SB_ShamanLL_SacredFocus;"/> 
@@ -33,7 +33,7 @@
                 </node>
 				<node id="Progression"> Shaman L1 MC
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);ActionResource(SB_Totems_EarthquakeCharge,1,0)"/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
 					<attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="SB_ShamanLL"/>

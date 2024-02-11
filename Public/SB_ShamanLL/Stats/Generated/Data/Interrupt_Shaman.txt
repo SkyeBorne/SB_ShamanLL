@@ -302,11 +302,13 @@
     data "InterruptContextScope" "Self"
     data "Container" "YesNoDecision"
     data "Icon" "SB_Totem_Earthquake_Icon"
-    data "Cooldown" "OncePerTurn"
     data "InterruptDefaultValue" "Ask;Enabled"
+    data "Cost" "SB_Totems_EarthquakeCharge:1"
+    data "Stack" "SB_Interrupt_Totems_Earthquake"
+    data "Cooldown" "OncePerTurn"
     data "Conditions" "Self(context.Source,context.Observer) and IsWeaponAttack() and IsMeleeAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem()"
     data "Properties" "DealDamage(LevelMapValue(SB_Totems_EarthquakeMap),MainMeleeWeaponDamageType,Magical)"
-    data "EnableCondition" "(not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')) and not HasStatus('SB_Status_TotemicBlessing_Earthquake_Self')"
+    data "EnableCondition" "HasActionResource('SB_Totems_EarthquakeCharge',1,0,false,false,context.Source) and (not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')) and not HasStatus('SB_Status_TotemicBlessing_Earthquake_Self')"
     data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 
     // Rains //
@@ -324,7 +326,7 @@
     data "Properties" "SetRoll(19);"
     data "Cost" "ReactionActionPoint:1;SB_Totems_WavesCharge:1"
     data "InterruptDefaultValue" "Ask;Enabled"
-    data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
+    data "EnableCondition" "(not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')) and not HasStatus('SB_Status_TotemicBlessing_Whirlwind_Self')"
     data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 
     // Whirlwind //
@@ -341,7 +343,7 @@
     data "Properties" "ApplyStatus(SELF,SB_Totems_WhirlwindOwnerStatus,100,1);ApplyStatus(OBSERVER_TARGET,SB_Totems_WhirlwindTargetStatus,100,1)"
     data "Cost" "ReactionActionPoint:1;"
     data "InterruptDefaultValue" "Ask;Enabled"
-    data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
+    data "EnableCondition" "(not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')) and not HasStatus('SB_Status_TotemicBlessing_Whirlwind_Self')"
     data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 
     // Eruption //

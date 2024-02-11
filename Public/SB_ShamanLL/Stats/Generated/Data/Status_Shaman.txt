@@ -393,7 +393,7 @@
     data "StillAnimationPriority" "Weakened"
     data "StackId" "SB_TotemicCurse"
     data "TickType" "StartTurn"
-    data "Boosts" "ActionResource(Movement,-1.5,0)"
+    data "Boosts" "ActionResourceConsumeMultiplier(Movement, 2,0);"
     data "StatusGroups" "SG_Restrained;SG_Condition"
     data "StatusPropertyFlags" "TickingWithSource"
     data "ManagedStatusEffectType" "Negative"
@@ -583,7 +583,7 @@
 
     // Totemic Blessing //
 
-        // Empowered Blessing ??
+        // Empowered Blessing //
         
         new entry "SB_Status_TotemicBlessing_Empowered"
         type "StatusData"

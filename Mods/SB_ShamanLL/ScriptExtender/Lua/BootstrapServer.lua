@@ -121,12 +121,12 @@ function applyShamanTotemPassives(characterGUID)
     _P("Shaman: Added Totem of the Rains")
   end
   
-  if (Osi.HasSpell(characterGUID, "SB_Shout_Totems_Twilight") == 0) and (Osi.HasPassive(characterGUID, "SB_Passives_Totems_Twilight") == 1) then
-    Osi.RemovePassive(characterGUID, "SB_Passives_Totems_Twilight")
+  if (Osi.HasSpell(characterGUID, "SB_Shout_Totems_Twilight") == 0) and (Osi.HasPassive(characterGUID, "SB_Passive_Totems_Twilight") == 1) then
+    Osi.RemovePassive(characterGUID, "SB_Passive_Totems_Twilight")
     hasChanged = true
     _P("Shaman: Removed Totem of Twilight")
-  elseif (Osi.HasSpell(characterGUID, "SB_Shout_Totems_Twilight") == 1) and (Osi.HasPassive(characterGUID, "SB_Passives_Totems_Twilight") == 0) then
-    Osi.AddPassive(characterGUID, "SB_Passives_Totems_Twilight")
+  elseif (Osi.HasSpell(characterGUID, "SB_Shout_Totems_Twilight") == 1) and (Osi.HasPassive(characterGUID, "SB_Passive_Totems_Twilight") == 0) then
+    Osi.AddPassive(characterGUID, "SB_Passive_Totems_Twilight")
     hasChanged = true
     _P("Shaman: Added Totem of Twilight")
   end
@@ -325,9 +325,9 @@ function removeShamanTotemPassives(characterGUID)
       _P("Shaman: Removed Totem of the Rains")
       Osi.RemovePassive(characterGUID, "SB_Passive_Totems_Rains")
     end
-    if(Osi.HasPassive(characterGUID, "SB_Passives_Totems_Twilight") == 1) then
+    if(Osi.HasPassive(characterGUID, "SB_Passive_Totems_Twilight") == 1) then
       _P("Shaman: Removed Totem of Twilight")
-      Osi.RemovePassive(characterGUID, "SB_Passives_Totems_Twilight")
+      Osi.RemovePassive(characterGUID, "SB_Passive_Totems_Twilight")
     end
     if(Osi.HasPassive(characterGUID, "SB_Passive_Totems_Whirlwind") == 1) then
       _P("Shaman: Removed Totem of the Whirlwind")

@@ -6,8 +6,10 @@
     type "PassiveData"
     data "DisplayName" "hba5aa2a9gb3c0g4d87g97f2gcc45a0a47028"
     data "Description" "h64019770g015bg4ac5gab03ge1b2da00f184"
-    data "Properties" "IsHidden"
+    data "Properties" "IsHidden;OncePerLongRest"
     data "Icon" ""
+    data "StatsFunctorContext" "OnHealed;OnMove;OnActionResourcesChanged;OnTurn"
+    data "StatsFunctors" "RestoreResource(SB_ShamanSpellSlot,100%,1);RestoreResource(SB_ShamanSpellSlot,100%,2);RestoreResource(SB_ShamanSpellSlot,100%,3);RestoreResource(SB_ShamanSpellSlot,100%,4);RestoreResource(SB_ShamanSpellSlot,100%,5)"
 
     new entry "SB_ShamanLL_FocusBody"
     type "PassiveData"
@@ -385,9 +387,9 @@
         data "Description" "hf9f543ddged30g4706g8db7gec0a24a34421;2"
         data "Properties" "Highlighted"
         data "Icon" "SB_Totem_Earthquake_Icon"
-        data "BoostContext" "OnCreate;OnEquip;OnStatusApplied;OnStatusRemoved"
+        data "BoostContext" "OnCreate;OnEquip;"
         data "BoostConditions" "HasStatus('SB_Status_TotemicBlessing_Earthquake', context.Source)"
-        data "Boosts" "UnlockSpell(SB_Shout_Totems_Earthquake);"
+        data "Boosts" "UnlockInterrupt(SB_Interrupt_Totems_Earthquake);ActionResource(SB_Totems_EarthquakeCharge,1,0)"
 
         // Hound //
 
@@ -469,7 +471,7 @@
         data "DescriptionParams" "Distance(24)"
         data "Icon" "SB_Totem_Twilight_Icon"
         data "Properties" "IsHidden"
-        data "BoostConditions" "HasPassive('SB_Passives_Totems_Twilight', context.Source) and not HasStatus('SB_Status_TotemicBlessing_Twilight_Self', context.Source)"
+        data "BoostConditions" "HasPassive('SB_Passive_Totems_Twilight', context.Source) and not HasStatus('SB_Status_TotemicBlessing_Twilight_Self', context.Source)"
         data "BoostContext" "OnCreate;OnEquip;OnStatusApplied;OnStatusRemoved"
         data "Boosts" "StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud)"
 
@@ -512,7 +514,7 @@
         data "Description" "h140418fegc2b9g45c3g9624gdcbec3286726;1"
         data "DescriptionParams" "Distance(1.5);Distance(3);Distance(4.5);Distance(6)"
         data "Icon" "SB_Totem_Winds_Icon"
-        data "Properties" "Highlighted"
+        data "Properties" "IsHidden"
         data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source) and not HasStatus('SB_Status_TotemicBlessing_Winds_Self', context.Source) and CharacterLevelGreaterThan(4)"
         data "Boosts" "ActionResource(Movement,1.5,0)"
 
@@ -522,7 +524,7 @@
         data "Description" "h140418fegc2b9g45c3g9624gdcbec3286726;1"
         data "DescriptionParams" "Distance(1.5);Distance(3);Distance(4.5);Distance(6)"
         data "Icon" "SB_Totem_Winds_Icon"
-        data "Properties" "Highlighted"
+        data "Properties" "IsHidden"
         data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source) and not HasStatus('SB_Status_TotemicBlessing_Winds_Self', context.Source) and CharacterLevelGreaterThan(9)"
         data "Boosts" "ActionResource(Movement,1.5,0)"
 
@@ -532,7 +534,7 @@
         data "Description" "h140418fegc2b9g45c3g9624gdcbec3286726;1"
         data "DescriptionParams" "Distance(1.5);Distance(3);Distance(4.5);Distance(6)"
         data "Icon" "SB_Totem_Winds_Icon"
-        data "Properties" "Highlighted"
+        data "Properties" "IsHidden"
         data "BoostConditions" "HasPassive('SB_Passive_Totems_Winds', context.Source) and not HasStatus('SB_Status_TotemicBlessing_Winds_Self', context.Source) and CharacterLevelGreaterThan(14)"
         data "Boosts" "ActionResource(Movement,1.5,0)"
 

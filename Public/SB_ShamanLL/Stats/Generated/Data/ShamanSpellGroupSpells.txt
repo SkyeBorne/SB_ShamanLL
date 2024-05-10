@@ -1,0 +1,3598 @@
+// Level 1 //
+
+    / Animal Friendship / 
+
+        new entry "SB_Shaman_Target_AnimalFriendship"
+        type "SpellData"
+        using "Target_AnimalFriendship"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_AnimalFriendship_2"
+        type "SpellData"
+        using "Target_AnimalFriendship_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_AnimalFriendship"
+
+        new entry "SB_Shaman_Target_AnimalFriendship_3"
+        type "SpellData"
+        using "Target_AnimalFriendship_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_AnimalFriendship"
+
+        new entry "SB_Shaman_Target_AnimalFriendship_4"
+        type "SpellData"
+        using "Target_AnimalFriendship_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_AnimalFriendship"
+
+        new entry "SB_Shaman_Target_AnimalFriendship_5"
+        type "SpellData"
+        using "Target_AnimalFriendship_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_AnimalFriendship"
+
+    / Armor of Agathys /
+
+        new entry "SB_Shaman_Shout_ArmorOfAgathys"
+        type "SpellData"
+        using "Shout_ArmorOfAgathys"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Shout_ArmorOfAgathys_2"
+        type "SpellData"
+        using "Shout_ArmorOfAgathys_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Shout_ArmorOfAgathys"
+
+        new entry "SB_Shaman_Shout_ArmorOfAgathys_3"
+        type "SpellData"
+        using "Shout_ArmorOfAgathys_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Shout_ArmorOfAgathys"
+
+        new entry "SB_Shaman_Shout_ArmorOfAgathys_4"
+        type "SpellData"
+        using "Shout_ArmorOfAgathys_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_ArmorOfAgathys"
+
+        new entry "SB_Shaman_Shout_ArmorOfAgathys_5"
+        type "SpellData"
+        using "Shout_ArmorOfAgathys_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_ArmorOfAgathys"
+
+    / Bane /
+
+        new entry "SB_Shaman_Target_Bane"
+        type "SpellData"
+        using "Target_Bane"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Bane_2"
+        type "SpellData"
+        using "Target_Bane_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Bane"
+
+        new entry "SB_Shaman_Target_Bane_3"
+        type "SpellData"
+        using "Target_Bane_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Bane"
+
+        new entry "SB_Shaman_Target_Bane_4"
+        type "SpellData"
+        using "Target_Bane_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Bane"
+
+        new entry "SB_Shaman_Target_Bane_5"
+        type "SpellData"
+        using "Target_Bane_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Bane"
+
+    / Beast Bond /
+
+        new entry "SB_Shaman_Target_BeastBond"
+        type "SpellData"
+        using "Target_BeastBond"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_BeastBond_2"
+        type "SpellData"
+        using "Target_BeastBond_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_BeastBond"
+
+        new entry "SB_Shaman_Target_BeastBond_3"
+        type "SpellData"
+        using "Target_BeastBond_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_BeastBond"
+
+        new entry "SB_Shaman_Target_BeastBond_4"
+        type "SpellData"
+        using "Target_BeastBond_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_BeastBond"
+
+        new entry "SB_Shaman_Target_BeastBond_5"
+        type "SpellData"
+        using "Target_BeastBond_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_BeastBond"
+
+    / Bless /
+
+        new entry "SB_Shaman_Target_Bless"
+        type "SpellData"
+        using "Target_Bless"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Bless_2"
+        type "SpellData"
+        using "Target_Bless_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Bless"
+
+        new entry "SB_Shaman_Target_Bless_3"
+        type "SpellData"
+        using "Target_Bless_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Bless"
+
+        new entry "SB_Shaman_Target_Bless_4"
+        type "SpellData"
+        using "Target_Bless_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Bless"
+
+        new entry "SB_Shaman_Target_Bless_5"
+        type "SpellData"
+        using "Target_Bless_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Bless"
+
+    / Cause Fear /
+
+        new entry "SB_Shaman_Target_CauseFear"
+        type "SpellData"
+        using "Target_CauseFear"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_CauseFear_2"
+        type "SpellData"
+        using "Target_CauseFear_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_CauseFear"
+
+        new entry "SB_Shaman_Target_CauseFear_3"
+        type "SpellData"
+        using "Target_CauseFear_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_CauseFear"
+
+        new entry "SB_Shaman_Target_CauseFear_4"
+        type "SpellData"
+        using "Target_CauseFear_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_CauseFear"
+
+        new entry "SB_Shaman_Target_CauseFear_5"
+        type "SpellData"
+        using "Target_CauseFear_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_CauseFear"
+
+    / Caustic Brew / 
+
+        new entry "SB_Shaman_Zone_TashasCausticBrew"
+        type "SpellData"
+        using "Zone_TashasCausticBrew"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Zone_TashasCausticBrew_2"
+        type "SpellData"
+        using "Zone_TashasCausticBrew_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Zone_TashasCausticBrew"
+
+        new entry "SB_Shaman_Zone_TashasCausticBrew_3"
+        type "SpellData"
+        using "Zone_TashasCausticBrew_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Zone_TashasCausticBrew"
+
+        new entry "SB_Shaman_Zone_TashasCausticBrew_4"
+        type "SpellData"
+        using "Zone_TashasCausticBrew_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Zone_TashasCausticBrew"
+
+        new entry "SB_Shaman_Zone_TashasCausticBrew_5"
+        type "SpellData"
+        using "Zone_TashasCausticBrew_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Zone_TashasCausticBrew"
+
+    / Command /
+
+        new entry "SB_Shaman_Target_Command_Container"
+        type "SpellData"
+        using "Target_Command_Container"
+        data "ContainerSpells" "SB_Shaman_Target_Command_Halt;SB_Shaman_Target_Command_Approach;SB_Shaman_Target_Command_Drop;SB_Shaman_Target_Command_Flee;SB_Shaman_Target_Command_Grovel"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Command_Container_2"
+        type "SpellData"
+        using "Target_Command_Container_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "ContainerSpells" "SB_Shaman_Target_Command_Halt_2;SB_Shaman_Target_Command_Approach_2;SB_Shaman_Target_Command_Drop_2;SB_Shaman_Target_Command_Flee_2;SB_Shaman_Target_Command_Grovel_2"
+        data "RootSpellID" "SB_Shaman_Target_Command_Container"
+
+        new entry "SB_Shaman_Target_Command_Container_3"
+        type "SpellData"
+        using "Target_Command_Container_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "ContainerSpells" "SB_Shaman_Target_Command_Halt_3;SB_Shaman_Target_Command_Approach_3;SB_Shaman_Target_Command_Drop_3;SB_Shaman_Target_Command_Flee_3;SB_Shaman_Target_Command_Grovel_3"
+        data "RootSpellID" "SB_Shaman_Target_Command_Container"
+
+        new entry "SB_Shaman_Target_Command_Container_4"
+        type "SpellData"
+        using "Target_Command_Container_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Target_Command_Halt_4;SB_Shaman_Target_Command_Approach_4;SB_Shaman_Target_Command_Drop_4;SB_Shaman_Target_Command_Flee_4;SB_Shaman_Target_Command_Grovel_4"
+        data "RootSpellID" "SB_Shaman_Target_Command_Container"
+
+        new entry "SB_Shaman_Target_Command_Container_5"
+        type "SpellData"
+        using "Target_Command_Container_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Target_Command_Halt_5;SB_Shaman_Target_Command_Approach_5;SB_Shaman_Target_Command_Drop_5;SB_Shaman_Target_Command_Flee_5;SB_Shaman_Target_Command_Grovel_5"
+        data "RootSpellID" "SB_Shaman_Target_Command_Container"
+
+        new entry "SB_Shaman_Target_Command_Halt"
+        type "SpellData"
+        using "Target_Command_Halt"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Command_Halt_2"
+        type "SpellData"
+        using "Target_Command_Halt_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_2"
+        data "RootSpellID" "SB_Shaman_Target_Command_Halt"
+
+        new entry "SB_Shaman_Target_Command_Halt_3"
+        type "SpellData"
+        using "Target_Command_Halt_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_3"
+        data "RootSpellID" "SB_Shaman_Target_Command_Halt"
+
+        new entry "SB_Shaman_Target_Command_Halt_4"
+        type "SpellData"
+        using "Target_Command_Halt_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_4"
+        data "RootSpellID" "SB_Shaman_Target_Command_Halt"
+
+        new entry "SB_Shaman_Target_Command_Halt_5"
+        type "SpellData"
+        using "Target_Command_Halt_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_5"
+        data "RootSpellID" "SB_Shaman_Target_Command_Halt"
+
+        new entry "SB_Shaman_Target_Command_Approach"
+        type "SpellData"
+        using "Target_Command_Approach"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Command_Approach_2"
+        type "SpellData"
+        using "Target_Command_Approach_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_2"
+        data "RootSpellID" "SB_Shaman_Target_Command_Approach"
+
+        new entry "SB_Shaman_Target_Command_Approach_3"
+        type "SpellData"
+        using "Target_Command_Approach_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_3"
+        data "RootSpellID" "SB_Shaman_Target_Command_Approach"
+
+        new entry "SB_Shaman_Target_Command_Approach_4"
+        type "SpellData"
+        using "Target_Command_Approach_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_4"
+        data "RootSpellID" "SB_Shaman_Target_Command_Approach"
+
+        new entry "SB_Shaman_Target_Command_Approach_5"
+        type "SpellData"
+        using "Target_Command_Approach_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_5"
+        data "RootSpellID" "SB_Shaman_Target_Command_Approach"
+
+        new entry "SB_Shaman_Target_Command_Drop"
+        type "SpellData"
+        using "Target_Command_Drop"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Command_Drop_2"
+        type "SpellData"
+        using "Target_Command_Drop_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_2"
+        data "RootSpellID" "SB_Shaman_Target_Command_"
+
+        new entry "SB_Shaman_Target_Command_Drop_3"
+        type "SpellData"
+        using "Target_Command_Drop_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_3"
+        data "RootSpellID" "SB_Shaman_Target_Command_Drop"
+
+        new entry "SB_Shaman_Target_Command_Drop_4"
+        type "SpellData"
+        using "Target_Command__4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_4"
+        data "RootSpellID" "SB_Shaman_Target_Command_Drop"
+
+        new entry "SB_Shaman_Target_Command_Drop_5"
+        type "SpellData"
+        using "Target_Command_Drop_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_5"
+        data "RootSpellID" "SB_Shaman_Target_Command_Drop"
+
+        new entry "SB_Shaman_Target_Command_Flee"
+        type "SpellData"
+        using "Target_Command_Flee"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Command_Flee_2"
+        type "SpellData"
+        using "Target_Command_Flee_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_2"
+        data "RootSpellID" "SB_Shaman_Target_Command_Flee"
+
+        new entry "SB_Shaman_Target_Command_Flee_3"
+        type "SpellData"
+        using "Target_Command_Flee_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_3"
+        data "RootSpellID" "SB_Shaman_Target_Command_Flee"
+
+        new entry "SB_Shaman_Target_Command_Flee_4"
+        type "SpellData"
+        using "Target_Command_Flee_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_4"
+        data "RootSpellID" "SB_Shaman_Target_Command_Flee"
+
+        new entry "SB_Shaman_Target_Command_Flee_5"
+        type "SpellData"
+        using "Target_Command_Flee_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_5"
+        data "RootSpellID" "SB_Shaman_Target_Command_Flee"
+
+        new entry "SB_Shaman_Target_Command_Grovel"
+        type "SpellData"
+        using "Target_Command_Grovel"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Command_Grovel_2"
+        type "SpellData"
+        using "Target_Command_Grovel_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_2"
+        data "RootSpellID" "SB_Shaman_Target_Command_Grovel"
+
+        new entry "SB_Shaman_Target_Command_Grovel_3"
+        type "SpellData"
+        using "Target_Command_Grovel_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_3"
+        data "RootSpellID" "SB_Shaman_Target_Command_Grovel"
+
+        new entry "SB_Shaman_Target_Command_Grovel_4"
+        type "SpellData"
+        using "Target_Command_Grovel_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_4"
+        data "RootSpellID" "SB_Shaman_Target_Command_Grovel"
+
+        new entry "SB_Shaman_Target_Command_Grovel_5"
+        type "SpellData"
+        using "Target_Command_Grovel_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Command_Container_5"
+        data "RootSpellID" "SB_Shaman_Target_Command_Grovel"
+
+    / Cure Wounds /
+
+        new entry "SB_Shaman_Target_CureWounds"
+        type "SpellData"
+        using "Target_CureWounds"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_CureWounds_2"
+        type "SpellData"
+        using "Target_CureWounds_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_CureWounds"
+
+        new entry "SB_Shaman_Target_CureWounds_3"
+        type "SpellData"
+        using "Target_CureWounds_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_CureWounds"
+
+        new entry "SB_Shaman_Target_CureWounds_4"
+        type "SpellData"
+        using "Target_CureWounds_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_CureWounds"
+
+        new entry "SB_Shaman_Target_CureWounds_5"
+        type "SpellData"
+        using "Target_CureWounds_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_CureWounds"
+
+    / Detect Evil and Good /
+
+        new entry "SB_Shaman_Shout_DetectEvilAndGood"
+        type "SpellData"
+        using "Shout_DetectEvilAndGood"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Shout_DetectEvilAndGood_2"
+        type "SpellData"
+        using "Shout_DetectEvilAndGood_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Shout_DetectEvilAndGood"
+
+        new entry "SB_Shaman_Shout_DetectEvilAndGood_3"
+        type "SpellData"
+        using "Shout_DetectEvilAndGood_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Shout_DetectEvilAndGood"
+
+        new entry "SB_Shaman_Shout_DetectEvilAndGood_4"
+        type "SpellData"
+        using "Shout_DetectEvilAndGood_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_DetectEvilAndGood"
+
+        new entry "SB_Shaman_Shout_DetectEvilAndGood_5"
+        type "SpellData"
+        using "Shout_DetectEvilAndGood_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_DetectEvilAndGood"
+
+    / Dissonant Whispers /
+
+        new entry "SB_Shaman_Target_DissonantWhispers"
+        type "SpellData"
+        data "SpellType" "Target"
+        using "Target_DissonantWhispers"
+        data "UseCosts" "BonusActionPoint:1;"
+
+        new entry "SB_Shaman_Target_DissonantWhispers_2"
+        type "SpellData"
+        using "Target_DissonantWhispers_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_DissonantWhispers"
+
+        new entry "SB_Shaman_Target_DissonantWhispers_3"
+        type "SpellData"
+        using "Target_DissonantWhispers_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_DissonantWhispers"
+
+        new entry "SB_Shaman_Target_DissonantWhispers_4"
+        type "SpellData"
+        using "Target_DissonantWhispers_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_DissonantWhispers"
+
+        new entry "SB_Shaman_Target_DissonantWhispers_5"
+        type "SpellData"
+        using "Target_DissonantWhispers_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_DissonantWhispers"
+
+    / Entangle /
+
+        new entry "SB_Shaman_Target_Entangle"
+        type "SpellData"
+        using "Target_Entangle"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Entangle_2"
+        type "SpellData"
+        using "Target_Entangle_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Entangle"
+
+        new entry "SB_Shaman_Target_Entangle_3"
+        type "SpellData"
+        using "Target_Entangle_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Entangle"
+
+        new entry "SB_Shaman_Target_Entangle_4"
+        type "SpellData"
+        using "Target_Entangle_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Entangle"
+
+        new entry "SB_Shaman_Target_Entangle_5"
+        type "SpellData"
+        using "Target_Entangle_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Entangle"
+
+    / Expeditious Retreat /
+
+        new entry "SB_Shaman_Shout_ExpeditiousRetreat"
+        type "SpellData"
+        using "Shout_ExpeditiousRetreat"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Shout_ExpeditiousRetreat_2"
+        type "SpellData"
+        using "Shout_ExpeditiousRetreat_2"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Shout_ExpeditiousRetreat"
+
+        new entry "SB_Shaman_Shout_ExpeditiousRetreat_3"
+        type "SpellData"
+        using "Shout_ExpeditiousRetreat_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Shout_ExpeditiousRetreat"
+
+        new entry "SB_Shaman_Shout_ExpeditiousRetreat_4"
+        type "SpellData"
+        using "Shout_ExpeditiousRetreat_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_ExpeditiousRetreat"
+
+        new entry "SB_Shaman_Shout_ExpeditiousRetreat_5"
+        type "SpellData"
+        using "Shout_ExpeditiousRetreat_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_ExpeditiousRetreat"
+
+    / False Life /
+
+        new entry "SB_Shaman_Target_FalseLife"
+        type "SpellData"
+        using "Target_FalseLife"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_FalseLife_2"
+        type "SpellData"
+        using "Target_FalseLife_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_FalseLife"
+
+        new entry "SB_Shaman_Target_FalseLife_3"
+        type "SpellData"
+        using "Target_FalseLife_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_FalseLife"
+
+        new entry "SB_Shaman_Target_FalseLife_4"
+        type "SpellData"
+        using "Target_FalseLife_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FalseLife"
+
+        new entry "SB_Shaman_Target_FalseLife_5"
+        type "SpellData"
+        using "Target_FalseLife_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FalseLife"
+
+    / Find Familiar /
+
+        new entry "SB_Shaman_Target_FindFamiliar"
+        type "SpellData"
+        using "Target_FindFamiliar"
+        data "ContainerSpells" "SB_Shaman_Target_FindFamiliar_Cat;SB_Shaman_Target_FindFamiliar_Crab;SB_Shaman_Target_FindFamiliar_Frog;SB_Shaman_Target_FindFamiliar_Rat;SB_Shaman_Target_FindFamiliar_Raven;SB_Shaman_Target_FindFamiliar_Spider"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_FindFamiliar_2"
+        type "SpellData"
+        using "Target_FindFamiliar_2"
+        data "ContainerSpells" "SB_Shaman_Target_FindFamiliar_Cat_2;SB_Shaman_Target_FindFamiliar_Crab_2;SB_Shaman_Target_FindFamiliar_Frog_2;SB_Shaman_Target_FindFamiliar_Rat_2;SB_Shaman_Target_FindFamiliar_Raven_2;SB_Shaman_Target_FindFamiliar_Spider_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar"
+
+        new entry "SB_Shaman_Target_FindFamiliar_3"
+        type "SpellData"
+        using "Target_FindFamiliar_3"
+        data "ContainerSpells" "SB_Shaman_Target_FindFamiliar_Cat_3;SB_Shaman_Target_FindFamiliar_Crab_3;SB_Shaman_Target_FindFamiliar_Frog_3;SB_Shaman_Target_FindFamiliar_Rat_3;SB_Shaman_Target_FindFamiliar_Raven_3;SB_Shaman_Target_FindFamiliar_Spider_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar"
+
+        new entry "SB_Shaman_Target_FindFamiliar_4"
+        type "SpellData"
+        using "Target_FindFamiliar_4"
+        data "ContainerSpells" "SB_Shaman_Target_FindFamiliar_Cat_4;SB_Shaman_Target_FindFamiliar_Crab_4;SB_Shaman_Target_FindFamiliar_Frog_4;SB_Shaman_Target_FindFamiliar_Rat_4;SB_Shaman_Target_FindFamiliar_Raven_4;SB_Shaman_Target_FindFamiliar_Spider_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar"
+
+        new entry "SB_Shaman_Target_FindFamiliar_5"
+        type "SpellData"
+        using "Target_FindFamiliar_5"
+        data "ContainerSpells" "SB_Shaman_Target_FindFamiliar_Cat_5;SB_Shaman_Target_FindFamiliar_Crab_5;SB_Shaman_Target_FindFamiliar_Frog_5;SB_Shaman_Target_FindFamiliar_Rat_5;SB_Shaman_Target_FindFamiliar_Raven_5;SB_Shaman_Target_FindFamiliar_Spider_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Cat"
+        type "SpellData"
+        using "Target_FindFamiliar_Cat"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Cat_2"
+        type "SpellData"
+        using "Target_FindFamiliar_Cat_2"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Cat"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Cat_3"
+        type "SpellData"
+        using "Target_FindFamiliar_Cat_3"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Cat"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Cat_4"
+        type "SpellData"
+        using "Target_FindFamiliar_Cat_4"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Cat"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Cat_5"
+        type "SpellData"
+        using "Target_FindFamiliar_Cat_5"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Cat"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Crab"
+        type "SpellData"
+        using "Target_FindFamiliar_Crab"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Crab_2"
+        type "SpellData"
+        using "Target_FindFamiliar_Crab_2"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Crab"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Crab_3"
+        type "SpellData"
+        using "Target_FindFamiliar_Crab_3"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Crab"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Crab_4"
+        type "SpellData"
+        using "Target_FindFamiliar_Crab_4"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Crab"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Crab_5"
+        type "SpellData"
+        using "Target_FindFamiliar_Crab_5"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Crab"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Frog"
+        type "SpellData"
+        using "Target_FindFamiliar_Frog"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Frog_2"
+        type "SpellData"
+        using "Target_FindFamiliar_Frog_2"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Frog"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Frog_3"
+        type "SpellData"
+        using "Target_FindFamiliar_Frog_3"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Frog"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Frog_4"
+        type "SpellData"
+        using "Target_FindFamiliar_Frog_4"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Frog"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Frog_5"
+        type "SpellData"
+        using "Target_FindFamiliar_Frog_5"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Frog"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Rat"
+        type "SpellData"
+        using "Target_FindFamiliar_Rat"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Rat_2"
+        type "SpellData"
+        using "Target_FindFamiliar_Rat_2"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Rat"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Rat_3"
+        type "SpellData"
+        using "Target_FindFamiliar_Rat_3"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Rat"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Rat_4"
+        type "SpellData"
+        using "Target_FindFamiliar_Rat_4"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Rat"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Rat_5"
+        type "SpellData"
+        using "Target_FindFamiliar_Rat_5"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Rat"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Raven"
+        type "SpellData"
+        using "Target_FindFamiliar_Raven"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Raven_2"
+        type "SpellData"
+        using "Target_FindFamiliar_Raven_2"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Raven"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Raven_3"
+        type "SpellData"
+        using "Target_FindFamiliar_Raven_3"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Raven"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Raven_4"
+        type "SpellData"
+        using "Target_FindFamiliar_Raven_4"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Raven"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Raven_5"
+        type "SpellData"
+        using "Target_FindFamiliar_Raven_5"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Raven"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Spider"
+        type "SpellData"
+        using "Target_FindFamiliar_Spider"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Spider_2"
+        type "SpellData"
+        using "Target_FindFamiliar_Spider_2"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Spider"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Spider_3"
+        type "SpellData"
+        using "Target_FindFamiliar_Spider_3"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Spider"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Spider_4"
+        type "SpellData"
+        using "Target_FindFamiliar_Spider_4"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Spider"
+
+        new entry "SB_Shaman_Target_FindFamiliar_Spider_5"
+        type "SpellData"
+        using "Target_FindFamiliar_Spider_5"
+        data "SpellContainerID" "SB_Shaman_Target_FindFamiliar_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FindFamiliar_Spider"
+
+    / Fog Cloud /
+
+        new entry "SB_Shaman_Target_FogCloud"
+        type "SpellData"
+        using "Target_FogCloud"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_FogCloud_2"
+        type "SpellData"
+        using "Target_FogCloud_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_FogCloud"
+
+        new entry "SB_Shaman_Target_FogCloud_3"
+        type "SpellData"
+        using "Target_FogCloud_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_FogCloud"
+
+        new entry "SB_Shaman_Target_FogCloud_4"
+        type "SpellData"
+        using "Target_FogCloud_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FogCloud"
+
+        new entry "SB_Shaman_Target_FogCloud_5"
+        type "SpellData"
+        using "Target_FogCloud_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FogCloud"
+
+    / Heroism /
+
+        new entry "SB_Shaman_Target_Heroism"
+        type "SpellData"
+        using "Target_Heroism"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Heroism_2"
+        type "SpellData"
+        using "Target_Heroism_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Heroism"
+
+        new entry "SB_Shaman_Target_Heroism_3"
+        type "SpellData"
+        using "Target_Heroism_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Heroism"
+
+        new entry "SB_Shaman_Target_Heroism_4"
+        type "SpellData"
+        using "Target_Heroism_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Heroism"
+
+        new entry "SB_Shaman_Target_Heroism_5"
+        type "SpellData"
+        using "Target_Heroism_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Heroism"
+
+    / Hex /
+
+        new entry "SB_Shaman_Target_Hex"
+        type "SpellData"
+        using "Target_Hex"
+        data "ContainerSpells" "SB_Shaman_Target_Hex_Strength;SB_Shaman_Target_Hex_Dexterity;SB_Shaman_Target_Hex_Constitution;SB_Shaman_Target_Hex_Intelligence;SB_Shaman_Target_Hex_Wisdom;SB_Shaman_Target_Hex_Charisma"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Hex_2"
+        type "SpellData"
+        using "Target_Hex_2"
+        data "ContainerSpells" "SB_Shaman_Target_Hex_Strength_2;SB_Shaman_Target_Hex_Dexterity_2;SB_Shaman_Target_Hex_Constitution_2;SB_Shaman_Target_Hex_Intelligence_2;SB_Shaman_Target_Hex_Wisdom_2;SB_Shaman_Target_Hex_Charisma_2"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Hex"
+
+        new entry "SB_Shaman_Target_Hex_3"
+        type "SpellData"
+        using "Target_Hex_3"
+        data "ContainerSpells" "SB_Shaman_Target_Hex_Strength_3;SB_Shaman_Target_Hex_Dexterity_3;SB_Shaman_Target_Hex_Constitution_3;SB_Shaman_Target_Hex_Intelligence_3;SB_Shaman_Target_Hex_Wisdom_3;SB_Shaman_Target_Hex_Charisma_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Hex"
+
+        new entry "SB_Shaman_Target_Hex_4"
+        type "SpellData"
+        using "Target_Hex_4"
+        data "ContainerSpells" "SB_Shaman_Target_Hex_Strength_4;SB_Shaman_Target_Hex_Dexterity_4;SB_Shaman_Target_Hex_Constitution_4;SB_Shaman_Target_Hex_Intelligence_4;SB_Shaman_Target_Hex_Wisdom_4;SB_Shaman_Target_Hex_Charisma_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Hex"
+
+        new entry "SB_Shaman_Target_Hex_5"
+        type "SpellData"
+        using "Target_Hex_5"
+        data "ContainerSpells" "SB_Shaman_Target_Hex_Strength_5;SB_Shaman_Target_Hex_Dexterity_5;SB_Shaman_Target_Hex_Constitution_5;SB_Shaman_Target_Hex_Intelligence_5;SB_Shaman_Target_Hex_Wisdom_5;SB_Shaman_Target_Hex_Charisma_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Hex"
+
+        new entry "SB_Shaman_Target_Hex_Strength"
+        type "SpellData"
+        using "Target_Hex_Strength"
+        data "SpellContainerID" "SB_Shaman_Target_Hex"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Hex_Strength_2"
+        type "SpellData"
+        using "Target_Hex_Strength_2"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_2"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Strength"
+
+        new entry "SB_Shaman_Target_Hex_Strength_3"
+        type "SpellData"
+        using "Target_Hex_Strength_3"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Strength"
+
+        new entry "SB_Shaman_Target_Hex_Strength_4"
+        type "SpellData"
+        using "Target_Hex_Strength_4"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Strength"
+
+        new entry "SB_Shaman_Target_Hex_Strength_5"
+        type "SpellData"
+        using "Target_Hex_Strength_5"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Strength"
+
+        new entry "SB_Shaman_Target_Hex_Dexterity"
+        type "SpellData"
+        using "Target_Hex_Dexterity"
+        data "SpellContainerID" "SB_Shaman_Target_Hex"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Hex_Dexterity_2"
+        type "SpellData"
+        using "Target_Hex_Dexterity_2"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_2"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Dexterity"
+
+        new entry "SB_Shaman_Target_Hex_Dexterity_3"
+        type "SpellData"
+        using "Target_Hex_Dexterity_3"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Dexterity"
+
+        new entry "SB_Shaman_Target_Hex_Dexterity_4"
+        type "SpellData"
+        using "Target_Hex_Dexterity_4"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Dexterity"
+
+        new entry "SB_Shaman_Target_Hex_Dexterity_5"
+        type "SpellData"
+        using "Target_Hex_Dexterity_5"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Dexterity"
+
+        new entry "SB_Shaman_Target_Hex_Constitution"
+        type "SpellData"
+        using "Target_Hex_Constitution"
+        data "SpellContainerID" "SB_Shaman_Target_Hex"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Hex_Constitution_2"
+        type "SpellData"
+        using "Target_Hex_Constitution_2"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_2"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Constitution"
+
+        new entry "SB_Shaman_Target_Hex_Constitution_3"
+        type "SpellData"
+        using "Target_Hex_Constitution_3"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Constitution"
+
+        new entry "SB_Shaman_Target_Hex_Constitution_4"
+        type "SpellData"
+        using "Target_Hex_Constitution_4"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Constitution"
+
+        new entry "SB_Shaman_Target_Hex_Constitution_5"
+        type "SpellData"
+        using "Target_Hex_Constitution_5"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Constitution"
+
+        new entry "SB_Shaman_Target_Hex_Intelligence"
+        type "SpellData"
+        using "Target_Hex_Intelligence"
+        data "SpellContainerID" "SB_Shaman_Target_Hex"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Hex_Intelligence_2"
+        type "SpellData"
+        using "Target_Hex_Intelligence_2"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_2"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Intelligence"
+
+        new entry "SB_Shaman_Target_Hex_Intelligence_3"
+        type "SpellData"
+        using "Target_Hex_Intelligence_3"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Intelligence"
+
+        new entry "SB_Shaman_Target_Hex_Intelligence_4"
+        type "SpellData"
+        using "Target_Hex_Intelligence_4"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Intelligence"
+
+        new entry "SB_Shaman_Target_Hex_Intelligence_5"
+        type "SpellData"
+        using "Target_Hex_Intelligence_5"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Intelligence"
+
+        new entry "SB_Shaman_Target_Hex_Wisdom"
+        type "SpellData"
+        using "Target_Hex_Wisdom"
+        data "SpellContainerID" "SB_Shaman_Target_Hex"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Hex_Wisdom_2"
+        type "SpellData"
+        using "Target_Hex_Wisdom_2"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_2"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Wisdom"
+
+        new entry "SB_Shaman_Target_Hex_Wisdom_3"
+        type "SpellData"
+        using "Target_Hex_Wisdom_3"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Wisdom"
+
+        new entry "SB_Shaman_Target_Hex_Wisdom_4"
+        type "SpellData"
+        using "Target_Hex_Wisdom_4"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Wisdom"
+
+        new entry "SB_Shaman_Target_Hex_Wisdom_5"
+        type "SpellData"
+        using "Target_Hex_Wisdom_5"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Wisdom"
+
+        new entry "SB_Shaman_Target_Hex_Charisma"
+        type "SpellData"
+        using "Target_Hex_Charisma"
+        data "SpellContainerID" "SB_Shaman_Target_Hex"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Hex_Charisma_2"
+        type "SpellData"
+        using "Target_Hex_Charisma_2"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_2"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Charisma"
+
+        new entry "SB_Shaman_Target_Hex_Charisma_3"
+        type "SpellData"
+        using "Target_Hex_Charisma_3"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Charisma"
+
+        new entry "SB_Shaman_Target_Hex_Charisma_4"
+        type "SpellData"
+        using "Target_Hex_Charisma_4"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Charisma"
+
+        new entry "SB_Shaman_Target_Hex_Charisma_5"
+        type "SpellData"
+        using "Target_Hex_Charisma_5"
+        data "SpellContainerID" "SB_Shaman_Target_Hex_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Hex_Charisma"
+
+    / Inflict Wounds /
+
+        new entry "SB_Shaman_Target_InflictWounds"
+        type "SpellData"
+        using "Target_InflictWounds"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_InflictWounds_2"
+        type "SpellData"
+        using "Target_InflictWounds_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_InflictWounds"
+
+        new entry "SB_Shaman_Target_InflictWounds_3"
+        type "SpellData"
+        using "Target_InflictWounds_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_InflictWounds"
+
+        new entry "SB_Shaman_Target_InflictWounds_4"
+        type "SpellData"
+        using "Target_InflictWounds_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_InflictWounds"
+
+        new entry "SB_Shaman_Target_InflictWounds_5"
+        type "SpellData"
+        using "Target_InflictWounds_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_InflictWounds"
+
+    / Longstrider /
+
+        new entry "SB_Shaman_Target_Longstrider"
+        type "SpellData"
+        using "Target_Longstrider"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Longstrider_2"
+        type "SpellData"
+        using "Target_Longstrider_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Longstrider"
+
+        new entry "SB_Shaman_Target_Longstrider_3"
+        type "SpellData"
+        using "Target_Longstrider_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Longstrider"
+
+        new entry "SB_Shaman_Target_Longstrider_4"
+        type "SpellData"
+        using "Target_Longstrider_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Longstrider"
+
+        new entry "SB_Shaman_Target_Longstrider_5"
+        type "SpellData"
+        using "Target_Longstrider_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Longstrider"
+
+    / Protection from Evil and Good /
+
+        new entry "SB_Shaman_Target_ProtectionfromEvilandGood"
+        type "SpellData"
+        using "Target_ProtectionfromEvilandGood"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_ProtectionfromEvilandGood_2"
+        type "SpellData"
+        using "Target_ProtectionfromEvilandGood_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEvilandGood"
+
+        new entry "SB_Shaman_Target_ProtectionfromEvilandGood_3"
+        type "SpellData"
+        using "Target_ProtectionfromEvilandGood_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEvilandGood"
+
+        new entry "SB_Shaman_Target_ProtectionfromEvilandGood_4"
+        type "SpellData"
+        using "Target_ProtectionfromEvilandGood_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEvilandGood"
+
+        new entry "SB_Shaman_Target_ProtectionfromEvilandGood_5"
+        type "SpellData"
+        using "Target_ProtectionfromEvilandGood_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEvilandGood"
+
+    / Sanctuary /
+
+        new entry "SB_Shaman_Target_Sanctuary"
+        type "SpellData"
+        using "Target_Sanctuary"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Sanctuary_2"
+        type "SpellData"
+        using "Target_Sanctuary_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Sanctuary"
+
+        new entry "SB_Shaman_Target_Sanctuary_3"
+        type "SpellData"
+        using "Target_Sanctuary_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Sanctuary"
+
+        new entry "SB_Shaman_Target_Sanctuary_4"
+        type "SpellData"
+        using "Target_Sanctuary_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Sanctuary"
+
+        new entry "SB_Shaman_Target_Sanctuary_5"
+        type "SpellData"
+        using "Target_Sanctuary_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Sanctuary"
+
+    / Shield of Faith /
+
+        new entry "SB_Shaman_Target_ShieldOfFaith"
+        type "SpellData"
+        using "Target_ShieldOfFaith"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_ShieldOfFaith_2"
+        type "SpellData"
+        using "Target_ShieldOfFaith_2"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_ShieldOfFaith"
+
+        new entry "SB_Shaman_Target_ShieldOfFaith_3"
+        type "SpellData"
+        using "Target_ShieldOfFaith_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_ShieldOfFaith"
+
+        new entry "SB_Shaman_Target_ShieldOfFaith_4"
+        type "SpellData"
+        using "Target_ShieldOfFaith_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_ShieldOfFaith"
+
+        new entry "SB_Shaman_Target_ShieldOfFaith_5"
+        type "SpellData"
+        using "Target_ShieldOfFaith_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_ShieldOfFaith"
+
+    / Sleep /
+
+        new entry "SB_Shaman_Target_Sleep"
+        type "SpellData"
+        using "Target_Sleep"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Target_Sleep_2"
+        type "SpellData"
+        using "Target_Sleep_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Target_Sleep"
+
+        new entry "SB_Shaman_Target_Sleep_3"
+        type "SpellData"
+        using "Target_Sleep_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Sleep"
+
+        new entry "SB_Shaman_Target_Sleep_4"
+        type "SpellData"
+        using "Target_Sleep_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Sleep"
+
+        new entry "SB_Shaman_Target_Sleep_5"
+        type "SpellData"
+        using "Target_Sleep_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Sleep"
+
+    / Witch Bolt /
+
+        new entry "SB_Shaman_Projectile_WitchBolt"
+        type "SpellData"
+        using "Projectile_WitchBolt"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:1"
+
+        new entry "SB_Shaman_Projectile_WitchBolt_2"
+        type "SpellData"
+        using "Projectile_WitchBolt_2"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+        data "RootSpellID" "SB_Shaman_Projectile_WitchBolt"
+
+        new entry "SB_Shaman_Projectile_WitchBolt_3"
+        type "SpellData"
+        using "Projectile_WitchBolt_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Projectile_WitchBolt"
+
+        new entry "SB_Shaman_Projectile_WitchBolt_4"
+        type "SpellData"
+        using "Projectile_WitchBolt_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Projectile_WitchBolt"
+
+        new entry "SB_Shaman_Projectile_WitchBolt_5"
+        type "SpellData"
+        using "Projectile_WitchBolt_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Projectile_WitchBolt"
+
+// Level 2 // 
+
+    / Aid / 
+
+        new entry "SB_Shaman_Shout_Aid"
+        type "SpellData"
+        using "Shout_Aid"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Shout_Aid_3"
+        type "SpellData"
+        using "Shout_Aid_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Shout_Aid"
+
+        new entry "SB_Shaman_Shout_Aid_4"
+        type "SpellData"
+        using "Shout_Aid_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_Aid"
+
+        new entry "SB_Shaman_Shout_Aid_5"
+        type "SpellData"
+        using "Shout_Aid_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_Aid"
+
+    / Barkskin / 
+
+        new entry "SB_Shaman_Target_Barkskin"
+        type "SpellData"
+        using "Target_Barkskin"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_Barkskin_3"
+        type "SpellData"
+        using "Target_Barkskin_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Barkskin"
+
+        new entry "SB_Shaman_Target_Barkskin_4"
+        type "SpellData"
+        using "Target_Barkskin_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Barkskin"
+
+        new entry "SB_Shaman_Target_Barkskin_5"
+        type "SpellData"
+        using "Target_Barkskin_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Barkskin"
+
+    / Blur / 
+
+        new entry "SB_Shaman_Shout_Blur"
+        type "SpellData"
+        using "Shout_Blur"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Shout_Blur_3"
+        type "SpellData"
+        using "Shout_Blur_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Shout_Blur"
+
+        new entry "SB_Shaman_Shout_Blur_4"
+        type "SpellData"
+        using "Shout_Blur_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_Blur"
+
+        new entry "SB_Shaman_Shout_Blur_5"
+        type "SpellData"
+        using "Shout_Blur_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_Blur"
+
+    / Continual Flame / 
+
+        new entry "SB_Shaman_Target_ContinualFlame"
+        type "SpellData"
+        using "Target_ContinualFlame"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_ContinualFlame_3"
+        type "SpellData"
+        using "Target_ContinualFlame_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_ContinualFlame"
+
+        new entry "SB_Shaman_Target_ContinualFlame_4"
+        type "SpellData"
+        using "Target_ContinualFlame_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_ContinualFlame"
+
+        new entry "SB_Shaman_Target_ContinualFlame_5"
+        type "SpellData"
+        using "Target_ContinualFlame_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_ContinualFlame"
+
+    / Darkness / 
+
+        new entry "SB_Shaman_Target_Darkness"
+        type "SpellData"
+        using "Target_Darkness"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_Darkness_3"
+        type "SpellData"
+        using "Target_Darkness_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Darkness"
+
+        new entry "SB_Shaman_Target_Darkness_4"
+        type "SpellData"
+        using "Target_Darkness_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Darkness"
+
+        new entry "SB_Shaman_Target_Darkness_5"
+        type "SpellData"
+        using "Target_Darkness_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Darkness"
+
+    / Dust Devil / 
+
+        new entry "SB_Shaman_Target_DustDevil"
+        type "SpellData"
+        using "Target_DustDevil"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_DustDevil_3"
+        type "SpellData"
+        using "Target_DustDevil_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_DustDevil"
+
+        new entry "SB_Shaman_Target_DustDevil_4"
+        type "SpellData"
+        using "Target_DustDevil_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_DustDevil"
+
+        new entry "SB_Shaman_Target_DustDevil_5"
+        type "SpellData"
+        using "Target_DustDevil_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_DustDevil"
+
+    / Enhance Ability / 
+
+        new entry "SB_Shaman_Target_EnhanceAbility"
+        type "SpellData"
+        using "Target_EnhanceAbility"
+        data "ContainerSpells" "SB_Shaman_Target_EnhanceAbility_BearsEndurance;SB_Shaman_Target_EnhanceAbility_BullsStrength;SB_Shaman_Target_EnhanceAbility_CatsGrace;SB_Shaman_Target_EnhanceAbility_EaglesSplendor;SB_Shaman_Target_EnhanceAbility_FoxsCunning;SB_Shaman_Target_EnhanceAbility_OwlsWisdom"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_3"
+        type "SpellData"
+        using "Target_EnhanceAbility_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "ContainerSpells" "SB_Shaman_Target_EnhanceAbility_BearsEndurance_3;SB_Shaman_Target_EnhanceAbility_BullsStrength_3;SB_Shaman_Target_EnhanceAbility_CatsGrace_3;SB_Shaman_Target_EnhanceAbility_EaglesSplendor_3;SB_Shaman_Target_EnhanceAbility_FoxsCunning_3;SB_Shaman_Target_EnhanceAbility_OwlsWisdom_3"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_4"
+        type "SpellData"
+        using "Target_EnhanceAbility_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Target_EnhanceAbility_BearsEndurance_4;SB_Shaman_Target_EnhanceAbility_BullsStrength_4;SB_Shaman_Target_EnhanceAbility_CatsGrace_4;SB_Shaman_Target_EnhanceAbility_EaglesSplendor_4;SB_Shaman_Target_EnhanceAbility_FoxsCunning_4;SB_Shaman_Target_EnhanceAbility_OwlsWisdom_4"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_5"
+        type "SpellData"
+        using "Target_EnhanceAbility_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Target_EnhanceAbility_BearsEndurance_5;SB_Shaman_Target_EnhanceAbility_BullsStrength_5;SB_Shaman_Target_EnhanceAbility_CatsGrace_5;SB_Shaman_Target_EnhanceAbility_EaglesSplendor_5;SB_Shaman_Target_EnhanceAbility_FoxsCunning_5;SB_Shaman_Target_EnhanceAbility_OwlsWisdom_5"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_BearsEndurance"
+        type "SpellData"
+        using "Target_EnhanceAbility_BearsEndurance"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_BearsEndurance_3"
+        type "SpellData"
+        using "Target_EnhanceAbility_BearsEndurance_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_3"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_BearsEndurance"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_BearsEndurance_4"
+        type "SpellData"
+        using "Target_EnhanceAbility_BearsEndurance_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_4"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_BearsEndurance"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_BearsEndurance_5"
+        type "SpellData"
+        using "Target_EnhanceAbility_BearsEndurance_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_5"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_BearsEndurance"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_BullsStrength"
+        type "SpellData"
+        using "Target_EnhanceAbility_BullsStrength"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_BullsStrength_3"
+        type "SpellData"
+        using "Target_EnhanceAbility_BullsStrength_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_3"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_BullsStrength"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_BullsStrength_4"
+        type "SpellData"
+        using "Target_EnhanceAbility_BullsStrength_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_4"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_BullsStrength"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_BullsStrength_5"
+        type "SpellData"
+        using "Target_EnhanceAbility_BullsStrength_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_5"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_BullsStrength"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_CatsGrace"
+        type "SpellData"
+        using "Target_EnhanceAbility_CatsGrace"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_CatsGrace_3"
+        type "SpellData"
+        using "Target_EnhanceAbility_CatsGrace_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_3"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_CatsGrace"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_CatsGrace_4"
+        type "SpellData"
+        using "Target_EnhanceAbility_CatsGrace_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_4"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_CatsGrace"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_CatsGrace_5"
+        type "SpellData"
+        using "Target_EnhanceAbility_CatsGrace_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_5"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_CatsGrace"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_EaglesSplendor"
+        type "SpellData"
+        using "Target_EnhanceAbility_EaglesSplendor"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_EaglesSplendor_3"
+        type "SpellData"
+        using "Target_EnhanceAbility_EaglesSplendor_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_3"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_EaglesSplendor"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_EaglesSplendor_4"
+        type "SpellData"
+        using "Target_EnhanceAbility_EaglesSplendor_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_4"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_EaglesSplendor"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_EaglesSplendor_5"
+        type "SpellData"
+        using "Target_EnhanceAbility_EaglesSplendor_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_5"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_EaglesSplendor"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_FoxsCunning"
+        type "SpellData"
+        using "Target_EnhanceAbility_FoxsCunning"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_FoxsCunning_3"
+        type "SpellData"
+        using "Target_EnhanceAbility_FoxsCunning_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_3"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_FoxsCunning"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_FoxsCunning_4"
+        type "SpellData"
+        using "Target_EnhanceAbility_FoxsCunning_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_4"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_FoxsCunning"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_FoxsCunning_5"
+        type "SpellData"
+        using "Target_EnhanceAbility_FoxsCunning_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_5"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_FoxsCunning"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_OwlsWisdom"
+        type "SpellData"
+        using "Target_EnhanceAbility_OwlsWisdom"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_OwlsWisdom_3"
+        type "SpellData"
+        using "Target_EnhanceAbility_OwlsWisdom_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_3"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_OwlsWisdom"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_OwlsWisdom_4"
+        type "SpellData"
+        using "Target_EnhanceAbility_OwlsWisdom_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_4"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_OwlsWisdom"
+
+        new entry "SB_Shaman_Target_EnhanceAbility_OwlsWisdom_5"
+        type "SpellData"
+        using "Target_EnhanceAbility_OwlsWisdom_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_EnhanceAbility_5"
+        data "RootSpellID" "SB_Shaman_Target_EnhanceAbility_OwlsWisdom"
+
+    / Flame Blade / 
+
+        new entry "SB_Shaman_Shout_FlameBlade"
+        type "SpellData"
+        using "Shout_FlameBlade"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Shout_FlameBlade_3"
+        type "SpellData"
+        using "Shout_FlameBlade_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Shout_FlameBlade"
+
+        new entry "SB_Shaman_Shout_FlameBlade_4"
+        type "SpellData"
+        using "Shout_FlameBlade_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_FlameBlade"
+
+        new entry "SB_Shaman_Shout_FlameBlade_5"
+        type "SpellData"
+        using "Shout_FlameBlade_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_FlameBlade"
+
+    / Gust of Wind / 
+
+        new entry "SB_Shaman_Zone_GustOfWind"
+        type "SpellData"
+        using "Zone_GustOfWind"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Zone_GustOfWind_3"
+        type "SpellData"
+        using "Zone_GustOfWind_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Zone_GustOfWind"
+
+        new entry "SB_Shaman_Zone_GustOfWind_4"
+        type "SpellData"
+        using "Zone_GustOfWind_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Zone_GustOfWind"
+
+        new entry "SB_Shaman_Zone_GustOfWind_5"
+        type "SpellData"
+        using "Zone_GustOfWind_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Zone_GustOfWind"
+
+    / Heat Metal / 
+
+        new entry "SB_Shaman_Target_HeatMetal"
+        type "SpellData"
+        using "Target_HeatMetal"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_HeatMetal_3"
+        type "SpellData"
+        using "Target_HeatMetal_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_HeatMetal"
+
+        new entry "SB_Shaman_Target_HeatMetal_4"
+        type "SpellData"
+        using "Target_HeatMetal_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_HeatMetal"
+
+        new entry "SB_Shaman_Target_HeatMetal_5"
+        type "SpellData"
+        using "Target_HeatMetal_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_HeatMetal"
+
+    / Misty Step / 
+
+        new entry "SB_Shaman_Target_MistyStep"
+        type "SpellData"
+        using "Target_MistyStep"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_MistyStep_3"
+        type "SpellData"
+        using "Target_MistyStep_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_MistyStep"
+
+        new entry "SB_Shaman_Target_MistyStep_4"
+        type "SpellData"
+        using "Target_MistyStep_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_MistyStep"
+
+        new entry "SB_Shaman_Target_MistyStep_5"
+        type "SpellData"
+        using "Target_MistyStep_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_MistyStep"
+
+    / Moonbeam / 
+
+        new entry "SB_Shaman_Target_Moonbeam"
+        type "SpellData"
+        using "Target_Moonbeam"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_Moonbeam_3"
+        type "SpellData"
+        using "Target_Moonbeam_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Moonbeam"
+
+        new entry "SB_Shaman_Target_Moonbeam_4"
+        type "SpellData"
+        using "Target_Moonbeam_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Moonbeam"
+
+        new entry "SB_Shaman_Target_Moonbeam_5"
+        type "SpellData"
+        using "Target_Moonbeam_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Moonbeam"
+
+    / Pass Without Trace / 
+
+        new entry "SB_Shaman_Shout_PassWithoutTrace"
+        type "SpellData"
+        using "Shout_PassWithoutTrace"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Shout_PassWithoutTrace_3"
+        type "SpellData"
+        using "Shout_PassWithoutTrace_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Shout_PassWithoutTrace"
+
+        new entry "SB_Shaman_Shout_PassWithoutTrace_4"
+        type "SpellData"
+        using "Shout_PassWithoutTrace_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_PassWithoutTrace"
+
+        new entry "SB_Shaman_Shout_PassWithoutTrace_5"
+        type "SpellData"
+        using "Shout_PassWithoutTrace_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_PassWithoutTrace"
+
+    / Phantasmal Force / 
+
+        new entry "SB_Shaman_Target_PhantasmalForce"
+        type "SpellData"
+        using "Target_PhantasmalForce"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_PhantasmalForce_3"
+        type "SpellData"
+        using "Target_PhantasmalForce_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_PhantasmalForce"
+
+        new entry "SB_Shaman_Target_PhantasmalForce_4"
+        type "SpellData"
+        using "Target_PhantasmalForce_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_PhantasmalForce"
+
+        new entry "SB_Shaman_Target_PhantasmalForce_5"
+        type "SpellData"
+        using "Target_PhantasmalForce_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_PhantasmalForce"
+
+    / Protection from Poison / 
+
+        new entry "SB_Shaman_Target_ProtectionFromPoison"
+        type "SpellData"
+        using "Target_ProtectionFromPoison"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_ProtectionFromPoison_3"
+        type "SpellData"
+        using "Target_ProtectionFromPoison_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionFromPoison"
+
+        new entry "SB_Shaman_Target_ProtectionFromPoison_4"
+        type "SpellData"
+        using "Target_ProtectionFromPoison_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionFromPoison"
+
+        new entry "SB_Shaman_Target_ProtectionFromPoison_5"
+        type "SpellData"
+        using "Target_ProtectionFromPoison_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionFromPoison"
+
+    / Shatter / 
+
+        new entry "SB_Shaman_Target_Shatter"
+        type "SpellData"
+        using "Target_Shatter"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_Shatter_3"
+        type "SpellData"
+        using "Target_Shatter_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Shatter"
+
+        new entry "SB_Shaman_Target_Shatter_4"
+        type "SpellData"
+        using "Target_Shatter_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Shatter"
+
+        new entry "SB_Shaman_Target_Shatter_5"
+        type "SpellData"
+        using "Target_Shatter_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Shatter"
+
+    / Warding Wind / 
+
+        new entry "SB_Shaman_Shout_WardingWind"
+        type "SpellData"
+        using "Shout_WardingWind"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Shout_WardingWind_3"
+        type "SpellData"
+        using "Shout_WardingWind_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Shout_WardingWind"
+
+        new entry "SB_Shaman_Shout_WardingWind_4"
+        type "SpellData"
+        using "Shout_WardingWind_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_WardingWind"
+
+        new entry "SB_Shaman_Shout_WardingWind_5"
+        type "SpellData"
+        using "Shout_WardingWind_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_WardingWind"
+
+    / Magic Weapon / 
+
+        new entry "SB_Shaman_Target_MagicWeapon"
+        type "SpellData"
+        using "Target_MagicWeapon"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_MagicWeapon_3"
+        type "SpellData"
+        using "Target_MagicWeapon_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_MagicWeapon"
+
+        new entry "SB_Shaman_Target_MagicWeapon_4"
+        type "SpellData"
+        using "Target_MagicWeapon_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_MagicWeapon"
+
+        new entry "SB_Shaman_Target_MagicWeapon_5"
+        type "SpellData"
+        using "Target_MagicWeapon_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_MagicWeapon"
+
+    / Spiritual Weapon / 
+
+        new entry "SB_Shaman_Target_SpiritualWeapon"
+        type "SpellData"
+        using "Target_SpiritualWeapon"
+        data "ContainerSpells" "SB_Shaman_Target_SpiritualWeapon_Greataxe;SB_Shaman_Target_SpiritualWeapon_Greatsword;SB_Shaman_Target_SpiritualWeapon_Halberd;SB_Shaman_Target_SpiritualWeapon_Maul;SB_Shaman_Target_SpiritualWeapon_Spear;SB_Shaman_Target_SpiritualWeapon_Trident"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_3"
+        type "SpellData"
+        using "Target_SpiritualWeapon_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "ContainerSpells" "SB_Shaman_Target_SpiritualWeapon_Greataxe_3;SB_Shaman_Target_SpiritualWeapon_Greatsword_3;SB_Shaman_Target_SpiritualWeapon_Halberd_3;SB_Shaman_Target_SpiritualWeapon_Maul_3;SB_Shaman_Target_SpiritualWeapon_Spear_3;SB_Shaman_Target_SpiritualWeapon_Trident_3"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_4"
+        type "SpellData"
+        using "Target_SpiritualWeapon_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Target_SpiritualWeapon_Greataxe_4;SB_Shaman_Target_SpiritualWeapon_Greatsword_4;SB_Shaman_Target_SpiritualWeapon_Halberd_4;SB_Shaman_Target_SpiritualWeapon_Maul_4;SB_Shaman_Target_SpiritualWeapon_Spear_4;SB_Shaman_Target_SpiritualWeapon_Trident_4"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_5"
+        type "SpellData"
+        using "Target_SpiritualWeapon_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Target_SpiritualWeapon_Greataxe_5;SB_Shaman_Target_SpiritualWeapon_Greatsword_5;SB_Shaman_Target_SpiritualWeapon_Halberd_5;SB_Shaman_Target_SpiritualWeapon_Maul_5;SB_Shaman_Target_SpiritualWeapon_Spear_5;SB_Shaman_Target_SpiritualWeapon_Trident_5"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Greataxe"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Greataxe"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Greataxe_3"
+        type "SpellData"
+        using "Target_SpiritualWeapon__3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_3"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Greataxe"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Greataxe_4"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Greataxe_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Greataxe"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Greataxe_5"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Greataxe_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Greataxe"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Greatsword"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Greatsword"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Greatsword_3"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Greatsword_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_3"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Greatsword"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Greatsword_4"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Greatsword_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Greatsword"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Greatsword_5"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Greatsword_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Greatsword"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Halberd"
+        type "SpellData"
+        using "Target_SpiritualWeapon_"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Halberd_3"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Halberd_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_3"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Halberd"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Halberd_4"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Halberd_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Halberd"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Halberd_5"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Halberd_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Halberd"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Maul"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Maul"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Maul_3"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Maul_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_3"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Maul"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Maul_4"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Maul_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Maul"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Maul_5"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Maul_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Maul"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Spear"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Spear"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Spear_3"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Spear_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_3"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Spear"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Spear_4"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Spear_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Spear"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Spear_5"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Spear_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Spear"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Trident"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Trident"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Trident_3"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Trident_3"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_3"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Trident"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Trident_4"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Trident_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Trident"
+
+        new entry "SB_Shaman_Target_SpiritualWeapon_Trident_5"
+        type "SpellData"
+        using "Target_SpiritualWeapon_Trident_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_SpiritualWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_SpiritualWeapon_Trident"
+
+    / Blindness / 
+
+        new entry "SB_Shaman_Target_Blindness"
+        type "SpellData"
+        using "Target_Blindness"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_Blindness_3"
+        type "SpellData"
+        using "Target_Blindness_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_Blindness"
+
+        new entry "SB_Shaman_Target_Blindness_4"
+        type "SpellData"
+        using "Target_Blindness_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Blindness"
+
+        new entry "SB_Shaman_Target_Blindness_5"
+        type "SpellData"
+        using "Target_Blindness_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Blindness"
+
+    / Ray of Enfeeblement / 
+
+        new entry "SB_Shaman_Projectile_RayOfEnfeeblement"
+        type "SpellData"
+        using "Projectile_RayOfEnfeeblement"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Projectile_RayOfEnfeeblement_3"
+        type "SpellData"
+        using "Projectile_RayOfEnfeeblement_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Projectile_RayOfEnfeeblement"
+
+        new entry "SB_Shaman_Projectile_RayOfEnfeeblement_4"
+        type "SpellData"
+        using "Projectile_RayOfEnfeeblement_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Projectile_RayOfEnfeeblement"
+
+        new entry "SB_Shaman_Projectile_RayOfEnfeeblement_5"
+        type "SpellData"
+        using "Projectile_RayOfEnfeeblement_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Projectile_RayOfEnfeeblement"
+
+    / Lesser Restoration / 
+
+        new entry "SB_Shaman_Target_LesserRestoration"
+        type "SpellData"
+        using "Target_LesserRestoration"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_LesserRestoration_3"
+        type "SpellData"
+        using "Target_LesserRestoration_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_LesserRestoration"
+
+        new entry "SB_Shaman_Target_LesserRestoration_4"
+        type "SpellData"
+        using "Target_LesserRestoration_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_LesserRestoration"
+
+        new entry "SB_Shaman_Target_LesserRestoration_5"
+        type "SpellData"
+        using "Target_LesserRestoration_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_LesserRestoration"
+
+    / Warding Bond / 
+
+        new entry "SB_Shaman_Target_WardingBond"
+        type "SpellData"
+        using "Target_WardingBond"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:2"
+
+        new entry "SB_Shaman_Target_WardingBond_3"
+        type "SpellData"
+        using "Target_WardingBond_3"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "RootSpellID" "SB_Shaman_Target_WardingBond"
+
+        new entry "SB_Shaman_Target_WardingBond_4"
+        type "SpellData"
+        using "Target_WardingBond_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_WardingBond"
+
+        new entry "SB_Shaman_Target_WardingBond_5"
+        type "SpellData"
+        using "Target_WardingBond_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_WardingBond"
+
+// Level 3 // 
+
+    / Daylight / 
+
+        new entry "SB_Shaman_Target_Daylight_Container"
+        type "SpellData"
+        using "Target_Daylight_Container"
+        data "ContainerSpells" "SB_Shaman_Target_Daylight;SB_Shaman_Target_Daylight_Enchantment"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_Daylight_Container_4"
+        type "SpellData"
+        using "Target_Daylight_Container_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Target_Daylight_4;SB_Shaman_Target_Daylight_Enchantment_4"
+        data "RootSpellID" "SB_Shaman_Target_Daylight_Container"
+
+        new entry "SB_Shaman_Target_Daylight_Container_5"
+        type "SpellData"
+        using "Target_Daylight_Container_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Target_Daylight_5;SB_Shaman_Target_Daylight_Enchantment_5"
+        data "RootSpellID" "SB_Shaman_Target_Daylight_Container"
+
+        new entry "SB_Shaman_Target_Daylight"
+        type "SpellData"
+        using "Target_Daylight"
+        data "SpellContainerID" "SB_Shaman_Target_Daylight_Container"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_Daylight_4"
+        type "SpellData"
+        using "Target_Daylight_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_Daylight_Container_4"
+        data "RootSpellID" "SB_Shaman_Target_Daylight"
+
+        new entry "SB_Shaman_Target_Daylight_5"
+        type "SpellData"
+        using "Target_Daylight_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Daylight_Container_5"
+        data "RootSpellID" "SB_Shaman_Target_Daylight"
+
+        new entry "SB_Shaman_Target_Daylight_Enchantment"
+        type "SpellData"
+        using "Target_Daylight_Enchantment"
+        data "SpellContainerID" "SB_Shaman_Target_Daylight_Container"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_Daylight_Enchantment_4"
+        type "SpellData"
+        using "Target_Daylight_Enchantment_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_Daylight_Container_4"
+        data "RootSpellID" "SB_Shaman_Target_Daylight_Enchantment"
+
+        new entry "SB_Shaman_Target_Daylight_Enchantment_5"
+        type "SpellData"
+        using "Target_Daylight_Enchantment_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Daylight_Container_5"
+        data "RootSpellID" "SB_Shaman_Target_Daylight_Enchantment"
+
+    / Elemental Weapon / 
+
+        new entry "SB_Shaman_Target_ElementalWeapon"
+        type "SpellData"
+        using "Target_ElementalWeapon"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "ContainerSpells" "SB_Shaman_Target_ElementalWeapon_Acid;SB_Shaman_Target_ElementalWeapon_Cold;SB_Shaman_Target_ElementalWeapon_Fire;SB_Shaman_Target_ElementalWeapon_Lightning;SB_Shaman_Target_ElementalWeapon_Thunder"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_4"
+        type "SpellData"
+        using "Target_ElementalWeapon_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Target_ElementalWeapon_Acid_4;SB_Shaman_Target_ElementalWeapon_Cold_4;SB_Shaman_Target_ElementalWeapon_Fire_4;SB_Shaman_Target_ElementalWeapon_Lightning_4;SB_Shaman_Target_ElementalWeapon_Thunder_4"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_5"
+        type "SpellData"
+        using "Target_ElementalWeapon_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Target_ElementalWeapon_Acid_5;SB_Shaman_Target_ElementalWeapon_Cold_5;SB_Shaman_Target_ElementalWeapon_Fire_5;SB_Shaman_Target_ElementalWeapon_Lightning_5;SB_Shaman_Target_ElementalWeapon_Thunder_5"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Acid"
+        type "SpellData"
+        using "Target_ElementalWeapon_Acid"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Acid_4"
+        type "SpellData"
+        using "Target_ElementalWeapon_Acid_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Acid"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Acid_5"
+        type "SpellData"
+        using "Target_ElementalWeapon_Acid_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Acid"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Cold"
+        type "SpellData"
+        using "Target_ElementalWeapon_Cold"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Cold_4"
+        type "SpellData"
+        using "Target_ElementalWeapon_Cold_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Cold"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Cold_5"
+        type "SpellData"
+        using "Target_ElementalWeapon_Cold_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Cold"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Fire"
+        type "SpellData"
+        using "Target_ElementalWeapon_Fire"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Fire_4"
+        type "SpellData"
+        using "Target_ElementalWeapon_Fire_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Fire"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Fire_5"
+        type "SpellData"
+        using "Target_ElementalWeapon_Fire_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Fire"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Lightning"
+        type "SpellData"
+        using "Target_ElementalWeapon_Lightning"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Lightning_4"
+        type "SpellData"
+        using "Target_ElementalWeapon_Lightning_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Lightning"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Lightning_5"
+        type "SpellData"
+        using "Target_ElementalWeapon_Lightning_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Lightning"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Thunder"
+        type "SpellData"
+        using "Target_ElementalWeapon_Thunder"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Thunder_4"
+        type "SpellData"
+        using "Target_ElementalWeapon_Thunder_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_4"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Thunder"
+
+        new entry "SB_Shaman_Target_ElementalWeapon_Thunder_5"
+        type "SpellData"
+        using "Target_ElementalWeapon_Thunder_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ElementalWeapon_5"
+        data "RootSpellID" "SB_Shaman_Target_ElementalWeapon_Thunder"
+
+    / Feign Death / 
+
+        new entry "SB_Shaman_Target_FeignDeath"
+        type "SpellData"
+        using "Target_FeignDeath"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_FeignDeath_4"
+        type "SpellData"
+        using "Target_FeignDeath_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_FeignDeath"
+
+        new entry "SB_Shaman_Target_FeignDeath_5"
+        type "SpellData"
+        using "Target_FeignDeath_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FeignDeath"
+
+    / Gaseous Form / 
+
+        new entry "SB_Shaman_Target_GaseousForm"
+        type "SpellData"
+        using "Target_GaseousForm"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_GaseousForm_4"
+        type "SpellData"
+        using "Target_GaseousForm_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_GaseousForm"
+
+        new entry "SB_Shaman_Target_GaseousForm_5"
+        type "SpellData"
+        using "Target_GaseousForm_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_GaseousForm"
+
+    / Haste / 
+
+        new entry "SB_Shaman_Target_Haste"
+        type "SpellData"
+        using "Target_Haste"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_Haste_4"
+        type "SpellData"
+        using "Target_Haste_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Haste"
+
+        new entry "SB_Shaman_Target_Haste_5"
+        type "SpellData"
+        using "Target_Haste_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Haste"
+
+    / Life Transference / 
+
+        new entry "SB_Shaman_Target_LifeTransference"
+        type "SpellData"
+        using "Target_LifeTransference"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_LifeTransference_4"
+        type "SpellData"
+        using "Target_LifeTransference_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_LifeTransference"
+
+        new entry "SB_Shaman_Target_LifeTransference_5"
+        type "SpellData"
+        using "Target_LifeTransference_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_LifeTransference"
+
+    / Nondetection / 
+
+        new entry "SB_Shaman_Target_Nondetection"
+        type "SpellData"
+        using "Target_Nondetection"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_Nondetection_4"
+        type "SpellData"
+        using "Target_Nondetection_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Nondetection"
+
+        new entry "SB_Shaman_Target_Nondetection_5"
+        type "SpellData"
+        using "Target_Nondetection_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Nondetection"
+
+    / Plant Growth / 
+
+        new entry "SB_Shaman_Target_PlantGrowth"
+        type "SpellData"
+        using "Target_PlantGrowth"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_PlantGrowth_4"
+        type "SpellData"
+        using "Target_PlantGrowth_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_PlantGrowth"
+
+        new entry "SB_Shaman_Target_PlantGrowth_5"
+        type "SpellData"
+        using "Target_PlantGrowth_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_PlantGrowth"
+
+    / Protection from Energy / 
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "ContainerSpells" "SB_Shaman_Target_ProtectionFromEnergy_Acid;SB_Shaman_Target_ProtectionFromEnergy_Cold;SB_Shaman_Target_ProtectionFromEnergy_Fire;SB_Shaman_Target_ProtectionFromEnergy_Lightning;SB_Shaman_Target_ProtectionFromEnergy_Thunder"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_4"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Target_ProtectionFromEnergy_Acid_4;SB_Shaman_Target_ProtectionFromEnergy_Cold_4;SB_Shaman_Target_ProtectionFromEnergy_Fire_4;SB_Shaman_Target_ProtectionFromEnergy_Lightning_4;SB_Shaman_Target_ProtectionFromEnergy_Thunder_4"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_5"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Target_ProtectionFromEnergy_Acid_5;SB_Shaman_Target_ProtectionFromEnergy_Cold_5;SB_Shaman_Target_ProtectionFromEnergy_Fire_5;SB_Shaman_Target_ProtectionFromEnergy_Lightning_5;SB_Shaman_Target_ProtectionFromEnergy_Thunder_5"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Acid"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Acid"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Acid_4"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Acid_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_4"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Acid"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Acid_5"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Acid_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_5"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Acid"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Cold"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Cold"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Cold_4"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Cold_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_4"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Cold"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Cold_5"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Cold_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_5"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Cold"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Fire"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Fire"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Fire_4"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Fire_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_4"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Fire"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Fire_5"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Fire_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_5"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Fire"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Lightning"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Lightning"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Lightning_4"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Lightning_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_4"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Lightning"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Lightning_5"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Lightning_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_5"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Lightning"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Thunder"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Thunder"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Thunder_4"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Thunder_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_4"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Thunder"
+
+        new entry "SB_Shaman_Target_ProtectionfromEnergy_Thunder_5"
+        type "SpellData"
+        using "Target_ProtectionfromEnergy_Thunder_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_ProtectionfromEnergy_5"
+        data "RootSpellID" "SB_Shaman_Target_ProtectionfromEnergy_Thunder"
+
+    / Remove Curse / 
+
+        new entry "SB_Shaman_Target_RemoveCurse"
+        type "SpellData"
+        using "Target_RemoveCurse"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_RemoveCurse_4"
+        type "SpellData"
+        using "Target_RemoveCurse_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_RemoveCurse"
+
+        new entry "SB_Shaman_Target_RemoveCurse_5"
+        type "SpellData"
+        using "Target_RemoveCurse_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_RemoveCurse"
+
+    / Sleet Storm / 
+
+        new entry "SB_Shaman_Target_SleetStorm"
+        type "SpellData"
+        using "Target_SleetStorm"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_SleetStorm_4"
+        type "SpellData"
+        using "Target_SleetStorm_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_SleetStorm"
+
+        new entry "SB_Shaman_Target_SleetStorm_5"
+        type "SpellData"
+        using "Target_SleetStorm_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_SleetStorm"
+
+    / Slow / 
+
+        new entry "SB_Shaman_Target_Slow"
+        type "SpellData"
+        using "Target_Slow"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_Slow_4"
+        type "SpellData"
+        using "Target_Slow_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_Slow"
+
+        new entry "SB_Shaman_Target_Slow_5"
+        type "SpellData"
+        using "Target_Slow_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Slow"
+
+    / Speak with Dead / 
+
+        new entry "SB_Shaman_Target_SpeakWithDead"
+        type "SpellData"
+        using "Target_SpeakWithDead"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_SpeakWithDead_4"
+        type "SpellData"
+        using "Target_SpeakWithDead_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_SpeakWithDead"
+
+        new entry "SB_Shaman_Target_SpeakWithDead_5"
+        type "SpellData"
+        using "Target_SpeakWithDead_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_SpeakWithDead"
+
+    / Spirit Guardians / 
+
+        new entry "SB_Shaman_Shout_SpiritGuardians"
+        type "SpellData"
+        using "Shout_SpiritGuardians"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "ContainerSpells" "SB_Shaman_Shout_SpiritGuardians_Necrotic;SB_Shaman_Shout_SpiritGuardians_Radiant"
+
+        new entry "SB_Shaman_Shout_SpiritGuardians_4"
+        type "SpellData"
+        using "Shout_SpiritGuardians_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Shout_SpiritGuardians_Necrotic_4;SB_Shaman_Shout_SpiritGuardians_Radiant_4"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritGuardians"
+
+        new entry "SB_Shaman_Shout_SpiritGuardians_5"
+        type "SpellData"
+        using "Shout_SpiritGuardians_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Shout_SpiritGuardians_Necrotic_5;SB_Shaman_Shout_SpiritGuardians_Radiant_5"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritGuardians"
+
+        new entry "SB_Shaman_Shout_SpiritGuardians_Necrotic"
+        type "SpellData"
+        using "Shout_SpiritGuardians_Necrotic"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritGuardians"
+
+        new entry "SB_Shaman_Shout_SpiritGuardians_Necrotic_4"
+        type "SpellData"
+        using "Shout_SpiritGuardians_Necrotic_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritGuardians_4"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritGuardians_Necrotic"
+
+        new entry "SB_Shaman_Shout_SpiritGuardians_Necrotic_5"
+        type "SpellData"
+        using "Shout_SpiritGuardians_Necrotic_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritGuardians_5"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritGuardians_Necrotic"
+
+        new entry "SB_Shaman_Shout_SpiritGuardians_Radiant"
+        type "SpellData"
+        using "Shout_SpiritGuardians_Radiant"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritGuardians"
+
+        new entry "SB_Shaman_Shout_SpiritGuardians_Radiant_4"
+        type "SpellData"
+        using "Shout_SpiritGuardians_Radiant_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritGuardians_4"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritGuardians_Radiant"
+
+        new entry "SB_Shaman_Shout_SpiritGuardians_Radiant_5"
+        type "SpellData"
+        using "Shout_SpiritGuardians_Radiant_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritGuardians_5"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritGuardians_Radiant"
+
+    / Stinking Cloud / 
+
+        new entry "SB_Shaman_Target_StinkingCloud"
+        type "SpellData"
+        using "Target_StinkingCloud"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_StinkingCloud_4"
+        type "SpellData"
+        using "Target_StinkingCloud_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_StinkingCloud"
+
+        new entry "SB_Shaman_Target_StinkingCloud_5"
+        type "SpellData"
+        using "Target_StinkingCloud_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_StinkingCloud"
+
+    / Thunderstep / 
+
+        new entry "SB_Shaman_Teleportation_ThunderStep"
+        type "SpellData"
+        using "Teleportation_ThunderStep"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Teleportation_ThunderStep_4"
+        type "SpellData"
+        using "Teleportation_ThunderStep_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Teleportation_ThunderStep"
+
+        new entry "SB_Shaman_Teleportation_ThunderStep_5"
+        type "SpellData"
+        using "Teleportation_ThunderStep_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Teleportation_ThunderStep"
+
+    / Spirit Shroud / 
+
+        new entry "SB_Shaman_Shout_SpiritShroud"
+        type "SpellData"
+        using "Shout_SpiritShroud"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "ContainerSpells" "SB_Shaman_Shout_SpiritShroud_Radiant;SB_Shaman_Shout_SpiritShroud_Necrotic;SB_Shaman_Shout_SpiritShroud_Cold"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_4"
+        type "SpellData"
+        using "Shout_SpiritShroud_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Shout_SpiritShroud_Radiant_4;SB_Shaman_Shout_SpiritShroud_Necrotic_4;SB_Shaman_Shout_SpiritShroud_Cold_4"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritShroud"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_5"
+        type "SpellData"
+        using "Shout_SpiritShroud_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Shout_SpiritShroud_Radiant_5;SB_Shaman_Shout_SpiritShroud_Necrotic_5;SB_Shaman_Shout_SpiritShroud_Cold_5"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritShroud"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_Radiant"
+        type "SpellData"
+        using "Shout_SpiritShroud_Radiant"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritShroud"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_Radiant_4"
+        type "SpellData"
+        using "Shout_SpiritShroud_Radiant_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritShroud_4"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritShroud_Radiant"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_Radiant_5"
+        type "SpellData"
+        using "Shout_SpiritShroud_Radiant_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritShroud_5"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritShroud_Radiant"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_Necrotic"
+        type "SpellData"
+        using "Shout_SpiritShroud_Necrotic"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritShroud"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_Necrotic_4"
+        type "SpellData"
+        using "Shout_SpiritShroud_Necrotic_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritShroud_4"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritShroud_Necrotic"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_Necrotic_5"
+        type "SpellData"
+        using "Shout_SpiritShroud_Necrotic_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritShroud_5"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritShroud_Necrotic"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_Cold"
+        type "SpellData"
+        using "Shout_SpiritShroud_Cold"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritShroud"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_Cold_4"
+        type "SpellData"
+        using "Shout_SpiritShroud_Cold_4"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritShroud_4"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritShroud_Cold"
+
+        new entry "SB_Shaman_Shout_SpiritShroud_Cold_5"
+        type "SpellData"
+        using "Shout_SpiritShroud_Cold_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Shout_SpiritShroud_5"
+        data "RootSpellID" "SB_Shaman_Shout_SpiritShroud_Cold"
+
+    / Ashardalons Stride / 
+
+        new entry "SB_Shaman_Shout_AshardalonsStride"
+        type "SpellData"
+        using "Shout_AshardalonsStride"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Shout_AshardalonsStride_4"
+        type "SpellData"
+        using "Shout_AshardalonsStride_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_AshardalonsStride"
+
+        new entry "SB_Shaman_Shout_AshardalonsStride_5"
+        type "SpellData"
+        using "Shout_AshardalonsStride_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_AshardalonsStride"
+
+    / Bestow Curse / 
+
+        new entry "SB_Shaman_Target_BestowCurse"
+        type "SpellData"
+        using "Target_BestowCurse"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "ContainerSpells" "SB_Shaman_Target_BestowCurse_Ability_Strength;SB_Shaman_Target_BestowCurse_Ability_Dexterity;SB_Shaman_Target_BestowCurse_Ability_Constitution;SB_Shaman_Target_BestowCurse_Ability_Intelligence;SB_Shaman_Target_BestowCurse_Ability_Wisdom;SB_Shaman_Target_BestowCurse_Ability_Charisma;SB_Shaman_Target_BestowCurse_Attack;SB_Shaman_Target_BestowCurse_ExtraDamage;SB_Shaman_Target_BestowCurse_SkipTurn"
+
+        new entry "SB_Shaman_Target_BestowCurse_4"
+        type "SpellData"
+        using "Target_BestowCurse_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Target_BestowCurse_Ability_Strength_4;SB_Shaman_Target_BestowCurse_Ability_Dexterity_4;SB_Shaman_Target_BestowCurse_Ability_Constitution_4;SB_Shaman_Target_BestowCurse_Ability_Intelligence_4;SB_Shaman_Target_BestowCurse_Ability_Wisdom_4;SB_Shaman_Target_BestowCurse_Ability_Charisma_4;SB_Shaman_Target_BestowCurse_Attack_4;SB_Shaman_Target_BestowCurse_ExtraDamage_4;SB_Shaman_Target_BestowCurse_SkipTurn_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_5"
+        type "SpellData"
+        using "Target_BestowCurse_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Target_BestowCurse_Ability_Strength_5;SB_Shaman_Target_BestowCurse_Ability_Dexterity_5;SB_Shaman_Target_BestowCurse_Ability_Constitution_5;SB_Shaman_Target_BestowCurse_Ability_Intelligence_5;SB_Shaman_Target_BestowCurse_Ability_Wisdom_5;SB_Shaman_Target_BestowCurse_Ability_Charisma_5;SB_Shaman_Target_BestowCurse_Attack_5;SB_Shaman_Target_BestowCurse_ExtraDamage_5;SB_Shaman_Target_BestowCurse_SkipTurn_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Strength"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Strength"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Strength_4"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Strength_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Strength"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Strength_5"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Strength_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Strength"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Dexterity"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Dexterity"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Dexterity_4"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Dexterity_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Dexterity"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Dexterity_5"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Dexterity_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Dexterity"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Constitution"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Constitution"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Constitution_4"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Constitution_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Constitution"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Constitution_5"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Constitution_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Constitution"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Intelligence"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Intelligence"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Intelligence_4"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Intelligence_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Intelligence"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Intelligence_5"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Intelligence_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Intelligence"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Wisdom"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Wisdom"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Wisdom_4"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Wisdom_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Wisdom"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Wisdom_5"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Wisdom_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Wisdom"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Charisma"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Charisma"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Charisma_4"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Charisma_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Charisma"
+
+        new entry "SB_Shaman_Target_BestowCurse_Ability_Charisma_5"
+        type "SpellData"
+        using "Target_BestowCurse_Ability_Charisma_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Ability_Charisma"
+
+        new entry "SB_Shaman_Target_BestowCurse_Attack"
+        type "SpellData"
+        using "Target_BestowCurse_Attack"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_Attack_4"
+        type "SpellData"
+        using "Target_BestowCurse_Attack_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Attack"
+
+        new entry "SB_Shaman_Target_BestowCurse_Attack_5"
+        type "SpellData"
+        using "Target_BestowCurse_Attack_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_Attack"
+
+        new entry "SB_Shaman_Target_BestowCurse_ExtraDamage"
+        type "SpellData"
+        using "Target_BestowCurse_ExtraDamage"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_ExtraDamage_4"
+        type "SpellData"
+        using "Target_BestowCurse_ExtraDamage_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_ExtraDamage"
+
+        new entry "SB_Shaman_Target_BestowCurse_ExtraDamage_5"
+        type "SpellData"
+        using "Target_BestowCurse_ExtraDamage_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_ExtraDamage"
+
+        new entry "SB_Shaman_Target_BestowCurse_SkipTurn"
+        type "SpellData"
+        using "Target_BestowCurse_SkipTurn"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse"
+
+        new entry "SB_Shaman_Target_BestowCurse_SkipTurn_4"
+        type "SpellData"
+        using "Target_BestowCurse_SkipTurn_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_4"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_SkipTurn"
+
+        new entry "SB_Shaman_Target_BestowCurse_SkipTurn_5"
+        type "SpellData"
+        using "Target_BestowCurse_SkipTurn_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_BestowCurse_5"
+        data "RootSpellID" "SB_Shaman_Target_BestowCurse_SkipTurn"
+
+    / Vampiric Touch / 
+
+        new entry "SB_Shaman_Target_VampiricTouch"
+        type "SpellData"
+        using "Target_VampiricTouch"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Target_VampiricTouch_4"
+        type "SpellData"
+        using "Target_VampiricTouch_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Target_VampiricTouch"
+
+        new entry "SB_Shaman_Target_VampiricTouch_5"
+        type "SpellData"
+        using "Target_VampiricTouch_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_VampiricTouch"
+
+    / Mass Healing Word / 
+
+        new entry "SB_Shaman_Shout_HealingWord_Mass"
+        type "SpellData"
+        using "Shout_HealingWord_Mass"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Shout_HealingWord_Mass_4"
+        type "SpellData"
+        using "Shout_HealingWord_Mass_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_HealingWord_Mass"
+
+        new entry "SB_Shaman_Shout_HealingWord_Mass_5"
+        type "SpellData"
+        using "Shout_HealingWord_Mass_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_HealingWord_Mass"
+
+    / Beacon of Hope / 
+
+        new entry "SB_Shaman_Shout_BeaconOfHope"
+        type "SpellData"
+        using "Shout_BeaconOfHope"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:3"
+
+        new entry "SB_Shaman_Shout_BeaconOfHope_4"
+        type "SpellData"
+        using "Shout_BeaconOfHope_4"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "RootSpellID" "SB_Shaman_Shout_BeaconOfHope"
+
+        new entry "SB_Shaman_Shout_BeaconOfHope_5"
+        type "SpellData"
+        using "Shout_BeaconOfHope_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Shout_BeaconOfHope"
+
+// Level 4 // 
+
+    / Banishment / 
+
+        new entry "SB_Shaman_Target_Banishment"
+        type "SpellData"
+        using "Target_Banishment"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_Banishment_5"
+        type "SpellData"
+        using "Target_Banishment_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Banishment"
+
+    / Fire Shield / 
+
+        new entry "SB_Shaman_Shout_FireShield"
+        type "SpellData"
+        using "Shout_FireShield"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Shout_FireShield_Chill;SB_Shaman_Shout_FireShield_Warm"
+
+        new entry "SB_Shaman_Shout_FireShield_5"
+        type "SpellData"
+        using "Shout_FireShield_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Shout_FireShield_Chill_5;SB_Shaman_Shout_FireShield_Warm_5"
+        data "RootSpellID" "SB_Shaman_Shout_FireShield"
+
+        new entry "SB_Shaman_Shout_FireShield_Chill"
+        type "SpellData"
+        using "Shout_FireShield_Chill"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Shout_FireShield"
+
+        new entry "SB_Shaman_Shout_FireShield_Chill_5"
+        type "SpellData"
+        using "Shout_FireShield_Chill_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Shout_FireShield_5"
+        data "RootSpellID" "SB_Shaman_Shout_FireShield_Chill"
+
+        new entry "SB_Shaman_Shout_FireShield_Warm"
+        type "SpellData"
+        using "Shout_FireShield_Warm"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Shout_FireShield"
+
+        new entry "SB_Shaman_Shout_FireShield_Warm_5"
+        type "SpellData"
+        using "Shout_FireShield_Warm_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Shout_FireShield_5"
+        data "RootSpellID" "SB_Shaman_Shout_FireShield_Warm"
+
+    / Freedom of Movement / 
+
+        new entry "SB_Shaman_Target_FreedomofMovement"
+        type "SpellData"
+        using "Target_FreedomofMovement"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_FreedomofMovement_5"
+        type "SpellData"
+        using "Target_FreedomofMovement_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_FreedomofMovement"
+
+    / Grasping Vine / 
+
+        new entry "SB_Shaman_Target_GraspingVine"
+        type "SpellData"
+        using "Target_GraspingVine"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_GraspingVine_5"
+        type "SpellData"
+        using "Target_GraspingVine_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_GraspingVine"
+
+    / Guardian of Nature / 
+
+        new entry "SB_Shaman_Shout_GuardianOfNature"
+        type "SpellData"
+        using "Shout_GuardianOfNature"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "ContainerSpells" "SB_Shaman_Shout_GuardianOfNature_GreatTree;SB_Shaman_Shout_GuardianOfNature_PrimalBeast"
+
+        new entry "SB_Shaman_Shout_GuardianOfNature_5"
+        type "SpellData"
+        using "Shout_GuardianOfNature_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Shout_GuardianOfNature_GreatTree_5;SB_Shaman_Shout_GuardianOfNature_PrimalBeast_5"
+        data "RootSpellID" "SB_Shaman_Shout_GuardianOfNature"
+
+        new entry "SB_Shaman_Shout_GuardianOfNature_GreatTree"
+        type "SpellData"
+        using "Shout_GuardianOfNature_GreatTree"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Shout_GuardianOfNature"
+
+        new entry "SB_Shaman_Shout_GuardianOfNature_GreatTree_5"
+        type "SpellData"
+        using "Shout_GuardianOfNature_GreatTree_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Shout_GuardianOfNature_5"
+        data "RootSpellID" "SB_Shaman_Shout_GuardianOfNature_GreatTree"
+
+        new entry "SB_Shaman_Shout_GuardianOfNature_PrimalBeast"
+        type "SpellData"
+        using "Shout_GuardianOfNature_PrimalBeast"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+        data "SpellContainerID" "SB_Shaman_Shout_GuardianOfNature"
+
+        new entry "SB_Shaman_Shout_GuardianOfNature_PrimalBeast_5"
+        type "SpellData"
+        using "Shout_GuardianOfNature_PrimalBeast_5"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Shout_GuardianOfNature_5"
+        data "RootSpellID" "SB_Shaman_Shout_GuardianOfNature_PrimalBeast"
+
+    / Ice Storm / 
+
+        new entry "SB_Shaman_Target_IceStorm"
+        type "SpellData"
+        using "Target_IceStorm"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_IceStorm_5"
+        type "SpellData"
+        using "Target_IceStorm_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_IceStorm"
+
+    / Stoneskin / 
+
+        new entry "SB_Shaman_Target_Stoneskin"
+        type "SpellData"
+        using "Target_Stoneskin"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_Stoneskin_5"
+        type "SpellData"
+        using "Target_Stoneskin_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Stoneskin"
+
+    / Guardian of Faith / 
+
+        new entry "SB_Shaman_Target_GuardianOfFaith"
+        type "SpellData"
+        using "Target_GuardianOfFaith"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_GuardianOfFaith_5"
+        type "SpellData"
+        using "Target_GuardianOfFaith_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_GuardianOfFaith"
+
+    / Staggering Smite / 
+
+        new entry "SB_Shaman_Target_StaggeringSmite"
+        type "SpellData"
+        using "Target_StaggeringSmite"
+        data "UseCosts" "ActionPoint:1;"
+        data "HitCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_StaggeringSmite_5"
+        type "SpellData"
+        using "Target_StaggeringSmite_5"
+        data "UseCosts" "ActionPoint:1;"
+        data "HitCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_StaggeringSmite"
+
+    / Blight / 
+
+        new entry "SB_Shaman_Target_Blight"
+        type "SpellData"
+        using "Target_Blight"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_Blight_5"
+        type "SpellData"
+        using "Target_Blight_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_Blight"
+
+    / Phantasmal Killer / 
+
+        new entry "SB_Shaman_Target_PhantasmalKiller"
+        type "SpellData"
+        using "Target_PhantasmalKiller"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_PhantasmalKiller_5"
+        type "SpellData"
+        using "Target_PhantasmalKiller_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_PhantasmalKiller"
+
+    / Death Ward / 
+
+        new entry "SB_Shaman_Target_DeathWard"
+        type "SpellData"
+        using "Target_DeathWard"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_DeathWard_5"
+        type "SpellData"
+        using "Target_DeathWard_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_DeathWard"
+
+    / Resilient Sphere / 
+
+        new entry "SB_Shaman_Target_ResilientSphere"
+        type "SpellData"
+        using "Target_ResilientSphere"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:4"
+
+        new entry "SB_Shaman_Target_ResilientSphere_5"
+        type "SpellData"
+        using "Target_ResilientSphere_5"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "RootSpellID" "SB_Shaman_Target_ResilientSphere"
+
+// Level 5 // 
+
+    / Cloudkill / 
+
+        new entry "SB_Shaman_Target_Cloudkill"
+        type "SpellData"
+        using "Target_Cloudkill"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+
+    / Commune With Nature / 
+
+        new entry "SB_Shaman_Shout_CommuneWithNature"
+        type "SpellData"
+        using "Shout_CommuneWithNature"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+
+    / Dispel Evil and Good / 
+
+        new entry "SB_Shaman_Shout_DispelEvilAndGood"
+        type "SpellData"
+        using "Shout_DispelEvilAndGood"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+
+    / Far Step / 
+
+        new entry "SB_Shaman_Target_FarStep"
+        type "SpellData"
+        using "Target_FarStep"
+        data "UseCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+
+    / Planar Binding / 
+
+        new entry "SB_Shaman_Target_PlanarBinding"
+        type "SpellData"
+        using "Target_PlanarBinding"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+
+    / Banishing Smite / 
+
+        new entry "SB_Shaman_Projectile_Smite_Banishing_Container"
+        type "SpellData"
+        using "Projectile_Smite_Banishing_Container"
+        data "UseCosts" "ActionPoint:1;"
+        data "HitCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Projectile_Smite_Banishing;SB_Shaman_Target_Smite_Banishing"
+
+        new entry "SB_Shaman_Projectile_Smite_Banishing"
+        type "SpellData"
+        using "Projectile_Smite_Banishing"
+        data "UseCosts" "ActionPoint:1;"
+        data "HitCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Projectile_Smite_Banishing_Container"
+
+        new entry "SB_Shaman_Target_Smite_Banishing"
+        type "SpellData"
+        using "Target_Smite_Banishing"
+        data "UseCosts" "ActionPoint:1;"
+        data "HitCosts" "BonusActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Projectile_Smite_Banishing_Container"
+
+    / Steel Wind Strike / 
+
+        new entry "SB_Shaman_Target_SteelWindStrike"
+        type "SpellData"
+        using "Target_SteelWindStrike"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+
+    / Contagion / 
+
+        new entry "SB_Shaman_Target_Contagion"
+        type "SpellData"
+        using "Target_Contagion"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "ContainerSpells" "SB_Shaman_Target_Contagion_BlindingSickness;SB_Shaman_Target_Contagion_FilthFever;SB_Shaman_Target_Contagion_FleshRot;SB_Shaman_Target_Contagion_Mindfire;SB_Shaman_Target_Contagion_Seizure;SB_Shaman_Target_Contagion_SlimyDoom"
+
+        new entry "SB_Shaman_Target_Contagion_BlindingSickness"
+        type "SpellData"
+        using "Target_Contagion_BlindingSickness"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Contagion"
+
+        new entry "SB_Shaman_Target_Contagion_FilthFever"
+        type "SpellData"
+        using "Target_Contagion_FilthFever"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Contagion"
+
+        new entry "SB_Shaman_Target_Contagion_FleshRot"
+        type "SpellData"
+        using "Target_Contagion_FleshRot"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Contagion"
+
+        new entry "SB_Shaman_Target_Contagion_Mindfire"
+        type "SpellData"
+        using "Target_Contagion_Mindfire"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Contagion"
+
+        new entry "SB_Shaman_Target_Contagion_Seizure"
+        type "SpellData"
+        using "Target_Contagion_Seizure"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Contagion"
+
+        new entry "SB_Shaman_Target_Contagion_SlimyDoom"
+        type "SpellData"
+        using "Target_Contagion_SlimyDoom"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+        data "SpellContainerID" "SB_Shaman_Target_Contagion"
+
+    / Negative Energy Flood / 
+
+        new entry "SB_Shaman_Projectile_NegativeEnergyFlood"
+        type "SpellData"
+        using "Projectile_NegativeEnergyFlood"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+
+    / Greater Restoration / 
+
+        new entry "SB_Shaman_Target_GreaterRestoration"
+        type "SpellData"
+        using "Target_GreaterRestoration"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"
+
+    / Mass Cure Wounds / 
+
+        new entry "SB_Shaman_Target_CureWounds_Mass"
+        type "SpellData"
+        using "Target_CureWounds_Mass"
+        data "UseCosts" "ActionPoint:1;SB_Shaman_SSG:1:1:5"

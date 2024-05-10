@@ -23,6 +23,13 @@
                     <attribute id="UUID" type="guid" value="7e525f5b-bfab-4242-8ba5-de6ca06cb6d7" />
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="" version="1" />
+                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="Name" type="FixedString" value="SB_SpiritWarrior_ChampCharge" />
+                    <attribute id="ReplenishType" type="FixedString" value="Turn" />
+                    <attribute id="UUID" type="guid" value="3304e7fd-7393-41db-9ba3-40df00629644" />
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h10fc7a17gc636g45a4g9cc8g8afaa9c7285e" version="1" />
                     <attribute id="IsHidden" type="bool" value="true" />
                     <attribute id="Name" type="FixedString" value="SB_TotemicBlessing_Charge" />

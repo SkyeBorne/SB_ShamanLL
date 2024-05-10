@@ -277,7 +277,7 @@
                     <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(d029cc30-86dc-4bb4-9cb0-efd212fd2d8f)"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
                     <attribute id="UUID" type="guid" value="183f963a-4ce0-4a65-8a43-9872e81d21ae"/>
                 </node>
@@ -289,8 +289,9 @@
                     <attribute id="TableUUID" type="guid" value="ac8231ab-3db4-4ff2-91be-d53ad14e4604"/>
                     <attribute id="UUID" type="guid" value="9a310af6-4607-4913-9c12-b432bd00b267"/>
                 </node>
-                <node id="Progression"> Spirit Warrior L12
+                <node id="Progression"> Spirit Warrior L12 
                     <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SB_SpiritWarrior_ChampCharge,1,0)"/>
                     <attribute id="Name" type="LSString" value="SB_ShamanLL_SpiritWarrior"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(d029cc30-86dc-4bb4-9cb0-efd212fd2d8f)"/>

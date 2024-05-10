@@ -4,5 +4,6 @@
     ],
     "Lua.diagnostics.disable": [
         "undefined-global"
-    ]
+    ],
+    "bg3ModHelper.rootModPath": "c:\\Users\\Nichole PC\\Documents\\GitHub\\SB_ShamanLL"
 }
